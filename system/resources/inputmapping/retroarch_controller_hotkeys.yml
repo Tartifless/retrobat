@@ -4,7 +4,11 @@
 # If no core container exists, the "default" container will be used.
 # The key represents the controller input key (a=SOUTH, b=EAST, Y=west, X=north, pageup=L1, pagedown=R1)
 # The value represents the shortcut to map to the key
+#
+# If you want to use single button shortcuts: add the 'noHotkey: true' line in the container
+#
 # Here are the default RetroBat values:
+#
 #default:
 #  start: exit_emulator
 #  b: pause_toggle
@@ -20,3 +24,15 @@
 #  down: state_slot_decrease
 #  left: rewind
 #  right: hold_fast_forward
+#  noHotkey: true
+
+# Here is an example for fceumm:
+#
+#fceumm:
+#  l3: menu_toggle
+#  r3: pause_toggle
+#  pageup: load_state
+#  pagedown: save_state
+#  r2: hold_fast_forward
+#  l2: rewind
+#  noHotkey: true

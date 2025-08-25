@@ -11,8 +11,10 @@ Core:
   Thread Scheduler Mode: Operating System
   Set DAZ and FTZ: false
   SPU Decoder: Recompiler (LLVM)
-  SPU Reservation Busy Waiting Percentage: 0
+  SPU Reservation Busy Waiting Percentage 1: 100
+  SPU Reservation Busy Waiting Enabled: false
   SPU GETLLAR Busy Waiting Percentage: 100
+  Disable SPU GETLLAR Spin Optimization: false
   SPU Debug: false
   MFC Debug: false
   Preferred SPU Threads: 0
@@ -35,6 +37,7 @@ Core:
   XFloat Accuracy: Approximate
   Accurate PPU 128-byte Reservation Op Max Length: 0
   Stub PPU Traps: 0
+  Precise SPU Verification: false
   PPU LLVM Java Mode Handling: true
   Use Accurate DFMA: true
   PPU Set Saturation Bit: false
@@ -114,7 +117,7 @@ Video:
   Minimum Scalable Dimension: 16
   Shader Compiler Threads: 0
   Driver Recovery Timeout: 1000000
-  Driver Wake-Up Delay: 1
+  Driver Wake-Up Delay: 0
   Vblank Rate: 60
   Vblank NTSC Fixup: false
   DECR memory layout: false
@@ -123,7 +126,7 @@ Video:
   Disable Asynchronous Memory Manager: false
   Output Scaling Mode: Bilinear
   Vulkan:
-    Adapter: NVIDIA GeForce RTX 3080
+    Adapter: NVIDIA GeForce RTX 3050 Laptop GPU
     Force FIFO present mode: false
     Force primitive restart flag: false
     Exclusive Fullscreen Mode: Automatic
@@ -178,7 +181,7 @@ Audio:
   Music Handler: Qt
 Input/Output:
   Keyboard: "Null"
-  Mouse: Basic
+  Mouse: "Null"
   Camera: "Null"
   Camera type: Unknown
   Camera flip: None
@@ -206,11 +209,13 @@ System:
   Keyboard Type: English keyboard (US standard)
   Enter button assignment: Enter with cross
   Console time offset (s): 0
-  System Name: RPCS3-515
+  System Name: RPCS3-533
   PSID high: 0
   PSID low: 0
   HDD Model Name: ""
   HDD Serial Number: ""
+  Process ARGV:
+    {}
 Net:
   Internet enabled: Disconnected
   IP address: 0.0.0.0
@@ -230,19 +235,20 @@ Miscellaneous:
   Automatically start games after boot: true
   Exit RPCS3 when process finishes: true
   Pause emulation on RPCS3 focus loss: false
-  Start games in fullscreen mode: true
+  Start games in fullscreen mode: false
   Prevent display sleep while running games: true
   Show trophy popups: true
   Show RPCN popups: true
   Show shader compilation hint: true
   Show PPU compilation hint: true
+  Show autosave/autoload hint: false
   Show pressure intensity toggle hint: true
   Show analog limiter toggle hint: true
   Show mouse and keyboard toggle hint: true
-  Show autosave/autoload hint: false
   Use native user interface: true
   GDB Server: 127.0.0.1:2345
   Silence All Logs: false
   Window Title Format: "FPS: %F | %R | %V | %T [%t]"
   Pause Emulation During Home Menu: false
-Log: {}
+Log:
+  {}

@@ -1302,6 +1302,57 @@
             "padType": "gamepad6",
             "needActivationSwitch": "false"
         }
-    }
+    },
+    {
+        "Emulator": "ssf",
+        "Name": "8BitDo M30 2.4",
+        "Guid": "03000000a30c00002400000000000000",
+        "Driver": "",
+        "Mapping": {},
+        "ControllerInfo": {
+            "needActivationSwitch": "false",
+            "not_compatible": "true"
+        }
+    },
+    {
+        "Emulator": "yabasanshiro",
+        "Name": "8BitDo M30 2.4",
+        "Guid": "03000000a30c00002400000000000000",
+        "Driver": "",
+        "Mapping": {
+            "0": "1114116",
+            "anal_0": "1114116",
+            "1": "1048576",
+            "anal_1": "1048576",
+            "2": "1048580",
+            "anal_2": "1048580",
+            "3": "1114112",
+            "anal_3": "1114112",
+            "4": "8",
+            "5": "7",
+            "6": "10",
+            "7": "3",
+            "8": "2",
+            "9": "6",
+            "10": "4",
+            "11": "1",
+            "12": "5"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "false"
+        }
+    },
+    {
+        "Emulator": "ymir",
+        "Name": "8BitDo M30 2.4",
+        "Guid": "03000000a30c00002400000000000000",
+        "Driver": "",
+        "Mapping": {},
+        "ControllerInfo": {
+            "needActivationSwitch": "false",
+            "peripheral": "ControlPad",
+            "not_compatible": "true"
+        }
+    },
   ]
 }
