@@ -1,0 +1,2 @@
+\mame\mame.exe
+-skip_gameinfo -rp ..\..\roms\mame;..\..\bios -sp ..\..\bios\mame\samples -artpath ..\..\bios\mame\artwork;artwork;..\..\saves\mame\artwork -snapshot_directory ..\..\screenshots -cfg_directory ..\..\saves\mame\cfg -inipath ..\..\bios\mame\ini -hash ..\..\bios\mame\hash -state_directory ..\..\saves\mame\states -nvram_directory ..\..\saves\mame\nvram -ctrlrpath ..\..\saves\mame\ctrlr -v

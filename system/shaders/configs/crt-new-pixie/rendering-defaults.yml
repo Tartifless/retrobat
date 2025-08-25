@@ -1,0 +1,7 @@
+## CRT-NEW-PIXIE
+default:
+  # libretro
+  shader: crt/newpixie-crt
+  shaderGL: crt/crt-mattias
+  # ares
+  ares: crt/newpixie-crt
