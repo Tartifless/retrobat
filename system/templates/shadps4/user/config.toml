@@ -1,0 +1,67 @@
+[General]
+checkCompatibilityOnStartup = false
+chooseHomeTab = "General"
+compatibilityEnabled = false
+enableDiscordRPC = false
+isDevKit = false
+isPS4Pro = false
+isPSNSignedIn = false
+isTrophyPopupDisabled = false
+logFilter = ""
+logType = "sync"
+showSplash = false
+sideTrophy = "right"
+trophyNotificationDuration = 6.0
+userName = "shadPS4"
+
+[Input]
+cursorHideTimeout = 5
+cursorState = 1
+isMotionControlsEnabled = true
+specialPadClass = 1
+useSpecialPad = false
+useUnifiedInputConfig = true
+
+[GPU]
+allowHDR = false
+copyGPUBuffers = false
+directMemoryAccess = false
+dumpShaders = false
+Fullscreen = true
+FullscreenMode = "Fullscreen (Borderless)"
+nullGpu = false
+patchShaders = false
+readbacks = false
+screenHeight = 720
+screenWidth = 1280
+vblankDivider = 1
+
+[Vulkan]
+crashDiagnostic = false
+gpuId = -1
+guestMarkers = false
+hostMarkers = false
+rdocEnable = false
+validation = false
+validation_gpu = false
+validation_sync = false
+
+[Debug]
+CollectShader = false
+DebugDump = false
+FPSColor = true
+isSeparateLogFilesEnabled = false
+
+[Keys]
+TrophyKey = ""
+
+[GUI]
+addonInstallDir = ""
+installDirs = []
+installDirsEnabled = [true]
+loadGameSizeEnabled = true
+saveDataPath = ""
+
+[Settings]
+consoleLanguage = 1
+
