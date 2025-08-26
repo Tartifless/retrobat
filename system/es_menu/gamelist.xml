@@ -222,6 +222,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./desmume.menu</path>
+		<name>DesMuMe (Nintendo DS)</name>
+		<desc>Run DesMuMe (Nintendo DS).</desc>
+		<image>./media/desmume-logo.png</image>
+		<marquee>./media/desmume-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Yopyop156</developer>
+		<publisher>DesMuMe Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./dolphin-emu.menu</path>
 		<name>Dolphin (GameCube,Wii,WAD)</name>
 		<desc>Run Dolphin Emulator (GameCube, Wii, WAD).</desc>
