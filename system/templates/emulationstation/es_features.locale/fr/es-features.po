@@ -5263,7 +5263,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ORIGINAL HARDWARE"
-msgstr ""
+msgstr "MATÉRIEL ORIGINAL"
 
 msgctxt "game_options"
 msgid "PVM STYLE"
@@ -5347,7 +5347,7 @@ msgstr "FAUSSE STÉRÉO"
 
 msgctxt "game_options"
 msgid "Simulates stereo output."
-msgstr ""
+msgstr "Simuler une sortie stéréo."
 
 msgctxt "game_options"
 msgid "SHIFT A/B/X/Y CLOCKWISE"
@@ -5383,7 +5383,7 @@ msgstr "AFFICHER LE CURSEUR DE LA SOURIS"
 
 msgctxt "game_options"
 msgid "PLAYER 1 CONTROLER DEVICE"
-msgstr ""
+msgstr "TYPE DE CONTRÔLEUR JOUEUR 1"
 
 msgctxt "game_options"
 msgid "zapper"
@@ -5391,7 +5391,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "PLAYER 2 CONTROLER DEVICE"
-msgstr ""
+msgstr "TYPE DE CONTRÔLEUR JOUEUR 2"
 
 msgctxt "game_options"
 msgid "960x720 (HD Ready)"
@@ -5415,7 +5415,7 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "Crop out the potentially video output that would have been hidden by the bezel."
-msgstr ""
+msgstr "Rogner une partie de la bordure de la vidéo."
 
 msgctxt "game_options"
 msgid "ANTI ALIASING (MSAA)"
@@ -5423,7 +5423,7 @@ msgstr "ANTICRÉNELAGE (MSAA)"
 
 msgctxt "game_options"
 msgid "Multi-Sampling Anti Aliasing level."
-msgstr ""
+msgstr "Niveau d'antialiasing multi-échantillon."
 
 msgctxt "game_options"
 msgid "TEXTURE ENHANCEMENT"
@@ -5435,7 +5435,7 @@ msgstr "Choisir un filtre d'amélioration des textures"
 
 msgctxt "game_options"
 msgid "AS IS"
-msgstr ""
+msgstr "TEL-QUEL"
 
 msgctxt "game_options"
 msgid "TEXTURES FILTER"
@@ -5467,7 +5467,7 @@ msgstr "FILTRAGE BILINÉAIRE"
 
 msgctxt "game_options"
 msgid "Select a bilinear filtering method."
-msgstr ""
+msgstr "Choix de la méthode de filtrage bilinéaire."
 
 msgctxt "game_options"
 msgid "USE MOUSE"
@@ -5483,11 +5483,11 @@ msgstr "FORCER L'INDEX DE LA MANETTE"
 
 msgctxt "game_options"
 msgid "3 POINT (ORIGINAL)"
-msgstr ""
+msgstr "3 POINTS (ORIGINAL)"
 
 msgctxt "game_options"
 msgid "STANDARD"
-msgstr ""
+msgstr "STANDARD"
 
 msgctxt "game_options"
 msgid "RICE"
@@ -5499,35 +5499,35 @@ msgstr ""
 
 msgctxt "game_options"
 msgid "ENABLE PARALLEL"
-msgstr ""
+msgstr "ACTIVER PARALLEL"
 
 msgctxt "game_options"
 msgid "No: 'GLideN64' for best HLE performance. Yes: 'ParaLLEl' for LLE (accuracy)."
-msgstr ""
+msgstr "Non: 'GLideN64' pour les performances. Oui: 'ParaLLEl' pour la précision."
 
 msgctxt "game_options"
 msgid "PARALLEL PLUGIN"
-msgstr ""
+msgstr "PLUGIN PARALLEL"
 
 msgctxt "game_options"
 msgid "TEXTURES UPSCALING"
-msgstr ""
+msgstr "MISE À L'ÉCHELLE DES TEXTURES"
 
 msgctxt "game_options"
 msgid "Apply internal upscaling factor."
-msgstr ""
+msgstr "Appliquer le facteur de mise à l'échelle interne."
 
 msgctxt "game_options"
 msgid "Anti-aliased fetch filter, smooth polygons edges."
-msgstr ""
+msgstr "Filtre antialiasing, adoucit les bords des polygônes."
 
 msgctxt "game_options"
 msgid "BILINEAR SCALING"
-msgstr ""
+msgstr "SCALING BILINÉAIRE"
 
 msgctxt "game_options"
 msgid "Allow bilinear scaling on scanout."
-msgstr ""
+msgstr "Activer la mise à l'échelle bilinéaire."
 
 msgctxt "game_options"
 msgid "DEINTERLACING METHOD"
@@ -5535,7 +5535,7 @@ msgstr "MÉTHODE DE DÉSENTRELACEMENT"
 
 msgctxt "game_options"
 msgid "'Weave' should only be used with 1x scaling factor and CRT shaders."
-msgstr ""
+msgstr "Utiliser 'tressage' uniquement avec les shaders CRT et lx-scaling."
 
 msgctxt "game_options"
 msgid "BOB"
@@ -10738,8 +10738,8 @@ msgid "WINDOWS GAMES"
 msgstr "JEUX WINDOWS"
 
 msgctxt "game_options"
-msgid "SCAN INSTALLED GAMES AT STARTUP"
-msgstr "SCANNER LES JEUX AU DÉMARRAGE"
+msgid "SCAN INSTALLED STORE GAMES (STEAM, EPIC...)"
+msgstr "SCANNER LES JEUX DES STORES (STEAM...)"
 
 msgctxt "game_options"
 msgid "KEEP GAMES ADDED MANUALLY"
@@ -10756,3 +10756,99 @@ msgstr "FORMAT DES SAUVEGARDES"
 msgctxt "game_options"
 msgid "SYNC SAVES BETWEEN CORE AND STANDALONE"
 msgstr "SYNCHRONISER LES SAUVEGARDES DOLPHIN ET RETROARCH"
+
+msgctxt "game_options"
+msgid "INCLUDE UNINSTALLED GAMES"
+msgstr "SCANNER LES JEUX NON INSTALLÉS"
+
+msgctxt "game_options"
+msgid "Use the BIOS located in RetroBat 'bios' folder."
+msgstr "Utiliser le BIOS du dossier 'bios' de RetroBat."
+
+msgctxt "game_options"
+msgid "USE EXTERNAL FIRMWARE"
+msgstr "UTILISER LE FIRMWARE EXTERNE"
+
+msgctxt "game_options"
+msgid "Use an external firwmare (default is 'firmware.bin' located in bios folder)."
+msgstr "Utiliser un firmware externe (par défaut 'firmware.bin' dans le dossier bios)."
+
+msgctxt "game_options"
+msgid "SPECIFIC FIRMWARE"
+msgstr "CHEMIN VERS FIRMWARE"
+
+msgctxt "game_options"
+msgid "Speed hack."
+msgstr "Hack de performance."
+
+msgctxt "game_options"
+msgid "HORIZONTAL SCREEN SIZE RATIO"
+msgstr "RATIO DES ÉCRANS (HORIZONTAL)"
+
+msgctxt "game_options"
+msgid "Size ratio of the 2 emulated screens."
+msgstr "Ratio des deux écrans horizontaux (taille relative)."
+
+msgctxt "game_options"
+msgid "DISPLAY METHOD"
+msgstr "MÉTHODE DE RENDU"
+
+msgctxt "game_options"
+msgid "TEXTURE SCALING"
+msgstr "MISE À L'ÉCHELLE DES TEXTURES"
+
+msgctxt "game_options"
+msgid "ENABLE DEPTH L EQUAL POLYGON FACING"
+msgstr "ACTIVER DEPTH L EQUAL POLYGON FACING"
+
+msgctxt "game_options"
+msgid "Disable this option to improve performance."
+msgstr "Désactiver cette option pour améliorer la performance."
+
+msgctxt "game_options"
+msgid "ENABLE TXT HACK"
+msgstr "ACTIVER HACK TXT"
+
+msgctxt "game_options"
+msgid "Fixes text bugs in some games."
+msgstr "Corrige les bugs des textes de certains jeux."
+
+msgctxt "game_options"
+msgid "ENABLE LINE HACK"
+msgstr "ACTIVER HACK LIGNES"
+
+msgctxt "game_options"
+msgid "Fixes some graphical bugs involving lines."
+msgstr "Corrige les bugs de lignes de certains jeux."
+
+msgctxt "game_options"
+msgid "SHOW MENU IN FULLSCREEN"
+msgstr "AFFICHER LE MENU EN PLEIN ÉCRAN"
+
+msgctxt "game_options"
+msgid "GBC ONLY"
+msgstr "GBC UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "THEBEZELPROJECT"
+msgstr "LE PROJET BEZEL"
+
+msgctxt "game_options"
+msgid "TOP LEFT"
+msgstr "EN HAUT À GAUCHE"
+
+msgctxt "game_options"
+msgid "TOP RIGHT"
+msgstr "EN HAUT À DROITE"
+
+msgctxt "game_options"
+msgid "BOTTOM RIGHT"
+msgstr "EN BAS À DROITE"
+
+msgctxt "game_options"
+msgid "BOTTOM LEFT"
+msgstr "EN BAS À GAUCHE"
+
+msgctxt "game_options"
+msgid "FORCE HARDWARE"
+msgstr "FORCER LE TYPE DE CONSOLE"

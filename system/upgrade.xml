@@ -119,7 +119,7 @@
   <neveroverwrite path="retrobat.ini"/>
   <actions>
     <move path="tattoos" to="user\tattoos"/>
-    <rename path="retrobat.exe" to="retrobat.exe.old"/>
+    <rename path="retrobat.exe" to="retrobat.exe.bak"/>
     <delete path="emulationstation\.emulationstation\es_systems_ps5.cfg"/>
     <delete path="emulationstation\es-checkversion.cmd"/>
     <delete path="emulationstation\es-update.cmd"/>
@@ -127,25 +127,25 @@
     <delete path="system\scripts\es-update.cmd"/>
     <delete path="emulators\retroarch\cores\config\mame_libretro.dll"/>
     <delete path="emulators\retroarch\cores\config\picodrive_libretro.dll"/>
-    <rename path="emulators\mesen\settings.json" to="emulators\mesen\settings.json.old"/>
-    <rename path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.old"/>
-    <rename path="emulators\azahar\user\config\qt-config.ini" to="emulators\azahar\user\config\qt-config.ini.old"/>
+    <rename path="emulators\mesen\settings.json" to="emulators\mesen\settings.json.bak"/>
+    <rename path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.bak"/>
+    <rename path="emulators\azahar\user\config\qt-config.ini" to="emulators\azahar\user\config\qt-config.ini.bak"/>
   </actions>
   <actions version="7.3.0-stable-win64">
-    <rename path="emulators\xenia-manager" to="emulators\xenia-manager.old"/>
-    <rename path="system\tools\demulshooter" to="system\tools\demulshooterOLD"/>
+    <rename path="emulators\xenia-manager" to="emulators\xenia-manager.bak"/>
+    <rename path="system\tools\demulshooter" to="system\tools\demulshooter.bak"/>
     <move path="bios\mame\cfg" to="saves\mame\cfg"/>
     <delete path="emulators\eden\user\config\qt-config.ini"/>
     <delete path="saves\mame\mame"/>
   </actions>
   <actions version="7.3.1-stable-win64">
-    <rename path="system\tools\demulshooter" to="system\tools\demulshooterOLD"/>
+    <rename path="system\tools\demulshooter" to="system\tools\demulshooter.bak"/>
     <move path="bios\mame\cfg" to="saves\mame\cfg"/>
     <delete path="emulators\eden\user\config\qt-config.ini"/>
     <delete path="saves\mame\mame"/>
   </actions>
   <actions version="7.3.1.1-stable-win64">
-    <rename path="system\tools\demulshooter" to="system\tools\demulshooterOLD"/>
+    <rename path="system\tools\demulshooter" to="system\tools\demulshooter.bak"/>
     <move path="bios\mame\cfg" to="saves\mame\cfg"/>
     <delete path="emulators\eden\user\config\qt-config.ini"/>
     <delete path="saves\mame\mame"/>
