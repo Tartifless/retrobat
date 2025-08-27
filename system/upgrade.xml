@@ -119,6 +119,7 @@
   <neveroverwrite path="retrobat.ini"/>
   <actions>
     <move path="tattoos" to="user\tattoos"/>
+    <rename path="retrobat.exe" to="retrobat.exe.old"/>
     <delete path="emulationstation\.emulationstation\es_systems_ps5.cfg"/>
     <delete path="emulationstation\es-checkversion.cmd"/>
     <delete path="emulationstation\es-update.cmd"/>
