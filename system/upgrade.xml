@@ -12,7 +12,6 @@
   <neveroverwrite path="emulators\cemu\portable\settings.xml"/>
   <neveroverwrite path="emulators\cgenius\cgenius.cfg"/>
   <neveroverwrite path="emulators\chihiro\settings.ini"/>
-  <neveroverwrite path="emulators\chihiro-gun\settings.ini"/>
   <neveroverwrite path="emulators\citra\user\config\qt-config.ini"/>
   <neveroverwrite path="emulators\citron\user\config\qt-config.ini"/>
   <neveroverwrite path="emulators\cxbx-reloaded\settings.ini"/>
@@ -21,6 +20,7 @@
   <neveroverwrite path="emulators\demul-old\gpuDX11old.ini"/>
   <neveroverwrite path="emulators\demul\Demul.ini"/>
   <neveroverwrite path="emulators\demul\gpuDX11.ini"/>
+  <neveroverwrite path="emulators\desmume\desmume.ini"/>
   <neveroverwrite path="emulators\dhewm3\base\dhewm.cfg"/>
   <neveroverwrite path="emulators\dhewm3\d3xp\dhewm.cfg"/>
   <neveroverwrite path="emulators\dolphin-triforce\User\Config\Dolphin.ini"/>
@@ -117,6 +117,19 @@
   <neveroverwrite path="emulators\zinc\renderer.cfg"/>
   <neveroverwrite path="emulators\zinc\zinc.cfg"/>
   <neveroverwrite path="retrobat.ini"/>
+  <actions>
+    <move path="tattoos" to="user\tattoos"/>
+    <delete path="emulationstation\.emulationstation\es_systems_ps5.cfg"/>
+    <delete path="emulationstation\es-checkversion.cmd"/>
+    <delete path="emulationstation\es-update.cmd"/>
+    <delete path="system\scripts\es-checkversion.cmd"/>
+    <delete path="system\scripts\es-update.cmd"/>
+    <delete path="emulators\retroarch\cores\config\mame_libretro.dll"/>
+    <delete path="emulators\retroarch\cores\config\picodrive_libretro.dll"/>
+    <rename path="emulators\mesen\settings.json" to="emulators\mesen\settings.json.old"/>
+    <rename path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.old"/>
+    <rename path="emulators\azahar\user\config\qt-config.ini" to="emulators\azahar\user\config\qt-config.ini.old"/>
+  </actions>
   <actions version="7.3.0-stable-win64">
     <rename path="emulators\xenia-manager" to="emulators\xenia-manager.old"/>
     <rename path="system\tools\demulshooter" to="system\tools\demulshooterOLD"/>
@@ -124,6 +137,16 @@
     <delete path="emulators\eden\user\config\qt-config.ini"/>
     <delete path="saves\mame\mame"/>
   </actions>
-  <actions>
+  <actions version="7.3.1-stable-win64">
+    <rename path="system\tools\demulshooter" to="system\tools\demulshooterOLD"/>
+    <move path="bios\mame\cfg" to="saves\mame\cfg"/>
+    <delete path="emulators\eden\user\config\qt-config.ini"/>
+    <delete path="saves\mame\mame"/>
+  </actions>
+  <actions version="7.3.1.1-stable-win64">
+    <rename path="system\tools\demulshooter" to="system\tools\demulshooterOLD"/>
+    <move path="bios\mame\cfg" to="saves\mame\cfg"/>
+    <delete path="emulators\eden\user\config\qt-config.ini"/>
+    <delete path="saves\mame\mame"/>
   </actions>
 </upgradeinfo>
