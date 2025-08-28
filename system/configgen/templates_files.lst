@@ -172,6 +172,7 @@
 \system\templates\suyu\qt-config.ini|\emulators\suyu\user\config\qt-config.ini
 \system\templates\user\tattoos\README.md|\user\tattoos\README.md
 \system\templates\user\inputmapping\README.txt|\user\inputmapping\README.txt
+\system\templates\user\inputmapping\mame\README.txt|\user\inputmapping\mame\README.txt
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
 \system\templates\vita3k\user.xml|\saves\psvita\vita3k\ux0\user\00\user.xml
 \system\templates\winuae\winuae.ini|\emulators\winuae\winuae.ini

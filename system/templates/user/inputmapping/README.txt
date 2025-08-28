@@ -1,4 +1,4 @@
-# retrobat-user inputmapping
+# retrobat inputmapping override
 
 This directory can be used to specify your own mappings for:
 - Retroarch keyboard hotkeys
@@ -10,6 +10,8 @@ This directory can be used to specify your own mappings for:
 - saturnControllers.json
 - 3doControllers.json
 - Teknoparrot game mappings
+- RetroArch specific core mappings
+- Mame64 specific game mappings (in mame subfolder)
 
 Original files are located in system\resources\inputmapping:
 - retroarch_controller_hotkeys.yml
@@ -21,6 +23,9 @@ Original files are located in system\resources\inputmapping:
 - saturnControllers.json
 - 3doControllers.json
 - teknoparrot.yml
+- libretro_<core>_<system>.yml
+- libretro_<core>.yml
+- mame\<game>.xml
 
 Original files are overwritten with each RetroBat update,
 files located here will not be updated.

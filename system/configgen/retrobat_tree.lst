@@ -454,6 +454,7 @@ system\shaders
 system\templates
 user
 user\inputmapping
+user\inputmapping\mame
 user\tattoos
 user\tattoos\default
 user\tattoos\games
