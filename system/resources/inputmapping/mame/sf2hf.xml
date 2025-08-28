@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game name="Street Fighter II: The World Warrior (World 910522)" rom="sf2">
+<game name="	Street Fighter II': Hyper Fighting (World 921209)" rom="sf2hf">
   <layouts>
     <layout type="default" joystickcolor="Black">
       <button type="P1_JOYSTICK_RIGHT" tag=":IN1" mask="1" defvalue="1" x="30" y="60" color="Blue" function="Right">

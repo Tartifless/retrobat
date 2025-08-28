@@ -71,10 +71,12 @@ JOY_east => for east face button (eg B on xbox controller)
 JOY_west => for west face button (eg X on xbox controller)
 JOY_north => for north face button (eg Y on xbox controller)
 JOY_l1 => leftshoulder
-JOY_l2 => lefttrigger
+JOY_l2 => lefttrigger (as button)
+JOY_l2trigger => left trigger analogic
 JOY_l3 => leftstick press
 JOY_r1 => rightshoulder
-JOY_r2 => righttrigger
+JOY_r2 => righttrigger (as button)
+JOY_r2trigger => right trigger analogic
 JOY_r3 => rightstick press
 JOY_start
 JOY_select
