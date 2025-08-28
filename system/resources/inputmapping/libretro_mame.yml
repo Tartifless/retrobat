@@ -1,0 +1,45 @@
+# MAME(current) INPUT REMAPS FOR RETROARCH
+#
+# This file is provided with RetroBat
+#
+# It is used to automatically generate input remaps for Retroarch for MAME games with MAME(current) core
+# Each container must be named exactly the same as your game rom file (without the extension)
+#
+# The elements listed are the buttons for which you want the function to be remapped
+# The key represents the RetroArch button code
+# The value represents the original button ID for the specific system/game
+# you can use the -1 value to unmap a button
+#
+# This is the MAME core button numbering
+#L2 = 12,
+#L = 10,
+#SELECT = 2,
+#START = 3,
+#R2 = 13,
+#R = 11,
+#L3 = 14,
+#R3 = 15,
+#A = 8,
+#B = 0,
+#X = 9,
+#Y = 1,
+#JOY1DOWN = 18,
+#JOY1LEFT = 17,
+#JOY1UP = 19,
+#JOY1RIGHT = 16,
+#DPADRIGHT = 7,
+#DPADLEFT = 6,
+#DPADUP = 4,
+#DPADDOWN = 5,
+#JOY2DOWN = 22,
+#JOY2LEFT = 21,
+#JOY2UP = 23,
+#JOY2RIGHT = 20
+sf2:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 1
+  btn_r: 11
