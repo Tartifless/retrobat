@@ -12,17 +12,17 @@
 #
 # This is the MAME core button numbering
 #L2 = 12,
-#L = 10,
+#L = 10 (BUTTON5 - middle kick)
 #SELECT = 2,
 #START = 3,
 #R2 = 13,
-#R = 11,
+#R = 11 (BUTTON6 - high kick)
 #L3 = 14,
 #R3 = 15,
-#A = 8,
-#B = 0,
-#X = 9,
-#Y = 1,
+#A = 8 (BUTTON2 - middle punch)
+#B = 0 (BUTTON1 - low punch)
+#X = 9 (BUTTON4 - low kick)
+#Y = 1 (BUTTON3 - high punch)
 #JOY1DOWN = 18,
 #JOY1LEFT = 17,
 #JOY1UP = 19,
@@ -43,3 +43,15 @@ sf2:
   btn_y: 0
   btn_l: 1
   btn_r: 11
+  btn_l2: -1
+  btn_r2: -1
+sf2_modern8:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
