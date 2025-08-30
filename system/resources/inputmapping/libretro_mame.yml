@@ -57,12 +57,10 @@ sf2_modern8:
   btn_l2: -1
 sf2049:
   analog_dpad_mode: 0
-  btn_a: 8     #brake
-  btn_b: 0     #accelerate
-  stk_r_y-: 9  #gear1
-  stk_r_y+: 10 #gear2
-  stk_r_x-: 11 #gear3
-  stk_r_x+: 12 #gear4
-  btn_up: 14   #view1
-  btn_down: 15 #view2
-  btn_l: 13    #reverse
+  btn_r: -1
+sf2049se:
+  analog_dpad_mode: 0
+  btn_r: -1
+sf2049te:
+  analog_dpad_mode: 0
+  btn_r: -1
