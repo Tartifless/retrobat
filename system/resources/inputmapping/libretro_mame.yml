@@ -55,3 +55,12 @@ sf2_modern8:
   btn_r: 1
   btn_r2: 11
   btn_l2: -1
+sf2049:
+  analog_dpad_mode: 0
+  btn_r: -1
+sf2049se:
+  analog_dpad_mode: 0
+  btn_r: -1
+sf2049te:
+  analog_dpad_mode: 0
+  btn_r: -1

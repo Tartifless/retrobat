@@ -44,7 +44,7 @@
       <button type="P1_BUTTON12" tag=":IN1" mask="8" defvalue="8" x="30" y="60" color="Blue" function="Music">
         <mapping type="standard" name="JOY_down" />
       </button>
-      <button type="P1_BUTTON8" tag=":SYSTEM" mask="32" defvalue="32" x="30" y="60" color="Blue" function="P1_BUTTON8">
+      <button type="P1_BUTTON8" tag=":SYSTEM" mask="32" defvalue="32" x="30" y="60" color="Blue" function="Reverse">
         <mapping type="standard" name="JOY_l1" />
       </button>
     </layout>

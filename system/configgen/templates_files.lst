@@ -81,6 +81,7 @@
 \system\templates\m2emulator\scripts.zip|\emulators\m2emulator\scripts
 \system\templates\m2emulator\xinput.zip|\emulators\m2emulator\templatescfg\xinput
 \system\templates\mame\blank.fmtowns|\saves\mame\fmtowns\blank.fmtowns
+\system\templates\mame\ctrlr.zip|\saves\mame\ctrlr
 \system\templates\mame\fmtownsux.ini|\emulators\mame\ini\fmtownsux.ini
 \system\templates\mame\nvram.zip|\saves\mame\nvram
 \system\templates\mandarine\portable.txt|\emulators\mandarine\portable.txt
