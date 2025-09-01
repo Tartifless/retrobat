@@ -105,6 +105,10 @@
   name: (Xbox 360 Wireless Receiver for Windows)
   sudachi:
     guid: 030000005e040000a102000020007801
+03000000b00d00000119000000007200:
+  name: (Xbox 360 Wireless Receiver for Windows)
+  eden:
+    guid: 03000000b00d00000119000021027801
 #
 ############## Teknoparrot device name update (to use for lightguns to override keyboard and mouse names) #############
 #teknoparrotdevicenames:
