@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game name="sfa" rom="sfa">
+<game name="mvsc" rom="mvsc">
   <layouts>
     <layout type="default" joystickcolor="Black">
       <button type="P1_JOYSTICK_RIGHT" tag=":IN0" mask="1" defvalue="1" x="30" y="60" color="Blue" function="P1_JOYSTICK_RIGHT">
@@ -14,13 +14,13 @@
       <button type="P1_JOYSTICK_UP" tag=":IN0" mask="8" defvalue="8" x="30" y="60" color="Blue" function="P1_JOYSTICK_UP">
         <mapping type="standard" name="JOY_up OR JOY_lsup" />
       </button>
-      <button type="P1_BUTTON1" tag=":IN0" mask="16" defvalue="16" x="30" y="60" color="Blue" function="P1_BUTTON1">
+      <button type="P1_BUTTON1" tag=":IN0" mask="16" defvalue="16" x="30" y="60" color="Blue" function="Light Punch">
         <mapping type="standard" name="JOY_west" />
       </button>
-      <button type="P1_BUTTON2" tag=":IN0" mask="32" defvalue="32" x="30" y="60" color="Blue" function="P1_BUTTON2">
+      <button type="P1_BUTTON2" tag=":IN0" mask="32" defvalue="32" x="30" y="60" color="Blue" function="Medium Punch">
         <mapping type="standard" name="JOY_north" />
       </button>
-      <button type="P1_BUTTON3" tag=":IN0" mask="64" defvalue="64" x="30" y="60" color="Blue" function="P1_BUTTON3">
+      <button type="P1_BUTTON3" tag=":IN0" mask="64" defvalue="64" x="30" y="60" color="Blue" function="Heavy Punch">
         <mapping type="standard" name="JOY_l1" />
       </button>
       <button type="P2_JOYSTICK_RIGHT" tag=":IN0" mask="256" defvalue="256" x="30" y="60" color="Blue" function="P2_JOYSTICK_RIGHT">
@@ -44,13 +44,13 @@
       <button type="P2_BUTTON3" tag=":IN0" mask="16384" defvalue="16384" x="30" y="60" color="Blue" function="P2_BUTTON3">
         <mapping type="standard" name="JOY_l1" />
       </button>
-      <button type="P1_BUTTON4" tag=":IN1" mask="1" defvalue="1" x="30" y="60" color="Blue" function="P1_BUTTON4">
+      <button type="P1_BUTTON4" tag=":IN1" mask="1" defvalue="1" x="30" y="60" color="Blue" function="Light Kick">
         <mapping type="standard" name="JOY_south" />
       </button>
-      <button type="P1_BUTTON5" tag=":IN1" mask="2" defvalue="2" x="30" y="60" color="Blue" function="P1_BUTTON5">
+      <button type="P1_BUTTON5" tag=":IN1" mask="2" defvalue="2" x="30" y="60" color="Blue" function="Medium Kick">
         <mapping type="standard" name="JOY_east" />
       </button>
-      <button type="P1_BUTTON6" tag=":IN1" mask="4" defvalue="4" x="30" y="60" color="Blue" function="P1_BUTTON6">
+      <button type="P1_BUTTON6" tag=":IN1" mask="4" defvalue="4" x="30" y="60" color="Blue" function="Heavy Kick">
         <mapping type="standard" name="JOY_r1" />
       </button>
       <button type="P2_BUTTON4" tag=":IN1" mask="16" defvalue="16" x="30" y="60" color="Blue" function="P2_BUTTON4">

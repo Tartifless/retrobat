@@ -75,6 +75,206 @@ galaga_6variation:
   btn_r: -1
   btn_l2: -1
   btn_r2: -1
+gunforc2:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+gunforc2_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+gunforc2_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+gunforc2_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+mk:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 10
+  btn_x: 0
+  btn_y: 9
+  btn_l: 8
+  btn_r: 11
+  btn_l2: -1
+  btn_r2: -1
+mk_modern8:
+  analog_dpad_mode: 0
+  btn_a: 9
+  btn_b: -1
+  btn_x: 0
+  btn_y: -1
+  btn_l: 1
+  btn_r: 8
+  btn_r2: 11
+  btn_l2: 10
+mk_8variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: 10
+mk_6variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 10
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+mk2:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 10
+  btn_x: 0
+  btn_y: 9
+  btn_l: 8
+  btn_r: 11
+  btn_l2: -1
+  btn_r2: -1
+mk2_modern8:
+  analog_dpad_mode: 0
+  btn_a: 9
+  btn_b: -1
+  btn_x: 0
+  btn_y: -1
+  btn_l: 1
+  btn_r: 8
+  btn_r2: 11
+  btn_l2: 10
+mk2_8variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: 10
+mk2_6variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 10
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+mk3:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 10
+  btn_x: 0
+  btn_y: 9
+  btn_l: 11
+  btn_r: 8
+  btn_l2: -1
+  btn_r2: -1
+mk3_modern8:
+  analog_dpad_mode: 0
+  btn_a: 9
+  btn_b: 11
+  btn_x: 0
+  btn_y: 11
+  btn_l: 1
+  btn_r: 8
+  btn_r2: 8
+  btn_l2: 10
+mk3_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_l2: 11
+  btn_r2: 10
+mk3_6variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 10
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+mk4:
+  analog_dpad_mode: 0
+  btn_a: 0
+  btn_b: 9
+  btn_x: 8
+  btn_y: 10
+  btn_l: 11
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+mk4_modern8:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 11
+  btn_x: 8
+  btn_y: 11
+  btn_l: 0
+  btn_r: 1
+  btn_r2: 1
+  btn_l2: 9
+mk4_8variation:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 10
+  btn_x: 1
+  btn_y: 8
+  btn_l: 11
+  btn_r: 0
+  btn_l2: 11
+  btn_r2: 9
+mk4_6variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_b: 10
+  btn_x: 1
+  btn_y: 8
+  btn_l: 9
+  btn_r: 0
+  btn_l2: -1
+  btn_r2: -1
 mslug:
   analog_dpad_mode: 0
   btn_a: 1
@@ -115,6 +315,46 @@ mslug_6variation:
   btn_r: 9
   btn_l2: -1
   btn_r2: -1
+mvsc:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 1
+  btn_r: 11
+  btn_l2: -1
+  btn_r2: -1
+mvsc_modern8:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+mvsc_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+mvsc_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
+  btn_l2: -1
 nbajam:
   analog_dpad_mode: 0
   btn_a: 0
@@ -215,6 +455,26 @@ sf2_modern8:
   btn_r: 1
   btn_r2: 11
   btn_l2: -1
+sf2_8variation:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sf2_6variation:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
+  btn_l2: -1
 sfa:
   analog_dpad_mode: 0
   btn_a: 10
@@ -234,6 +494,26 @@ sfa_modern8:
   btn_l: -1
   btn_r: 1
   btn_r2: 11
+  btn_l2: -1
+sfa_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfa_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
   btn_l2: -1
 sfa2:
   analog_dpad_mode: 0
@@ -255,6 +535,26 @@ sfa2_modern8:
   btn_r: 1
   btn_r2: 11
   btn_l2: -1
+sfa2_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfa2_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
+  btn_l2: -1
 sfa3:
   analog_dpad_mode: 0
   btn_a: 10
@@ -274,6 +574,26 @@ sfa3_modern8:
   btn_l: -1
   btn_r: 1
   btn_r2: 11
+  btn_l2: -1
+sfa3_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfa3_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
   btn_l2: -1
 sfach:
   analog_dpad_mode: 0
@@ -295,6 +615,26 @@ sfach_modern8:
   btn_r: 1
   btn_r2: 11
   btn_l2: -1
+sfach_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfach_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
+  btn_l2: -1
 sfex:
   analog_dpad_mode: 0
   btn_a: 10
@@ -314,6 +654,26 @@ sfex_modern8:
   btn_l: -1
   btn_r: 1
   btn_r2: 11
+  btn_l2: -1
+sfex_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfex_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
   btn_l2: -1
 sfexp:
   analog_dpad_mode: 0
@@ -335,6 +695,26 @@ sfexp_modern8:
   btn_r: 1
   btn_r2: 11
   btn_l2: -1
+sfexp_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfexp_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
+  btn_l2: -1
 sfex2:
   analog_dpad_mode: 0
   btn_a: 10
@@ -354,6 +734,26 @@ sfex2_modern8:
   btn_l: -1
   btn_r: 1
   btn_r2: 11
+  btn_l2: -1
+sfex2_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfex2_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
   btn_l2: -1
 sfex2p:
   analog_dpad_mode: 0
@@ -375,9 +775,229 @@ sfex2p_modern8:
   btn_r: 1
   btn_r2: 11
   btn_l2: -1
+sfex2p_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_r2: 11
+  btn_l2: -1
+sfex2p_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_r: 1
+  btn_r2: -1
+  btn_l2: -1
 sf2049:
   analog_dpad_mode: 0
   btn_r: -1
+shocktro:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 8
+  btn_x: 9
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+shocktro_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: 9
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+shocktro_8variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 0
+  btn_x: 8
+  btn_y: -1
+  btn_l: 9
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+shocktro_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 0
+  btn_x: 1
+  btn_y: 8
+  btn_l: -1
+  btn_r: 9
+  btn_l2: -1
+  btn_r2: -1
+ssriders:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+ssriders_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+ssriders_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+ssriders_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht22pe:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht22pe_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht22pe_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht22pe_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht24pe:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht24pe_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht24pe_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnht24pe_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnt2:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnt2_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnt2_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+tmnt2_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
 turfmast:
   analog_dpad_mode: 0
   btn_a: 1
@@ -416,5 +1036,85 @@ turfmast_6variation:
   btn_y: 8
   btn_l: -1
   btn_r: 9
+  btn_l2: -1
+  btn_r2: -1
+wwfwfest:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+wwfwfest_modern8:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+wwfwfest_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+wwfwfest_6variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+xmen:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 8
+  btn_x: -1
+  btn_y: 0
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
+xmen_modern8:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
+  btn_l2: -1
+  btn_r2: -1
+xmen_8variation:
+  analog_dpad_mode: 0
+  btn_a: 8
+  btn_b: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: 1
+xmen_6variation:
+  analog_dpad_mode: 0
+  btn_a: -1
+  btn_b: -1
+  btn_x: 8
+  btn_y: 0
+  btn_l: -1
+  btn_r: 1
   btn_l2: -1
   btn_r2: -1
