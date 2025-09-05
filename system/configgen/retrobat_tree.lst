@@ -452,6 +452,7 @@ system\scripts
 system\shaders
 system\templates
 user
+user\apikey
 user\inputmapping
 user\inputmapping\mame
 user\tattoos

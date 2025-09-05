@@ -127,9 +127,18 @@
     <delete path="system\scripts\es-update.cmd"/>
     <delete path="emulators\retroarch\cores\config\mame_libretro.dll"/>
     <delete path="emulators\retroarch\cores\config\picodrive_libretro.dll"/>
+    <delete path="emulators\rpcs3\config.yml"/>
+    <rename path="emulators\rpcs3\config\config.yml" to="emulators\rpcs3\config\config.yml.bak"/>
     <rename path="emulators\mesen\settings.json" to="emulators\mesen\settings.json.bak"/>
     <rename path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.bak"/>
     <rename path="emulators\azahar\user\config\qt-config.ini" to="emulators\azahar\user\config\qt-config.ini.bak"/>
+  </actions>
+  <actions version="7.2.0-stable-win64">
+    <rename path="emulators\xenia-manager" to="emulators\xenia-manager.bak"/>
+    <rename path="system\tools\demulshooter" to="system\tools\demulshooter.bak"/>
+    <move path="bios\mame\cfg" to="saves\mame\cfg"/>
+    <delete path="emulators\eden\user\config\qt-config.ini"/>
+    <delete path="saves\mame\mame"/>
   </actions>
   <actions version="7.3.0-stable-win64">
     <rename path="emulators\xenia-manager" to="emulators\xenia-manager.bak"/>
