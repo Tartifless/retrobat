@@ -35,6 +35,33 @@
 #JOY2LEFT = 21,
 #JOY2UP = 23,
 #JOY2RIGHT = 20
+outrun:
+  analog_dpad_mode: 0
+outrun_modern8:
+  analog_dpad_mode: 0
+  btn_x: 8
+  btn_y: 0
+  btn_l: 11
+  btn_l2: -1
+  btn_r2: -1
+outrun_8variation:
+  analog_dpad_mode: 0
+  btn_x: -1
+  btn_y: -1
+  btn_l: -1
+  btn_l: -1
+  btn_l2: 11
+  btn_r2: 11
+outrun_6variation:
+  analog_dpad_mode: 0
+  btn_a: 11
+  btn_x: 8
+  btn_y: 0
+  btn_b: -1
+  btn_l: -1
+  btn_r: -1
+  btn_l2: -1
+  btn_r2: -1
 galaga:
   analog_dpad_mode: 0
   btn_a: 8
