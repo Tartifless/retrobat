@@ -448,6 +448,9 @@ system\modules\rb_launcher
 system\modules\rb_updater
 system\padtokey
 system\resources
+system\resources\inputmapping
+system\resources\inputmapping\lr-mame
+system\resources\inputmapping\mame
 system\scripts
 system\shaders
 system\templates
