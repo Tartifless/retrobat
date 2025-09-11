@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game name="pongd" rom="pongd">
+  <layouts>
+    <layout type="default" joystickcolor="Black">
+      <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P3_PADDLE" tag=":PADDLE2" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P3_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P4_PADDLE" tag=":PADDLE3" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P4_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="CONFIG" tag=":fixfreq:ENABLE" mask="8" defvalue="0" x="30" y="60" color="Blue" function="CONFIG" />
+    </layout>
+    <layout type="modern8" joystickcolor="Black">
+      <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P3_PADDLE" tag=":PADDLE2" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P3_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P4_PADDLE" tag=":PADDLE3" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P4_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="CONFIG" tag=":fixfreq:ENABLE" mask="8" defvalue="0" x="30" y="60" color="Blue" function="CONFIG" />
+    </layout>
+    <layout type="8alternative" joystickcolor="Black">
+      <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P3_PADDLE" tag=":PADDLE2" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P3_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P4_PADDLE" tag=":PADDLE3" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P4_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="CONFIG" tag=":fixfreq:ENABLE" mask="8" defvalue="0" x="30" y="60" color="Blue" function="CONFIG" />
+    </layout>
+    <layout type="6alternative" joystickcolor="Black">
+      <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P3_PADDLE" tag=":PADDLE2" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P3_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="P4_PADDLE" tag=":PADDLE3" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P4_PADDLE">
+        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="increment" name="JOY_up" />
+        <mapping type="decrement" name="JOY_down" />
+      </button>
+      <button type="CONFIG" tag=":fixfreq:ENABLE" mask="8" defvalue="0" x="30" y="60" color="Blue" function="CONFIG" />
+    </layout>
+  </layouts>
+</game>
