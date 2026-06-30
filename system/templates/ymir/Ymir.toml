@@ -36,7 +36,9 @@ FrameRateOSDPosition = 'TopRight'
 OverrideUIScale = false
 RememberWindowGeometry = true
 ShowFrameRateOSD = false
+ShowGameNameOnTitleBar = true
 ShowMessages = true
+ShowPerformanceOnTitleBar = true
 ShowSpeedIndicatorForAllSpeeds = false
 UIScale = 1.0
 
@@ -53,6 +55,7 @@ PreloadDiscImagesToRAM = false
 RememberLastLoadedDisc = false
 RewindCompressionLevel = 12
 ScreenshotScale = 2
+StartPaused = false
 UseAltSpeed = false
 
     [General.PathOverrides]
@@ -67,12 +70,12 @@ UseAltSpeed = false
     Screenshots = '..\..\screenshots\ymir'
 
 [Hotkeys]
-DecreaseSpeed = [ 'Comma' ]
-DecreaseSpeedLarge = [ 'Shift+Comma' ]
+DecreaseSpeed = [ 'Ctrl+Comma' ]
+DecreaseSpeedLarge = [ 'Ctrl+Shift+Comma' ]
 DecreaseVolume = [ 'Ctrl+MinusUnderscore' ]
 DumpMemory = [ 'Ctrl+F11' ]
 EjectDisc = [ 'Ctrl+W' ]
-ExitApp = [ 'Ctrl+Q' ]
+ExitApp = []
 ForwardFrameStep = [ 'RightBracket' ]
 HardReset = [ 'Ctrl+R' ]
 IncreaseSpeed = [ 'Ctrl+Period' ]
@@ -81,8 +84,8 @@ IncreaseVolume = [ 'Ctrl+EqualsPlus' ]
 LoadDisc = [ 'Ctrl+O' ]
 NextFrameRateOSDPosition = [ 'Ctrl+F1' ]
 OpenCloseTray = [ 'Ctrl+T' ]
-OpenSettings = [ 'F1' ]
-PauseResume = [ 'P' ]
+OpenSettings = [ 'F10' ]
+PauseResume = [ 'Pause', 'Spacebar' ]
 PreviousFrameRateOSDPosition = [ 'Ctrl+Shift+F1' ]
 ResetButton = [ 'Shift+R' ]
 ResetSpeed = [ 'Ctrl+Slash' ]
@@ -90,17 +93,18 @@ ReverseFrameStep = [ 'LeftBracket' ]
 Rewind = [ 'Backspace' ]
 RotateScreenClockwise = [ 'Ctrl+Apostrophe' ]
 RotateScreenCounterclockwise = [ 'Ctrl+Shift+Apostrophe' ]
+ShowMessageHistory = [ 'F7' ]
 SoftReset = [ 'Ctrl+Shift+R' ]
-TakeScreenshot = [ 'F8' ]
+TakeScreenshot = [ 'F12' ]
 ToggleAlternateSpeed = [ 'Shift+Slash' ]
 ToggleDebugTrace = [ 'F11' ]
 ToggleFrameRateOSD = [ 'Shift+F1' ]
-ToggleFullScreen = [ 'F' ]
+ToggleFullScreen = [ 'Alt+Return' ]
 ToggleMute = [ 'Ctrl+M' ]
-ToggleRewindBuffer = [ 'Ctrl+Backspace' ]
+ToggleRewindBuffer = [ 'F8' ]
 ToggleWindowedVideoOutput = [ 'F9' ]
-TurboSpeed = [ 'Spacebar' ]
-TurboSpeedHold = [ 'L' ]
+TurboSpeed = [ 'Tab' ]
+TurboSpeedHold = [ 'GraveAccent' ]
 
     [Hotkeys.SaveStates]
     LoadState1 = [ 'Ctrl+Alpha1' ]
@@ -113,7 +117,7 @@ TurboSpeedHold = [ 'L' ]
     LoadState7 = [ 'Ctrl+Alpha7' ]
     LoadState8 = [ 'Ctrl+Alpha8' ]
     LoadState9 = [ 'Ctrl+Alpha9' ]
-    QuickLoadState = [ 'F4' ]
+    QuickLoadState = [ 'F3' ]
     QuickSaveState = [ 'F2' ]
     SaveState1 = [ 'Shift+Alpha1' ]
     SaveState10 = [ 'Shift+Alpha0' ]
@@ -187,20 +191,20 @@ PeripheralType = 'ControlPad'
         Z = [ 'O', 'GamepadRightBumper@0' ]
 
     [Input.Port1.ControlPad.Binds]
-    A = [ 'GamepadA@0' ]
-    B = [ 'GamepadB@0' ]
-    C = [ 'GamepadRightBumper@0' ]
-    DPad = [ 'GamepadLeftStick@0' ]
-    Down = [ 'GamepadDpadDown@0' ]
-    L = [ 'GamepadLeftTriggerButton@0' ]
-    Left = [ 'GamepadDpadLeft@0' ]
-    R = [ 'GamepadRightTriggerButton@0' ]
-    Right = [ 'GamepadDpadRight@0' ]
-    Start = [ 'GamepadStart@0' ]
-    Up = [ 'GamepadDpadUp@0' ]
-    X = [ 'GamepadX@0' ]
-    Y = [ 'GamepadY@0' ]
-    Z = [ 'GamepadLeftBumper@0' ]
+    A = [ 'J', 'GamepadX@0' ]
+    B = [ 'K', 'GamepadA@0' ]
+    C = [ 'L', 'GamepadB@0' ]
+    DPad = [ 'GamepadDPad@0', 'GamepadLeftStick@0' ]
+    Down = [ 'S' ]
+    L = [ 'Q', 'GamepadLeftTriggerButton@0' ]
+    Left = [ 'A' ]
+    R = [ 'E', 'GamepadRightTriggerButton@0' ]
+    Right = [ 'D' ]
+    Start = [ 'F', 'G', 'H', 'GamepadStart@0' ]
+    Up = [ 'W' ]
+    X = [ 'U', 'GamepadLeftBumper@0' ]
+    Y = [ 'I', 'GamepadY@0' ]
+    Z = [ 'O', 'GamepadRightBumper@0' ]
 
     [Input.Port1.MissionStick.Binds]
     A = [ 'X', 'GamepadX@0' ]
@@ -412,13 +416,14 @@ PeripheralType = 'None'
 AutoDetectRegion = true
 EmulateSH2Cache = false
 InternalBackupRAMImagePath = 'bup-int.bin'
-InternalBackupRAMPerGame = true
-PreferredRegionOrder = [ 'NorthAmerica', 'Japan' ]
+InternalBackupRAMPerGame = false
+PreferredRegionOrder = [ 'NorthAmerica', 'Japan', 'EuropePAL', 'AsiaNTSC' ]
+SH2ClockFactor = 100
 VideoStandard = 'NTSC'
 
     [System.IPL]
-    Override = true
-    Path = 'saturn_bios.bin'
+    Override = false
+    Path = ''
     Variant = 'Saturn'
 
     [System.RTC]
@@ -432,11 +437,10 @@ VideoStandard = 'NTSC'
 AutoResizeWindow = false
 DisplayVideoOutputInWindow = false
 DoubleClickToFullScreen = false
-ForceAspectRatio = false
+ForceAspectRatio = true
 ForceIntegerScaling = false
 ForcedAspect = 1.3333333333333333
-FullScreen = true
-GraphicsBackend = 'Default'
+FullScreen = false
 ReduceLatency = true
 Rotation = 'Normal'
 SyncInFullscreenMode = true
@@ -446,7 +450,7 @@ UseFullRefreshRateWithVideoSync = false
     [Video.Enhancements]
     Deinterlace = false
     TransparentMeshes = false
-    
+
     [Video.FullScreenDisplay]
     Name = ''
     X = 0
