@@ -1,10 +1,4 @@
-config_version = "0.11.0"
-rom_search_dirs = []
-recent_open_list = []
-egui_theme = "SystemDefault"
-gui_window_width = 900.0
-gui_window_height = 675.0
-
+config_version = "0.13.0"
 [common]
 audio_output_frequency = 48000
 mute_audio = false
@@ -14,45 +8,62 @@ audio_buffer_size = 2048
 audio_hardware_queue_size = 256
 audio_gain_db = 0.0
 save_path = "EmulatorFolder"
-custom_save_path = ''
+custom_save_path = ""
 state_path = "EmulatorFolder"
-custom_state_path = ''
+custom_state_path = ""
 launch_in_fullscreen = false
-initial_window_size = 3
+initial_window_size = 5
 wgpu_backend = "Auto"
-vsync_mode = "Disabled"
+wgpu_power_preference = "HighPerformance"
+vsync_mode = "Enabled"
 frame_time_sync = true
 auto_prescale = true
-prescale_factor = 3
-scanlines = "None"
+prescale_width = 3
+prescale_height = 3
+scanlines_enabled = false
+scanlines_brightness = 0.8
 force_integer_height_scaling = false
 filter_mode = "Linear"
+supersample_minification = true
 preprocess_shader = "None"
+anti_dither_shader = "None"
+frame_rotation = "None"
 load_recent_state_at_launch = false
 fast_forward_multiplier = 2
 rewind_buffer_length_seconds = 10
-pause_emulator = "Never"
+pause_emulator = "EmulatorLosesFocus"
 hide_mouse_cursor = "Fullscreen"
+cheats_enabled = false
+cheats_path = "EmulatorFolder"
+cheats_custom_path = ""
+
+[common.ntsc]
+brightness = 1.0
+saturation = 1.0
+gamma = 2.2
 
 [smsgg]
 remove_sprite_limit = false
 sms_aspect_ratio = "Ntsc"
 gg_aspect_ratio = "GgLcd"
 sms_timing_mode = "Ntsc"
-sms_model = "Sms1"
+sms_model = "Sms2"
 sms_crop_vertical_border = true
 sms_crop_left_border = false
 gg_frame_blending = false
 gg_use_sms_resolution = false
 fm_sound_unit_enabled = true
 z80_divider = 15
+allow_opposing_joypad_directions = false
 sms_boot_from_bios = false
 gg_boot_from_bios = false
 
 [genesis]
+allow_opposing_joypad_directions = false
 aspect_ratio = "Auto"
 force_square_pixels_in_h40 = false
 adjust_aspect_ratio_in_2x_resolution = true
+anamorphic_widescreen = false
 remove_sprite_limits = false
 m68k_clock_divider = 7
 non_linear_color_scale = true
@@ -70,7 +81,7 @@ emulate_ym2612_ladder_effect = true
 genesis_lpf_enabled = true
 genesis_lpf_cutoff = 3390
 ym2612_2nd_lpf_enabled = false
-ym2612_2nd_lpf_cutoff = 7973
+ym2612_2nd_lpf_cutoff = 6725
 ym2612_channels_enabled = [
     true,
     true,
@@ -109,7 +120,6 @@ color_tint = "None"
 show_high_priority = true
 show_low_priority = true
 void_color_type = "Direct"
-emulate_pixel_switch_delay = false
 void_palette_index = 0
 void_direct = [
     0,
@@ -122,6 +132,7 @@ pwm_enabled = true
 pwm_volume_adjustment_db = 0.0
 
 [nes]
+forced_timing_mode = "Ntsc"
 aspect_ratio = "Ntsc"
 ntsc_crop_vertical_overscan = true
 remove_sprite_limit = false
@@ -129,9 +140,9 @@ pal_black_border = false
 silence_ultrasonic_triangle_output = false
 audio_resampler = "WindowedSinc"
 audio_60hz_hack = false
-allow_opposing_joypad_inputs = false
+allow_opposing_joypad_directions = false
 dma_dummy_joy_reads = true
-palette = "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"
+palette = "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"
 
 [nes.overscan]
 top = 0
@@ -143,8 +154,9 @@ right = 0
 aspect_ratio = "Ntsc"
 deinterlace = true
 audio_interpolation = "Gaussian"
-audio_60hz_hack = false
+audio_60hz_hack = true
 gsu_overclock_factor = 1
+allow_opposing_joypad_directions = false
 
 [game_boy]
 force_dmg_mode = false
@@ -182,6 +194,7 @@ gba_correction_gamma = 3.2
 frame_blending = true
 audio_resampler = "WindowedSinc"
 audio_60hz_hack = false
+allow_opposing_joypad_directions = false
 
 [game_boy_advance]
 skip_bios_animation = false
@@ -197,9 +210,20 @@ wavetable_enabled = true
 noise_enabled = true
 pcm_a_enabled = true
 pcm_b_enabled = true
+allow_opposing_joypad_directions = false
 solar_brightness_step = 5
 solar_min_brightness = 23
 solar_max_brightness = 175
+
+[pc_engine]
+region = "TurboGrafx16"
+aspect_ratio = "Ntsc"
+palette = "PceComposite"
+crop_overscan = true
+remove_sprite_limits = false
+audio_resampler = "WindowedSinc"
+allow_opposing_joypad_directions = false
+allow_simultaneous_run_select = false
 
 [input]
 axis_deadzone = 8000
@@ -374,54 +398,6 @@ button = "Right"
 [input.snes]
 p2_type = "Gamepad"
 
-[[input.snes.mapping_1.p1.up]]
-type = "Keyboard"
-key = "Up"
-
-[[input.snes.mapping_1.p1.left]]
-type = "Keyboard"
-key = "Left"
-
-[[input.snes.mapping_1.p1.right]]
-type = "Keyboard"
-key = "Right"
-
-[[input.snes.mapping_1.p1.down]]
-type = "Keyboard"
-key = "Down"
-
-[[input.snes.mapping_1.p1.a]]
-type = "Keyboard"
-key = "S"
-
-[[input.snes.mapping_1.p1.b]]
-type = "Keyboard"
-key = "X"
-
-[[input.snes.mapping_1.p1.x]]
-type = "Keyboard"
-key = "A"
-
-[[input.snes.mapping_1.p1.y]]
-type = "Keyboard"
-key = "Z"
-
-[[input.snes.mapping_1.p1.l]]
-type = "Keyboard"
-key = "D"
-
-[[input.snes.mapping_1.p1.r]]
-type = "Keyboard"
-key = "C"
-
-[[input.snes.mapping_1.p1.start]]
-type = "Keyboard"
-key = "Return"
-
-[[input.snes.mapping_1.p1.select]]
-type = "Keyboard"
-key = "Shift"
-
 [input.snes.mapping_1.p2]
 
 [input.snes.mapping_1.p1_turbo]
@@ -546,45 +522,83 @@ key = "Shift"
 
 [input.game_boy_advance.mapping_2_turbo.solar]
 
+[[input.pc_engine.mapping_1.p1.up]]
+type = "Keyboard"
+key = "Up"
+
+[[input.pc_engine.mapping_1.p1.left]]
+type = "Keyboard"
+key = "Left"
+
+[[input.pc_engine.mapping_1.p1.right]]
+type = "Keyboard"
+key = "Right"
+
+[[input.pc_engine.mapping_1.p1.down]]
+type = "Keyboard"
+key = "Down"
+
+[[input.pc_engine.mapping_1.p1.button1]]
+type = "Keyboard"
+key = "A"
+
+[[input.pc_engine.mapping_1.p1.button2]]
+type = "Keyboard"
+key = "S"
+
+[[input.pc_engine.mapping_1.p1.run]]
+type = "Keyboard"
+key = "Return"
+
+[[input.pc_engine.mapping_1.p1.select]]
+type = "Keyboard"
+key = "Shift"
+
+[input.pc_engine.mapping_1.p2]
+
+[input.pc_engine.mapping_1.p1_turbo]
+
+[input.pc_engine.mapping_1.p2_turbo]
+
+[input.pc_engine.mapping_2.p1]
+
+[input.pc_engine.mapping_2.p2]
+
+[input.pc_engine.mapping_2.p1_turbo]
+
+[input.pc_engine.mapping_2.p2_turbo]
+
 [[input.hotkeys.mapping_1.power_off]]
 type = "Keyboard"
 key = "Escape"
 
-[[input.hotkeys.mapping_1.exit]]
-type = "Keyboard"
-key = "Ctrl"
-
-[[input.hotkeys.mapping_1.exit]]
-type = "Keyboard"
-key = "Q"
-
 [[input.hotkeys.mapping_1.toggle_fullscreen]]
 type = "Keyboard"
-key = "F9"
+key = "F"
 
 [[input.hotkeys.mapping_1.save_state]]
 type = "Keyboard"
-key = "F5"
+key = "F2"
 
 [[input.hotkeys.mapping_1.load_state]]
 type = "Keyboard"
-key = "F6"
+key = "F4"
 
 [[input.hotkeys.mapping_1.next_save_state_slot]]
 type = "Keyboard"
-key = "]"
+key = "F7"
 
 [[input.hotkeys.mapping_1.prev_save_state_slot]]
 type = "Keyboard"
-key = "["
+key = "F6"
 
 [[input.hotkeys.mapping_1.soft_reset]]
 type = "Keyboard"
-key = "F1"
+key = "F8"
 
 [[input.hotkeys.mapping_1.hard_reset]]
 type = "Keyboard"
-key = "F2"
+key = "F9"
 
 [[input.hotkeys.mapping_1.pause]]
 type = "Keyboard"
@@ -592,29 +606,26 @@ key = "P"
 
 [[input.hotkeys.mapping_1.step_frame]]
 type = "Keyboard"
-key = "N"
+key = "K"
 
 [[input.hotkeys.mapping_1.fast_forward]]
 type = "Keyboard"
-key = "Tab"
+key = "L"
 
 [[input.hotkeys.mapping_1.rewind]]
 type = "Keyboard"
-key = "`"
-
-[[input.hotkeys.mapping_1.toggle_overclocking]]
-type = "Keyboard"
-key = ";"
+key = "Backspace"
 
 [[input.hotkeys.mapping_1.open_debugger]]
 type = "Keyboard"
-key = "'"
+key = "F11"
 
 [input.hotkeys.mapping_2]
 
 [list_filters]
 master_system = true
 game_gear = true
+sg_1000 = true
 genesis = true
 sega_cd = true
 sega_32x = true
@@ -623,3 +634,69 @@ snes = true
 game_boy = true
 game_boy_color = true
 game_boy_advance = true
+pc_engine = true
+
+[[input.hotkeys.mapping_1.exit]]
+type = "Keyboard"
+key = "Escape"
+
+[[input.snes.mapping_1.p1.up]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Up"
+
+[[input.snes.mapping_1.p1.left]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Left"
+
+[[input.snes.mapping_1.p1.right]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Right"
+
+[[input.snes.mapping_1.p1.down]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Down"
+
+[[input.snes.mapping_1.p1.a]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 1"
+
+[[input.snes.mapping_1.p1.b]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 0"
+
+[[input.snes.mapping_1.p1.x]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 3"
+
+[[input.snes.mapping_1.p1.y]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 2"
+
+[[input.snes.mapping_1.p1.l]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 4"
+
+[[input.snes.mapping_1.p1.r]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 5"
+
+[[input.snes.mapping_1.p1.start]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 7"
+
+[[input.snes.mapping_1.p1.select]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 6"
+

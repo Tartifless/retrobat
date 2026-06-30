@@ -16,8 +16,6 @@ xma_decoder = "new"                               	# Decoder version used to pro
                                                   	#  new: 
                                                   	#   New version of decoder. Provides highest stability, but isn't yet finished.
 
-xmp_default_volume = 70                           	# Default music volume if game doesn't set it [0-100].
-
 
 [CPU]
 break_condition_gpr = -1                          	# GPR compared to
@@ -29,7 +27,7 @@ break_on_instruction = 0                          	# int3 before the given guest
 break_on_start = false                            	# Break into the debugger on startup.
 break_on_unimplemented_instructions = true        	# Break to the host debugger (or crash if no debugger attached) if an unimplemented PowerPC instruction is encountered.
 clock_no_scaling = false                          	# Disable scaling code. Time management and locking is bypassed. Guest system time is directly pulled from host.
-clock_source_raw = false                          	# Use the RDTSC instruction as the time source. Host CPU must support invariant TSC.
+clock_source_raw = false                          	# On x64, Use the RDTSC instruction as the time source. Requires invariant TSC. On a64, Use the CNTVCT_EL0 register as the time source
 cpu = "any"                                       	# Does nothing. CPU backend [any, x64].
 debug_symbol_loader = false                       	# Enable dbghelp debug logging and validation.
 debugprint_trap_log = false                       	# Log debugprint traps to the active debugger
@@ -76,7 +74,7 @@ writable_code_segments = false                    	# Enables a program to write 
 
 
 [Config]
-defaults_date = 2025120421                        	# Do not modify - internal version of the default values in the config, for seamless updates if default value of any option is changed.
+defaults_date = 2026040912                        	# Do not modify - internal version of the default values in the config, for seamless updates if default value of any option is changed.
 
 
 [Content]
@@ -239,12 +237,40 @@ native_stencil_value_output = true                	# Use pixel shader stencil re
 native_stencil_value_output_d3d12_intel = false   	# Allow stencil reference output usage on Direct3D 12 on Intel GPUs - not working on UHD Graphics 630 as of March 2021 (driver 27.20.0100.8336).
 no_discard_stencil_in_transfer_pipelines = false  	# Skip stencil bit discard in render target transfer pipelines. May improve performance on some GPUs.
 non_seamless_cube_map = true                      	# Disable filtering between cube map faces near edges where possible (Vulkan with VK_EXT_non_seamless_cube_map) to reproduce the Direct3D 9 behavior.
+occlusion_query = "fast"                          	# Controls hardware occlusion query behavior for EVENT_WRITE_ZPD.
+                                                  	# Used for effects like lens flares, object culling, and auto-exposure.
+                                                  	#  fake: Write a fake result without asking the GPU. Safe for most games,
+                                                  	#        though some effects may look slightly wrong.
+                                                  	#  fast: Ask the GPU but don't wait for the answer. Writes a cached
+                                                  	#        result immediately and updates it when the GPU catches up.
+                                                  	#        Cached results bias toward visible when guessing. (default)
+                                                  	#  fast-alt: Variant of fast mode that keeps cached zero results for
+                                                  	#            unresolved reports. May improve effects relying on precise
+                                                  	#            visibility, but may be less stable for occlusion culling.
+                                                  	#  strict: Ask the GPU and wait for the real result before continuing.
+                                                  	#          Most accurate, but may be somewhat less performant.
+
+occlusion_query_fake_lower_threshold = 80         	# Lower end of the fake sample count value written on EVENT_WRITE_ZPD when real occlusion queries are disabled.
+                                                  	# -1 writes nothing, resulting in some games that sit and hang.
+                                                  	# 0 means the fake result stays fully occluded.
+
+occlusion_query_fake_upper_threshold = 100        	# Upper end of the fake sample count value written on EVENT_WRITE_ZPD when real occlusion queries are disabled.
+                                                  	# Keep this higher than occlusion_query_fake_lower_threshold.
+                                                  	# Ignored if occlusion_query_fake_lower_threshold is -1.
+
+occlusion_query_querybatch_range = 0              	# Range of fake sample count values to walk for titles using the D3D QueryBatch standard before wrapping back to occlusion_query_fake_lower_threshold.
+                                                  	# This shouldn't be changed from the default value of 0 (disabled) unless necessary for a specific title.
+
+occlusion_query_saturation = 1                    	# Compress higher occlusion query sample counts before guest writeback.
+                                                  	# This can be useful if effects such as lens flares appear too strong.
+                                                  	# 1.0 = default behavior
+                                                  	# 0.0 = collapse all nonzero sample counts to 1
+                                                  	# Values around 0.90 are a good starting point for subtle tuning.
+
 primitive_processor_cache_min_indices = 4096      	# Smallest number of guest indices to store in the cache to try reusing later in the same frame if processing (such as primitive type conversion or reset index replacement) is performed.
                                                   	# Setting this to a very high value may result in excessive CPU processing, while a very low value may result in excessive locking and lookups.
                                                   	# Negative values disable caching.
 
-query_occlusion_sample_lower_threshold = 80       	# If set to -1 no sample counts are written, games may hang. Else, the sample count of every tile will be incremented on every EVENT_WRITE_ZPD by this number. Setting this to 0 means everything is reported as occluded.
-query_occlusion_sample_upper_threshold = 100      	# Set to higher number than query_occlusion_sample_lower_threshold. This value is ignored if query_occlusion_sample_lower_threshold is set to -1.
 readback_memexport = false                        	# Read data written by memory export in shaders on the CPU. This may be needed in some games (but many only access exported data on the GPU, and this flag isn't needed to handle such behavior), but causes mid-frame synchronization, so it has a huge performance impact.
 readback_resolve = "none"                         	# Controls CPU readback of render-to-texture resolve results.
                                                   	#  fast: Read from previous frame (1 frame delay, no GPU stall, slight performance hit)
@@ -357,27 +383,21 @@ keybind_y = "P"                                   	# List of keys to bind to Y, 
 
 [Kernel]
 allow_avatar_initialization = false               	# Enable Avatar Initialization
-                                                  	#  Only set true when testing Avatar games. Certain games may
-                                                  	#  require kinect implementation.
+                                                  	# Only set true when testing Avatar games. Certain games may crash due to requirement of full avatar implementation.
 
 allow_incompatible_title_update = true            	# Allow title updates with mismatched signatures to be applied.
-allow_nui_initialization = false                  	# Enable NUI initialization
-                                                  	#  Only set true when testing kinect games. Certain games may
-                                                  	#  require avatar implementation.
-
 apply_title_update = true                         	# Apply title updates.
 cl = ""                                           	# Specify additional command-line provided to guest.
 console_type = 0                                  	# Console Type Identifier: 0 - Development Kit, 1 - Test Kit
 default_achievements_backend = "GPD"              	# Defines which achievements backend should be used as an default. Possible options: GPD.
 ignore_thread_affinities = true                   	# Ignores game-specified thread affinities.
-ignore_thread_priorities = true                   	# Ignores game-specified thread priorities.
+ignore_thread_priorities = false                  	# Ignores game-specified thread priorities.
 kernel_build_version = 1888                       	# Define current kernel version
 kernel_cert_monitor = false                       	# Enable cert monitor.
 kernel_debug_monitor = false                      	# Enable debug monitor.
 kernel_display_gamma_power = 2.22222233           	# Display gamma to use with kernel_display_gamma_type 3.
 kernel_display_gamma_type = 2                     	# Display gamma type: 0 - linear, 1 - sRGB (CRT), 2 - BT.709 (HDTV), 3 - power specified via kernel_display_gamma_power.
 kernel_pix = false                                	# Enable PIX.
-log_high_frequency_kernel_calls = false           	# Log kernel calls with the kHighFrequency tag.
 staging_mode = false                              	# Enables preview mode in dashboards to render debug information.
 
 
@@ -385,9 +405,10 @@ staging_mode = false                              	# Enables preview mode in das
 enable_console = false                            	# Open a console window with the main window
 flush_log = true                                  	# Flush log file after each log line batch.
 log_file = ""                                     	# Logs are written to the given file
+log_high_frequency_kernel_calls = false           	# Log kernel calls with the kHighFrequency tag.
 log_level = 2                                     	# Maximum level to be logged. (0=error, 1=warning, 2=info, 3=debug)
 log_mask = 0                                      	# Disables specific categorizes for more granular debug logging. Kernel = 1, Apu = 2, Cpu = 4, Gpu = 8.
-log_string_format_kernel_calls = false            	# Log kernel calls with the kHighFrequency tag.
+log_string_format_kernel_calls = false            	# Log usage of print formatters like sprintf.
 log_to_debugprint = false                         	# Dump the log to DebugPrint.
 log_to_stdout = true                              	# Write log output to stdout
 
@@ -402,7 +423,7 @@ writable_executable_memory = true                 	# Allow mapping memory with b
 
 
 [Profiles]
-logged_profile_slot_0_xuid = ""                   	# XUID of the profile to load on boot in slot 0
+logged_profile_slot_0_xuid = "E03000005FAB4301"   	# XUID of the profile to load on boot in slot 0
 logged_profile_slot_1_xuid = ""                   	# XUID of the profile to load on boot in slot 1
 logged_profile_slot_2_xuid = ""                   	# XUID of the profile to load on boot in slot 2
 logged_profile_slot_3_xuid = ""                   	# XUID of the profile to load on boot in slot 3
@@ -431,6 +452,8 @@ profiler_dpi_scaling = false                      	# Apply window DPI scaling to
 show_achievement_notification = false             	# Show achievement notification on screen.
 show_profiler = false                             	# Show profiling UI by default.
 storage_selection_dialog = false                  	# Show storage device selection dialog when the game requests it.
+window_size_x = 1280                              	# Xenia window width
+window_size_y = 720                               	# Xenia window height
 
 
 [Video]
@@ -445,39 +468,11 @@ avpack = 8                                        	# Video modes
                                                   	#  7 = TV PAL-60
                                                   	#  8 = HDMI (default)
 
+custom_internal_display_resolution_x = 0          	# Custom width. See internal_display_resolution. Range 1-1920.
+custom_internal_display_resolution_y = 0          	# Custom height. See internal_display_resolution. Range 1-1080.
+
 enable_3d_mode = false                            	# Enables usage of stereoscopic mode in titles.
 interlaced = false                                	# Toggles interlaced mode.
-internal_display_resolution = 8                   	# Allow games that support different resolutions to render in a specific resolution.
-                                                  	# This is not guaranteed to work with all games or improve performance.
-                                                  	#    0=640x480
-                                                  	#    1=640x576
-                                                  	#    2=720x480
-                                                  	#    3=720x576
-                                                  	#    4=800x600
-                                                  	#    5=848x480
-                                                  	#    6=1024x768
-                                                  	#    7=1152x864
-                                                  	#    8=1280x720 (Default)
-                                                  	#    9=1280x768
-                                                  	#    10=1280x960
-                                                  	#    11=1280x1024
-                                                  	#    12=1360x768
-                                                  	#    13=1440x900
-                                                  	#    14=1680x1050
-                                                  	#    15=1920x540
-                                                  	#    16=1920x1080
-                                                  	#    17=internal_display_resolution_x/y
-
-internal_display_resolution_x = 1280              	# Custom width. See internal_display_resolution. Range 1-1920.
-internal_display_resolution_y = 720               	# Custom height. See internal_display_resolution. Range 1-1080.
-
-use_50Hz_mode = false                             	# Enables usage of PAL-50 mode.
-video_standard = 1                                	# Enables switching between different video signals.
-                                                  	#    1=NTSC
-                                                  	#    2=NTSC-J
-                                                  	#    3=PAL
-
-widescreen = true                                 	# Toggles between 16:9 and 4:3 aspect ratio.
 
 
 [Vulkan]
@@ -495,40 +490,6 @@ vulkan_validation = false                         	# Enable the Vulkan validatio
 [Win32]
 win32_high_resolution_timer = true                	# Requests high-resolution timer from the NT kernel
 win32_mmcss = true                                	# Opt in the Multimedia Class Scheduler Service (MMCSS) scheduling for prioritized access to CPU resources
-
-
-[XConfig]
-audio_flag = 65537                                	# Audio Mode Analog.
-                                                  	#  0x00000001 = Dolby Pro Logic
-                                                  	#  0x00000002 = Analog Mono
-                                                  	# Audio Mode Digital.
-                                                  	#  0x00000000 = Digital Stereo (choose one of the above by itself)
-                                                  	#  0x00010000 = Dolby Digital
-                                                  	#  0x00030000 = Dolby Digital with WMA PRO
-                                                  	# Special Flags.
-                                                  	#  0x00000003 = Stereo Bypass
-                                                  	#  0x80000000 = Low Latency
-                                                  	#  This Config requires you to pair an analog and digitial flag together
-                                                  	#  while digital stereo only requires an analog flag. Bonus flags are
-                                                  	#  optional. Ex) 0x00010001
-
-user_country = 103                                	# User country ID.
-                                                  	#    1=AE   2=AL   3=AM   4=AR   5=AT   6=AU   7=AZ   8=BE   9=BG
-                                                  	#   10=BH  11=BN  12=BO  13=BR  14=BY  15=BZ  16=CA  18=CH  19=CL
-                                                  	#   20=CN  21=CO  22=CR  23=CZ  24=DE  25=DK  26=DO  27=DZ  28=EC
-                                                  	#   29=EE  30=EG  31=ES  32=FI  33=FO  34=FR  35=GB  36=GE  37=GR
-                                                  	#   38=GT  39=HK  40=HN  41=HR  42=HU  43=ID  44=IE  45=IL  46=IN
-                                                  	#   47=IQ  48=IR  49=IS  50=IT  51=JM  52=JO  53=JP  54=KE  55=KG
-                                                  	#   56=KR  57=KW  58=KZ  59=LB  60=LI  61=LT  62=LU  63=LV  64=LY
-                                                  	#   65=MA  66=MC  67=MK  68=MN  69=MO  70=MV  71=MX  72=MY  73=NI
-                                                  	#   74=NL  75=NO  76=NZ  77=OM  78=PA  79=PE  80=PH  81=PK  82=PL
-                                                  	#   83=PR  84=PT  85=PY  86=QA  87=RO  88=RU  89=SA  90=SE  91=SG
-                                                  	#   92=SI  93=SK  95=SV  96=SY  97=TH  98=TN  99=TR 100=TT 101=TW
-                                                  	#  102=UA 103=US 104=UY 105=UZ 106=VE 107=VN 108=YE 109=ZA
-
-user_language = 1                                 	# User language ID.
-                                                  	#   1=en  2=ja  3=de  4=fr  5=es  6=it  7=ko  8=zh
-                                                  	#   9=pt 11=pl 12=ru 13=sv 14=tr 15=nb 16=nl 17=zh
 
 
 [x64]
