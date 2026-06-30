@@ -1,5 +1,71 @@
 # Changelog
 
+## RetroBat 8.2.0
+<details>
+
+### Emulators\cores:
+- Replaced Caprice Forever 64 with Caprice Forever 32 and add bezels
+- Add PCSX2X6 fork to run Namco246 and Namco256 games
+- Add .rvz extension to dusklight
+- Bump Dolphin to 2606
+- Bump Duckstation to 0.1.11295.0 (may 10, 2026)
+- Bump Hypseus Singe to 2.12.0
+- Bump JGenesis to 0.13.0
+- Bump MAME to 0.288 (standalone, groovymame and libretro)
+- Bump RPCS3 to 0.0.41-19521
+- Bump ShadPS4 to 0.16.0 (mandatory update - previous version won't work anymore)
+- Bump ScummVM to 2026.3
+- Bump Vita3K to 0.2.1.4058
+- Bump Xemu to 0.8.136
+- Bump Xenia to feb 18, 2026
+- Bump Xenia-canary to june, 29 2026 build
+- Bump Xenia-edge to june, 29 2026 build
+- Bump Xenia-manager to 4.2.2
+- Bump Ymir to 0.3.3
+- Bump Libretro-Supermodel to 0.2.0.0
+
+### Fixes:
+- DOLPHIN-TRIFORCE: fix version check
+- EMULATIONSTATION: fix bezels menu strange spacing
+- FLYCAST: fix gun not being configured correctly when demulshooter is set
+- GOPHER64: fix RetroAchievements login from RetroBat by sending command lines
+- MUPEN64 (RMG): fix 8bitDo n64 controller mapping
+- SCUMMVM: less rigid in reading .scummvm file content (eg will not fail if the file has a second empty line)
+- STEAM: fix ;gameexe usage with Steam games
+- TEKNOPARROT: fix forcing windowed mode
+- TEKNOPARROT: fix demulshooter for rpcs3 namco3xx arcade games
+- VITA3K: fix fullscreen when launching from RetroBat
+- VPINBALL: change select+start action to WM_CLOSE instead of ESC and add option to start with -minimize option + option to send gameexit key instead of WM_CLOSE
+- LIBRETRO-MELONDSDS, MELONDS and BIZHAWK: Add option to define dsi_nand file region (for nds system)
+- LIBRETRO-OPERA: fix nvram storage option
+- HOTKEYS: fix case where user-defined hotkeys would not work if duplicate values
+
+### Features:
+- DOLPHIN (standalone and libretro): add option to enable immediate xfb presentation (useful for some wii games to remove the green bar at the bottom)
+- DUCKSTATION: allow multigun with raw input
+- GAMEBOY: add option to remap select to other button (useful for games requiring to press select + start like Link's Awakening)
+- HYPSEUS: add stretch option to stretch game image to screen, ignoring game ratio
+- LINUXLOADER: add sindenborder shader
+- MAME: add autoboot from lua scripts (camplynx, bbcmicro, cdi, crvision, electron, vg5k)
+- MODEL2: enabled gun configuration (demulshooter, etc.) even if controller autoconfiguration is off
+- RPCS3: Add squashfs support for PSN games
+- RPCS3: Add feature to manage libraries (added 1 library for def jam icon)
+- RYUJINX: change generator so that non-SDL controllers are more likely to be configured correctly
+- TEKNOPARROT: add reshade for elfloader x64
+- LIBRETRO-BLUEMSX: add cart mapper option
+- LIBRETRO-MAME: add option to use own user .cfg file for MESS while still configuring RETROARCH controls
+- LIBRETRO-MAME2003: add option to select mouse device
+- LIBRETRO-MEDNAFEN_PSX_HW: fix PGXP option
+- LIBRETRO-SUPERMODEL: add powerpc frequency
+
+### Other stuff:
+- Added a .bat tool to index RVZ (wii and gamecube) games for RetroAchievements (in retrobat\system\tools)
+- Guns: allow to run demulshooter when autoconfig and use-guns is off in RetroBat
+- Update mountsquashfs tool to fix some issues with RPCS3 saving (aderummier)
+- Add possibility to manage separately wheels and shifters (nothing happens yet, we need people with separate shifters to finalize)
+
+</details>
+
 ## RetroBat 8.1.0
 <details>
 
