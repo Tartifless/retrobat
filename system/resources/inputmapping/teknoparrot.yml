@@ -296,25 +296,25 @@ rampage:
   Service1: r3 # Test Select
   Coin1: select # P2 COINS
   P1ButtonStart: start # P1 START
-  P1Button1: south # P1 UP
-  P1Button2: east # P1 DOWN
-  P1Button3: west # P1 LEFT
-  P1Button4: north # P1 RIGHT
-  P1Button5: rightshoulder # P1 ATTACK
-  P1Button6: leftshoulder # P1 COINS
+  P1Button1: up # P1 UP
+  P1Button2: down # P1 DOWN
+  P1Button3: left # P1 LEFT
+  P1Button4: right # P1 RIGHT
+  P1Button5: south # P1 ATTACK
+  P1Button6: select # P1 COINS
   Coin2: select # P3 COINS
   P2ButtonStart: start # P2 START
-  P2Button1: south # P2 UP
-  P2Button2: east # P2 DOWN
-  P2Button3: west # P2 LEFT
-  P2Button4: north # P2 RIGHT
-  JvsTwoP1ButtonStart: start # P3 START
-  JvsTwoP1Button1: south # P3 UP
-  JvsTwoP1Button2: east # P3 DOWN
-  JvsTwoP1Button3: west # P3 LEFT
-  JvsTwoP1Button4: north # P3 RIGHT
+  P2Button1: up # P2 UP
+  P2Button2: down # P2 DOWN
+  P2Button3: left # P2 LEFT
+  P2Button4: right # P2 RIGHT
   JvsTwoP2Button1: south # P2 ATTACK
-  JvsTwoP2Button2: east # P3 ATTACK
+  JvsTwoP1ButtonStart: start # P3 START
+  JvsTwoP1Button1: up # P3 UP
+  JvsTwoP1Button2: down # P3 DOWN
+  JvsTwoP1Button3: left # P3 LEFT
+  JvsTwoP1Button4: right # P3 RIGHT
+  JvsTwoP2Button2: south # P3 ATTACK
 
 sao:
   Test: l3 # Test
@@ -10541,14 +10541,14 @@ rabbidshollywood_gun:
 raccoonrampage:
   Test: l3 # Test / Test Menu Up
   Service1: r3 # Service / Test Menu Down
-  P1ButtonStart: start # Credits P1
+  P1ButtonStart: select # Credits P1
   P1Button1: righttrigger # Player 1 Trigger
   P1Button5: rightshoulder # Enter
-  P2ButtonStart: start # Credits P2
+  P2ButtonStart: select # Credits P2
   P2Button1: righttrigger # Player 2 Trigger
-  JvsTwoP1ButtonStart: start # Credits P3
+  JvsTwoP1ButtonStart: select # Credits P3
   JvsTwoP1Button1: righttrigger # Player 3 Trigger
-  JvsTwoP2ButtonStart: start # Credits P4
+  JvsTwoP2ButtonStart: select # Credits P4
   JvsTwoP2Button1: righttrigger # Player 4 Trigger
   Analog0: rightstickleft # Player 1 Gun X
   Analog10: leftstickup # Player 3 Gun Y
