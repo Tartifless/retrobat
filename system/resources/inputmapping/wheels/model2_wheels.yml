@@ -41,6 +41,30 @@ LogitechG29:
   GearN: button18
   Service: button10
   Test: button11
+LogitechG923PS:
+  DeportedShifter: false
+  Up: hatup
+  Down: hatdown
+  Left: hatleft
+  Right: hatright
+  Steer: axis0
+  Throttle: axis1
+  Brake: axis2
+  ShiftDown: button5
+  ShiftUp: button4
+  South: button0
+  East: button2
+  West: button1
+  North: button3
+  Start: button6
+  Select: button7
+  Gear1: button12
+  Gear2: button13
+  Gear3: button14
+  Gear4: button15
+  GearN: button18
+  Service: button8
+  Test: button9
 LogitechG923X:
   DeportedShifter: false
   Up: hatup
