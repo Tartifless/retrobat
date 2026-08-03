@@ -1,3 +1,4 @@
+emulationstation\emulationstation.exe
 emulators\gsplus\gsplus.exe
 emulators\raine\raine.exe
 emulators\retroarch\retroarch.exe
