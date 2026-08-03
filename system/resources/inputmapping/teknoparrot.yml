@@ -6589,7 +6589,7 @@ wmmt3:
   Test: l3 # Test
   Service1: r3 # Service
   Coin1: select # Coin
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -6610,7 +6610,7 @@ wmmt3dxp:
   Test: l3 # Test
   Service1: r3 # Service
   Coin1: select # Coin
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -6634,7 +6634,7 @@ wmmt5:
   P1Button1: south # Enter Switch
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -6657,7 +6657,7 @@ wmmt5dx:
   P1Button1: south # Enter Switch
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -6680,7 +6680,7 @@ wmmt5dxplus:
   P1Button1: south # Enter Switch
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -6703,7 +6703,7 @@ wmmt6:
   P1Button1: south # Enter Switch
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -6726,7 +6726,7 @@ wmmt6r:
   P1Button1: south # Enter Switch
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
-  ExtensionOne1: north # Interuption Switch Button
+  ExtensionOne1: north # Interruption Switch Button
   ExtensionOne2: north # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
@@ -7856,7 +7856,7 @@ umifresh:
   Coin1: kb_5 # Coin 1
   P1ButtonStart: kb_1 # P1 Start
   P1ButtonLeft: kb_Left # Pedal Left
-  P1ButtonRight: kb_Right # Pedal Righ
+  P1ButtonRight: kb_Right # Pedal Right
   Coin2: kb_6 # Coin 1
   mouseleft_1: P1Button1 # P1 Left Trigger
   mousemiddle_1: P1Button3 # P1 Grenades
@@ -7888,7 +7888,7 @@ umifresh:
   Coin1: kb_5 # Coin 1
   P1ButtonStart: kb_1 # P1 Start
   P1ButtonLeft: kb_Left # Pedal Left
-  P1ButtonRight: kb_Right # Pedal Righ
+  P1ButtonRight: kb_Right # Pedal Right
   Coin2: kb_6 # Coin 1
   mouseleft_1: P1Button1 # P1 Left Trigger
   mousemiddle_1: P1Button3 # P1 Grenades

@@ -23,11 +23,11 @@ RetroBat can also run in Portable Mode. This means you can play games from an ex
 |---|---|
 |**Processor:**|CPU with SSE2 support. 3 GHz and Dual Core, not older than 2008 is highly recommended.|
 |**Graphics:**|Modern graphics card that supports Direct3D 11.1 / OpenGL 4.4 / Vulkan|
-|**Dependancies:**|[Visual C++ 2010 Redistributable Packages (32 bit)](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)|
+|**Dependencies:**|[Visual C++ 2010 Redistributable Packages (32 bit)](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)|
 |   |[Visual C++ 2015, 2017 and 2019 Redistributable Packages (32 bit)](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)|
 |   |[Visual C++ 2015, 2017 and 2019 Redistributable Packages (64 bit)](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)|
 |   |[DirectX](https://www.microsoft.com/download/details.aspx?id=35)|
-|**Controllers:**|Xinput controllers hightly recommanded. Test your controller [HERE](https://gamepad-tester.com)|
+|**Controllers:**|Xinput controllers highly recommended. Test your controller [HERE](https://gamepad-tester.com)|
 
 
 ## 🦇 RetroBat Team
@@ -55,7 +55,7 @@ It is done by a team of enthusiasts in their free time mainly for fun.
 
 All the code written by the RetroBat Team, unless covered by a licence from an upstream project, is given under the [LGPL v3 licence](https://www.gnu.org/licenses/lgpl-3.0.html).
 
-It is not allowed to sell RetroBat on a pre-installed machine or on any storage devices. RetroBat includes softwares which cannot be associated with any commercial activities.
+It is not allowed to sell RetroBat on a pre-installed machine or on any storage devices. RetroBat includes software which cannot be associated with any commercial activities.
 
 Shipping RetroBat with additional proprietary and copyrighted content is illegal, strictly forbidden and strongly discouraged by the RetroBat Team.
 
