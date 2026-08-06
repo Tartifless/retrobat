@@ -5,13 +5,15 @@
 
 ### Emulators\cores:
 - Replaced Caprice Forever 64 with Caprice Forever 32 and add bezels
-- Add PCSX2X6 fork to run Namco246 and Namco256 games
+- Add PCSX2X6 fork to run Namco246 and Namco256 games (standalone and through Teknoparrot)
+- Add libretro-ymir for saturn
 - Add .rvz extension to dusklight
 - Bump Dolphin to 2606
 - Bump Duckstation to 0.1.11295.0 (may 10, 2026)
 - Bump Hypseus Singe to 2.12.0
 - Bump JGenesis to 0.13.0
 - Bump MAME to 0.288 (standalone, groovymame and libretro)
+- Bump RAINE to 0.97.5
 - Bump RPCS3 to 0.0.41-19521
 - Bump ShadPS4 to 0.16.0 (mandatory update - previous version won't work anymore)
 - Bump ScummVM to 2026.3
@@ -21,15 +23,19 @@
 - Bump Xenia-canary to june, 29 2026 build
 - Bump Xenia-edge to june, 29 2026 build
 - Bump Xenia-manager to 4.2.2
+- Bump Yabasanshiro to 1.20.32
 - Bump Ymir to 0.3.3
 - Bump Libretro-Supermodel to 0.2.0.0
 
 ### Fixes:
 - DOLPHIN-TRIFORCE: fix version check
 - EMULATIONSTATION: fix bezels menu strange spacing
+- EPIC: fix automatic game shortcut creation
 - FLYCAST: fix gun not being configured correctly when demulshooter is set
 - GOPHER64: fix RetroAchievements login from RetroBat by sending command lines
+- MAME: fix sf2ce launch
 - MUPEN64 (RMG): fix 8bitDo n64 controller mapping
+- RAINE: option to disable pause on focus lost does now work in RAINE
 - SCUMMVM: less rigid in reading .scummvm file content (eg will not fail if the file has a second empty line)
 - STEAM: fix ;gameexe usage with Steam games
 - TEKNOPARROT: fix forcing windowed mode
@@ -39,6 +45,8 @@
 - LIBRETRO-MELONDSDS, MELONDS and BIZHAWK: Add option to define dsi_nand file region (for nds system)
 - LIBRETRO-OPERA: fix nvram storage option
 - HOTKEYS: fix case where user-defined hotkeys would not work if duplicate values
+- INSTALLER: fixed check for dx9
+- RETROBAT: fix issue with breaking symlink when uninstalling game from store whe roms folder is symlinked
 
 ### Features:
 - DOLPHIN (standalone and libretro): add option to enable immediate xfb presentation (useful for some wii games to remove the green bar at the bottom)
@@ -48,10 +56,15 @@
 - LINUXLOADER: add sindenborder shader
 - MAME: add autoboot from lua scripts (camplynx, bbcmicro, cdi, crvision, electron, vg5k)
 - MODEL2: enabled gun configuration (demulshooter, etc.) even if controller autoconfiguration is off
+- MODEL2: add ability to perform wheel mapping by wheel type + rom name and add mapping for LogitechG923PS wheel
 - RPCS3: Add squashfs support for PSN games
 - RPCS3: Add feature to manage libraries (added 1 library for def jam icon)
+- RPCS3: Add feature to select how config files should be managed (by default it will use the config database)
 - RYUJINX: change generator so that non-SDL controllers are more likely to be configured correctly
+- SHADPS4: place home_dir in saves\ps4\shadps4\home (old saves will need moving)
 - TEKNOPARROT: add reshade for elfloader x64
+- TEKNOPARROT: add ability to perform mapping for arcade stick layouts
+- WINDOWS: add ability to put 2 processes in .gameexe files, RetroBat will monitor the 2nd process listed when the first one exits
 - LIBRETRO-BLUEMSX: add cart mapper option
 - LIBRETRO-MAME: add option to use own user .cfg file for MESS while still configuring RETROARCH controls
 - LIBRETRO-MAME2003: add option to select mouse device
@@ -63,6 +76,7 @@
 - Guns: allow to run demulshooter when autoconfig and use-guns is off in RetroBat
 - Update mountsquashfs tool to fix some issues with RPCS3 saving (aderummier)
 - Add possibility to manage separately wheels and shifters (nothing happens yet, we need people with separate shifters to finalize)
+- Multiple features fixing
 
 </details>
 
