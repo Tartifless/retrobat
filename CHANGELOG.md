@@ -17,6 +17,7 @@
 - Bump RPCS3 to 0.0.41-19521
 - Bump ShadPS4 to 0.16.0 (mandatory update - previous version won't work anymore)
 - Bump ScummVM to 2026.3
+- Bump libretro-virtualjaguar and add to jaguarcd
 - Bump Vita3K to 0.2.1.4058
 - Bump Xemu to 0.8.136
 - Bump Xenia to feb 18, 2026
