@@ -1,0 +1,1228 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate wheel mapping for TeknoParrot racing games
+# Each container must be named with the wheel type internal to RetroBat (see Common/Wheels.cs WheelType enum)
+# The key represents the TeknoParrot InputMapping
+# The value represents the DirectInput code (BUTTON# or AXIS code)
+# Use the LogitechG29 entry as example
+#
+# For axes, values are: XAXIS_POS, XAXIS_NEG, YAXIS_POS, YAXIS_NEG, ZAXIS_POS, ZAXIS_NEG, RZAXIS_POS, RZAXIS_NEG
+# For buttons, values are: BUTTON1, BUTTON2, BUTTON3, etc. (1-based, corresponding to DirectInput button index)
+# For POV/Hat, values are: POV1_UP, POV1_DOWN, POV1_LEFT, POV1_RIGHT, POV2_UP, etc.
+#
+# The ImportDirectInputButton method will translate these codes to proper DirectInputButton objects
+
+LogitechG29:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  GearReverse: BUTTON19
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+
+LogitechG920:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  GearReverse: BUTTON19
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+
+LogitechG923PS:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  GearReverse: BUTTON19
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+
+LogitechG923X:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  GearReverse: BUTTON19
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+
+LogitechGPro:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  GearReverse: BUTTON19
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+
+ThrustmasterT150:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterTMX:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterT300RSPS4:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterT300RSPS3:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterT300RSPS3ADV:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterT500RS:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterTX:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterT248:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+ThrustmasterTSXW:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+FanatecCSLElite:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+FanatecClubSportWheelBaseV2:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+FanatecPodiumDD1:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+FanatecPodiumDD2:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+MozaR5:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+MozaR9:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+MozaR12:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+MozaR16:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+SimagicM10:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+Simucube2Sport:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+Simucube2Pro:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+Simucube2Ultimate:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+AsetekInvicta:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+CammusC5:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+PXNV9:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: ZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+
+default:
+  SteerLeft: XAXIS_NEG
+  SteerRight: XAXIS_POS
+  Gas: YAXIS_NEG
+  Brake: RZAXIS_NEG
+  GearUp: BUTTON5
+  GearDown: BUTTON6
+  Gear1: BUTTON13
+  Gear2: BUTTON14
+  Gear3: BUTTON15
+  Gear4: BUTTON16
+  Gear5: BUTTON17
+  Gear6: BUTTON18
+  GearReverse: BUTTON19
+  ViewChange: POV1_UP
+  IntrudeChange: POV1_DOWN
+  InsertCard: BUTTON1
+  Test: BUTTON21
+  Service: BUTTON32
+  Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+
+# Game-specific gear/shift mappings
+# Format: game_name (lowercase, matches rom folder or TP profile name):
+#   GenericGearKey: "InputMappingEnumName"
+# Generic keys: GearUp, GearDown, Gear1, Gear2, Gear3, Gear4, Gear5, Gear6
+# Values must match InputMapping enum names from Teknoparrot/JoystickMapping.cs
+# If a game is not listed here, the generic fallback mapping in C# is used.
+GameGearMappings:
+  arcticthunder:
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  ballistics:
+    Start: "P1ButtonStart"
+    ViewChange: "P1Button3"
+  batlgr3:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  batlgr3t:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  batman:
+    Start: "P1Button2"
+  battlegear4:
+    GearUp: "P1Button2"
+    GearDown: "P1Button3"
+    ViewChange: "P1ButtonUp"
+    Start: "P1ButtonStart"
+  battlegear4tuned:
+    GearUp: "P1Button2"
+    GearDown: "P1Button3"
+    ViewChange: "P1ButtonUp"
+    Start: "P1ButtonStart"
+  cars:
+    Start: "P1ButtonStart"
+  chasehq2:
+    GearUp: "P1ButtonDown"
+    GearDown: "P1ButtonUp"
+    Start: "ExtensionOne4"
+  crazyride:
+    Start: "P1ButtonStart"
+  crazyspeed:
+    GearUp: "P1Button2"
+    GearDown: "P1Button3"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  cruisnblast:
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  d1gp:
+    GearUp: "P1ButtonUp"
+    GearDown: "P1ButtonDown"
+    ViewChange: "P1Button1"
+    InsertCard: "P1Button3"
+    Start: "P1ButtonStart"
+  daytona3:
+    GearUp: "P1Button5"
+    GearDown: "P1Button6"
+    Gear1: "P1Button1"
+    Gear2: "P1Button2"
+    Gear3: "P1Button3"
+    Gear4: "P1Button4"
+    ViewChange: "P2Button1"
+    Start: "P1ButtonStart"
+  daytona3nse:
+    GearUp: "P1Button5"
+    GearDown: "P1Button6"
+    Gear1: "P1Button1"
+    Gear2: "P1Button2"
+    Gear3: "P1Button3"
+    Gear4: "P1Button4"
+    ViewChange: "P2Button1"
+    Start: "P1ButtonStart"
+  deadheat:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    ViewChange: "P1Button2"
+  deadheatriders:
+    ViewChange: "P1Button5"
+  dirtydrivin:
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  fr:
+    GearUp: "P1Button1"
+    GearDown: "P1Button2"
+    ViewChange: "P1Button3"
+    Start: "P1ButtonStart"
+  fnf:
+    GearUp: "FnfGearChangeUp"
+    GearDown: "FnfGearChangeDown"
+    Gear1: "FnfGearChange1"
+    Gear2: "FnfGearChange2"
+    Gear3: "FnfGearChange3"
+    Gear4: "FnfGearChange4"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  fnfdrift:
+    GearUp: "P1ButtonUp"
+    GearDown: "P1ButtonDown"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  fnfsb:
+    GearUp: "P1Button3"
+    GearDown: "P1Button4"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  fnfsb2:
+    GearUp: "P1Button3"
+    GearDown: "P1Button4"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  fnfsc:
+    GearUp: "P1ButtonUp"
+    GearDown: "P1ButtonDown"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  gaelcochampionshiptuningrace:
+    GearUp: "P1ButtonUp"
+    GearDown: "P1Button1"
+    ViewChange: "P1Button2"
+    Start: "P1Button3"
+  grid:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    GearReverse: "P1Button5"
+    ViewChange: "P1Button1"
+    ResetButton: "P1Button2"
+    ReplayButton: "P1ButtonUp"
+    LookBehind: "P1Button3"
+    LookBehind2: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  gticlub3:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Start: "P1ButtonStart"
+  h2overdrive:
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  harley:
+    GearUp: "P1Button3"
+    GearDown: "P1Button4"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  hotwheels:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+  hummer:
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  hummerextreme:
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  hydrothunder:
+    ViewChange: "P1Button2"
+  id4:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id4exp:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id4expelf2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id4jap:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id4japelf2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id5:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id5elf2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id6:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id7:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  id8:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  idta:
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
+    ViewChange: "P1Button1"
+    Start: "P1Button3"
+  idtas5:
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
+    ViewChange: "P1Button1"
+    Start: "P1Button3"
+  idz:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "ExtensionOne1"
+    Gear2: "ExtensionOne2"
+    Gear3: "ExtensionOne3"
+    Gear4: "ExtensionOne4"
+    Gear5: "ExtensionOne11"
+    Gear6: "ExtensionOne12"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  idztp:
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  idzv2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "ExtensionOne1"
+    Gear2: "ExtensionOne2"
+    Gear3: "ExtensionOne3"
+    Gear4: "ExtensionOne4"
+    Gear5: "ExtensionOne11"
+    Gear6: "ExtensionOne12"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  idzv2tp:
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  lgs:
+    GearUp: "ExtensionOne13"
+    GearDown: "ExtensionOne14"
+    ViewChange: "ExtensionOne1"
+  maximumheat:
+    ViewChange: "P1Button2"
+  mkdx:
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  mkdx118:
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  mkdxusa:
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  mkdxusa106:
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  motogp2000:
+    GearUp: "P1Button3"
+    GearDown: "P1Button4"
+    ViewChange: "P1Button2"
+  nfsheattakedown:
+    Start: "P1ButtonStart"
+  nicktoonsnitro:
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  nirin:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1Button2"
+  offroadthunder:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    Gear1: "P1Button5"
+    Gear2: "P1Button6"
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  or2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  or2b:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  or2sp:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  or2spdlx:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  or2spdlxelf2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  radikalbikers:
+    ViewChange: "P1Button3"
+    Start: "P1Button4"
+  revolt:
+    ViewChange: "P1Button2"
+    Start: "P1ButtonStart"
+  roadfighters3d:
+    GearUp: "JvsTwoP1Button1"
+    GearDown: "JvsTwoP1Button2"
+    Gear1: "P2Button1"
+    Gear2: "P2Button2"
+    Gear3: "P2Button3"
+    Gear4: "P2Button4"
+    Gear5: "P2Button5"
+    Gear6: "P2Button6"
+    ViewChange: "P1Button1"
+  r-tuned:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  r-tunedelf2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  segartv:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  segartvelf2:
+    GearUp: "P2ButtonUp"
+    GearDown: "P2ButtonDown"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  showdown:
+    ViewChange: "P1Button1"
+    Start: "P1ButtonStart"
+  snocross:
+    ViewChange: "P1Button3"
+    Start: "P1ButtonStart"
+  sr3:
+    GearUp: "P1Button1"
+    GearDown: "P1Button2"
+    ViewChange: "P1Button3"
+    Handbrake: "P1Button4"
+    Start: "P1ButtonStart"
+  src:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1ButtonLeft"
+    Gear1: "SrcGearChange1"
+    Gear2: "SrcGearChange2"
+    Gear3: "SrcGearChange3"
+    Gear4: "SrcGearChange4"
+    ViewChange: "P1ButtonDown"
+    Start: "P1ButtonStart"
+  swdc:
+    GearUp: "P2ButtonStart"
+    GearDown: "P2Button1"
+    ViewChange: "P1Button1"
+    Start: "P1Button3"
+  thrilldrive4:
+    GearUp: "P1Button3"
+    GearDown: "P1Button4"
+    ViewChange: "P1Button1"
+    Start: "P1Button2"
+  tokyocop:
+    ViewChange: "P1Button2"
+    Start: "P1Button3"
+  virtuarlimit:
+    GearUp: "P1ButtonRight"
+    GearDown: "P1Button1"
+    Start: "P1ButtonStart"
+  wmmt3:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt3dxp:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt5:
+    GearUp: "P1Button2"
+    GearDown: "P1Button3"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt5dx:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt5dxplus:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt6:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt6r:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
+  wmmt6rr:
+    GearUp: "Wmmt5GearChangeUp"
+    GearDown: "Wmmt5GearChangeDown"
+    Gear1: "Wmmt5GearChange1"
+    Gear2: "Wmmt5GearChange2"
+    Gear3: "Wmmt5GearChange3"
+    Gear4: "Wmmt5GearChange4"
+    Gear5: "Wmmt5GearChange5"
+    Gear6: "Wmmt5GearChange6"
+    ViewChange: "ExtensionOne1"
+    Start: "P1ButtonStart"
