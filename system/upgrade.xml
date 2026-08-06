@@ -127,33 +127,39 @@
     <delete path="emulators\retroarch\cores\mame_libretro.dll"/>
     <delete path="emulators\retroarch\cores\scummvm_libretro.dll"/>
     <delete path="emulators\retroarch\cores\supermodel_libretro.dll"/>
+    <delete path="emulators\retroarch\cores\virtualjaguar_libretro.dll"/>
     <delete path="bios\mame\hash"/>
     <delete path="emulators\mame\hash"/>
     <move path="emulators\capriceforever" to="emulators\capriceforever.backup"/>
     <move path="emulators\jgenesis\jgenesis-config.toml" to="emulators\jgenesis\jgenesis-config.toml.backup"/>
     <move path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.backup"/>
+    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
   </actions>
   <actions version="8.0.1">
     <delete path="emulators\retroarch\cores\mame_libretro.dll"/>
     <delete path="emulators\retroarch\cores\azahar_libretro.dll"/>
     <delete path="emulators\retroarch\cores\fbneo_libretro.dll"/>
     <delete path="emulators\retroarch\cores\scummvm_libretro.dll"/>
+    <delete path="emulators\retroarch\cores\virtualjaguar_libretro.dll"/>
     <delete path="bios\mame\hash"/>
     <move path="emulators\fbneo" to="emulators\fbneo.backup"/>
     <move path="emulators\mandarine" to="emulators\mandarine.backup"/>
     <move path="emulators\snes9x" to="emulators\snes9x.backup"/>
     <move path="saves\switch\ryujinx\portable\Config.json" to="saves\switch\ryujinx\portable\Config.json.backup"/>
+    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
   </actions>
   <actions version="8.0.0.0">
     <delete path="emulators\retroarch\cores\mame_libretro.dll"/>
     <delete path="emulators\retroarch\cores\azahar_libretro.dll"/>
     <delete path="emulators\retroarch\cores\fbneo_libretro.dll"/>
     <delete path="emulators\retroarch\cores\scummvm_libretro.dll"/>
+    <delete path="emulators\retroarch\cores\virtualjaguar_libretro.dll"/>
     <delete path="bios\mame\hash"/>
     <move path="emulators\fbneo" to="emulators\fbneo.backup"/>
     <move path="emulators\mandarine" to="emulators\mandarine.backup"/>
     <move path="emulators\snes9x" to="emulators\snes9x.backup"/>
     <move path="saves\switch\ryujinx\portable\Config.json" to="saves\switch\ryujinx\portable\Config.json.backup"/>
+    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
   </actions>
   <actions version="7.5.3">
     <move path="emulators\retroarch\shaders" to="emulators\retroarch.backup\shaders"/>
@@ -273,5 +279,6 @@
     <move path="emulators\mandarine" to="emulators\mandarine.backup"/>
     <move path="emulators\snes9x" to="emulators\snes9x.backup"/>
     <move path="saves\switch\ryujinx\portable\Config.json" to="saves\switch\ryujinx\portable\Config.json.backup"/>
+    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
   </actions>
 </upgradeinfo>
