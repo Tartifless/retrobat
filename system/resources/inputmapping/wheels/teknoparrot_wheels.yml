@@ -1,8 +1,8 @@
-# This file is provided with RetroBat[cite: 1]
-# It can be used to automatically generate wheel mapping for TeknoParrot racing games[cite: 1]
-# Each container must be named with the wheel type internal to RetroBat (see Common/Wheels.cs WheelType enum)[cite: 1]
-# The key represents the TeknoParrot InputMapping (canonical tag, no duplicates)[cite: 1]
-# The value represents the DirectInput code (BUTTON# or AXIS code)[cite: 1]
+# This file is provided with RetroBat
+# It can be used to automatically generate wheel mapping for TeknoParrot racing games
+# Each container must be named with the wheel type internal to RetroBat (see Common/Wheels.cs WheelType enum)
+# The key represents the TeknoParrot InputMapping (canonical tag, no duplicates)
+# The value represents the DirectInput code (BUTTON# or AXIS code)
 #
 # IMPORTANT - Note on indices (Offset of +1):
 # In the TeknoParrot user interface (UI), buttons are displayed starting from index 0 (e.g., Driving Buttons0).
@@ -13,12 +13,12 @@
 # Some wheel profiles and indices in this file are set according to general hardware standards 
 # but have not been physically tested. They should be verified.
 #
-# Canonical tags per physical button (aliases resolved in C# wheelAliasToRole):[cite: 1]
-#   South=BUTTON1  East=BUTTON2  West=BUTTON3  North=BUTTON4[cite: 1]
-#   GearUp=BUTTON5 (PaddleRight)  GearDown=BUTTON6 (PaddleLeft)[cite: 1]
-#   Boost=BUTTON7 (Nitro)  Handbrake=BUTTON8[cite: 1]
-#   MenuUp=POV1_UP (ViewChange)  MenuDown=POV1_DOWN (IntrudeChange/ViewChange4)[cite: 1]
-#   MenuLeft=POV1_LEFT (ViewChange3)  MenuRight=POV1_RIGHT (ViewChange2)[cite: 1]
+# Canonical tags per physical button (aliases resolved in C# wheelAliasToRole)
+#   South=BUTTON1  East=BUTTON2  West=BUTTON3  North=BUTTON4
+#   GearUp=BUTTON5 (PaddleRight)  GearDown=BUTTON6 (PaddleLeft)
+#   Boost=BUTTON7 (Nitro)  Handbrake=BUTTON8
+#   MenuUp=POV1_UP (ViewChange)  MenuDown=POV1_DOWN (IntrudeChange/ViewChange4)
+#   MenuLeft=POV1_LEFT (ViewChange3)  MenuRight=POV1_RIGHT (ViewChange2)
 
 LogitechG29:
   SteerLeft: XAXIS_NEG
