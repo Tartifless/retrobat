@@ -5,10 +5,11 @@
 # The value represents the DirectInput code (BUTTON# or AXIS code)
 # Use the LogitechG29 entry as example
 #
-# For axes, values are: XAXIS_POS, XAXIS_NEG, YAXIS_POS, YAXIS_NEG, ZAXIS_POS, ZAXIS_NEG, RZAXIS_POS, RZAXIS_NEG
+# For axes, values are: XAXIS_POS, XAXIS_NEG, YAXIS_POS, YAXIS_NEG, ZAXIS_POS, ZAXIS_NEG, RZAXIS_POS, RZAXIS_NEG, SLIDERS0_POS, SLIDERS0_NEG, SLIDERS1_POS, SLIDERS1_NEG
 # For buttons, values are: BUTTON1, BUTTON2, BUTTON3, etc. (1-based, corresponding to DirectInput button index)
 # For POV/Hat, values are: POV1_UP, POV1_DOWN, POV1_LEFT, POV1_RIGHT, POV2_UP, etc.
 #
+# AnalogY key can be used for clutch pedal or secondary analog Y axis (e.g. SLIDERS0_POS)
 # The ImportDirectInputButton method will translate these codes to proper DirectInputButton objects
 
 LogitechG29:
@@ -39,6 +40,16 @@ LogitechG29:
   Nitro: BUTTON7
   Boost: BUTTON7
   Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 LogitechG920:
   SteerLeft: XAXIS_NEG
@@ -68,6 +79,16 @@ LogitechG920:
   Nitro: BUTTON7
   Boost: BUTTON7
   Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 LogitechG923PS:
   SteerLeft: XAXIS_NEG
@@ -97,6 +118,16 @@ LogitechG923PS:
   Nitro: BUTTON7
   Boost: BUTTON7
   Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 LogitechG923X:
   SteerLeft: XAXIS_NEG
@@ -126,6 +157,16 @@ LogitechG923X:
   Nitro: BUTTON7
   Boost: BUTTON7
   Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 LogitechGPro:
   SteerLeft: XAXIS_NEG
@@ -155,6 +196,16 @@ LogitechGPro:
   Nitro: BUTTON7
   Boost: BUTTON7
   Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterT150:
   SteerLeft: XAXIS_NEG
@@ -175,6 +226,24 @@ ThrustmasterT150:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterTMX:
   SteerLeft: XAXIS_NEG
@@ -195,6 +264,24 @@ ThrustmasterTMX:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterT300RSPS4:
   SteerLeft: XAXIS_NEG
@@ -215,6 +302,24 @@ ThrustmasterT300RSPS4:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterT300RSPS3:
   SteerLeft: XAXIS_NEG
@@ -235,6 +340,24 @@ ThrustmasterT300RSPS3:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterT300RSPS3ADV:
   SteerLeft: XAXIS_NEG
@@ -255,6 +378,24 @@ ThrustmasterT300RSPS3ADV:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterT500RS:
   SteerLeft: XAXIS_NEG
@@ -275,6 +416,24 @@ ThrustmasterT500RS:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterTX:
   SteerLeft: XAXIS_NEG
@@ -295,6 +454,24 @@ ThrustmasterTX:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterT248:
   SteerLeft: XAXIS_NEG
@@ -315,6 +492,24 @@ ThrustmasterT248:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 ThrustmasterTSXW:
   SteerLeft: XAXIS_NEG
@@ -335,6 +530,24 @@ ThrustmasterTSXW:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 FanatecCSLElite:
   SteerLeft: XAXIS_NEG
@@ -355,6 +568,24 @@ FanatecCSLElite:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 FanatecClubSportWheelBaseV2:
   SteerLeft: XAXIS_NEG
@@ -375,6 +606,24 @@ FanatecClubSportWheelBaseV2:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 FanatecPodiumDD1:
   SteerLeft: XAXIS_NEG
@@ -395,6 +644,24 @@ FanatecPodiumDD1:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 FanatecPodiumDD2:
   SteerLeft: XAXIS_NEG
@@ -415,6 +682,24 @@ FanatecPodiumDD2:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 MozaR5:
   SteerLeft: XAXIS_NEG
@@ -435,6 +720,24 @@ MozaR5:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 MozaR9:
   SteerLeft: XAXIS_NEG
@@ -455,6 +758,24 @@ MozaR9:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 MozaR12:
   SteerLeft: XAXIS_NEG
@@ -475,6 +796,24 @@ MozaR12:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 MozaR16:
   SteerLeft: XAXIS_NEG
@@ -495,6 +834,24 @@ MozaR16:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 SimagicM10:
   SteerLeft: XAXIS_NEG
@@ -515,6 +872,24 @@ SimagicM10:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 Simucube2Sport:
   SteerLeft: XAXIS_NEG
@@ -535,6 +910,24 @@ Simucube2Sport:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 Simucube2Pro:
   SteerLeft: XAXIS_NEG
@@ -555,6 +948,24 @@ Simucube2Pro:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 Simucube2Ultimate:
   SteerLeft: XAXIS_NEG
@@ -575,6 +986,24 @@ Simucube2Ultimate:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 AsetekInvicta:
   SteerLeft: XAXIS_NEG
@@ -595,6 +1024,24 @@ AsetekInvicta:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 CammusC5:
   SteerLeft: XAXIS_NEG
@@ -615,6 +1062,24 @@ CammusC5:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
+  MenuUp: POV1_UP
+  MenuDown: POV1_DOWN
+  MenuLeft: POV1_LEFT
+  MenuRight: POV1_RIGHT
 
 PXNV9:
   SteerLeft: XAXIS_NEG
@@ -635,6 +1100,20 @@ PXNV9:
   Test: BUTTON21
   Service: BUTTON32
   Coin: BUTTON9
+  Start: BUTTON10
+  ResetButton: BUTTON2
+  ReplayButton: BUTTON4
+  LookBehind: BUTTON3
+  LookBehind2: BUTTON1
+  Nitro: BUTTON7
+  Boost: BUTTON7
+  Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
 
 default:
   SteerLeft: XAXIS_NEG
@@ -664,6 +1143,12 @@ default:
   Nitro: BUTTON7
   Boost: BUTTON7
   Handbrake: BUTTON8
+  ViewChange2: POV1_RIGHT
+  ViewChange3: POV1_LEFT
+  ViewChange4: POV1_DOWN
+  PaddleLeft: BUTTON6
+  PaddleRight: BUTTON5
+  AnalogY: SLIDERS0_POS
 
 # Game-specific gear/shift mappings
 # Format: game_name (lowercase, matches rom folder or TP profile name):
@@ -701,7 +1186,9 @@ GameGearMappings:
     ViewChange: "P1ButtonUp"
     Start: "P1ButtonStart"
   cars:
-    Start: "P1ButtonStart"
+    Boost: "P1ButtonStart"
+    Brake: "P1Button5"
+    GearDown: "P1Button4"
   chasehq2:
     GearUp: "P1ButtonDown"
     GearDown: "P1ButtonUp"
@@ -936,6 +1423,14 @@ GameGearMappings:
     ViewChange: "P1Button1"
     Start: "P1ButtonStart"
   idta:
+    SteerMapping: "Analog1"
+    GasMapping: "Analog3"
+    BrakeMapping: "Analog5"
+    Start: "P1Button3"
+    Test: "P1Button5"
+    Service: "P1Button2"
+    InsertCard: "ExtensionOne13"
+    ViewChange: "P1Button1"
     GearUp: "IDZGearChangeUp"
     GearDown: "IDZGearChangeDown"
     Gear1: "IDZGearChange1"
@@ -944,31 +1439,49 @@ GameGearMappings:
     Gear4: "IDZGearChange4"
     Gear5: "IDZGearChange5"
     Gear6: "IDZGearChange6"
-    ViewChange: "P1Button1"
-    Start: "P1Button3"
   idtas5:
-    GearUp: "IDZGearChangeUp"
-    GearDown: "IDZGearChangeDown"
-    Gear1: "IDZGearChange1"
-    Gear2: "IDZGearChange2"
-    Gear3: "IDZGearChange3"
-    Gear4: "IDZGearChange4"
-    Gear5: "IDZGearChange5"
-    Gear6: "IDZGearChange6"
-    ViewChange: "P1Button1"
+    SteerMapping: "Analog1"
+    GasMapping: "Analog3"
+    BrakeMapping: "Analog5"
     Start: "P1Button3"
+    Test: "P1Button5"
+    Service: "P1Button2"
+    InsertCard: "ExtensionOne13"
+    ViewChange: "P1Button1"
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
   idz:
-    GearUp: "P2ButtonUp"
-    GearDown: "P2ButtonDown"
-    Gear1: "ExtensionOne1"
-    Gear2: "ExtensionOne2"
-    Gear3: "ExtensionOne3"
-    Gear4: "ExtensionOne4"
-    Gear5: "ExtensionOne11"
-    Gear6: "ExtensionOne12"
+    SteerMapping: "Analog1"
+    GasMapping: "Analog3"
+    BrakeMapping: "Analog5"
+    Start: "P1Button3"
+    Test: "P1Button5"
+    Service: "P1Button2"
+    InsertCard: "ExtensionOne13"
     ViewChange: "P1Button1"
-    Start: "P1ButtonStart"
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
   idztp:
+    SteerMapping: "Analog1"
+    GasMapping: "Analog3"
+    BrakeMapping: "Analog5"
+    Start: "P1Button3"
+    Test: "P1Button5"
+    Service: "P1Button2"
+    InsertCard: "ExtensionOne13"
+    ViewChange: "P1Button1"
     GearUp: "IDZGearChangeUp"
     GearDown: "IDZGearChangeDown"
     Gear1: "IDZGearChange1"
@@ -977,20 +1490,15 @@ GameGearMappings:
     Gear4: "IDZGearChange4"
     Gear5: "IDZGearChange5"
     Gear6: "IDZGearChange6"
-    ViewChange: "P1Button1"
-    Start: "P1ButtonStart"
   idzv2:
-    GearUp: "P2ButtonUp"
-    GearDown: "P2ButtonDown"
-    Gear1: "ExtensionOne1"
-    Gear2: "ExtensionOne2"
-    Gear3: "ExtensionOne3"
-    Gear4: "ExtensionOne4"
-    Gear5: "ExtensionOne11"
-    Gear6: "ExtensionOne12"
+    SteerMapping: "Analog1"
+    GasMapping: "Analog3"
+    BrakeMapping: "Analog5"
+    Start: "P1Button3"
+    Test: "P1Button5"
+    Service: "P1Button2"
+    InsertCard: "ExtensionOne13"
     ViewChange: "P1Button1"
-    Start: "P1ButtonStart"
-  idzv2tp:
     GearUp: "IDZGearChangeUp"
     GearDown: "IDZGearChangeDown"
     Gear1: "IDZGearChange1"
@@ -999,8 +1507,23 @@ GameGearMappings:
     Gear4: "IDZGearChange4"
     Gear5: "IDZGearChange5"
     Gear6: "IDZGearChange6"
+  idzv2tp:
+    SteerMapping: "Analog1"
+    GasMapping: "Analog3"
+    BrakeMapping: "Analog5"
+    Start: "P1Button3"
+    Test: "P1Button5"
+    Service: "P1Button2"
+    InsertCard: "ExtensionOne13"
     ViewChange: "P1Button1"
-    Start: "P1ButtonStart"
+    GearUp: "IDZGearChangeUp"
+    GearDown: "IDZGearChangeDown"
+    Gear1: "IDZGearChange1"
+    Gear2: "IDZGearChange2"
+    Gear3: "IDZGearChange3"
+    Gear4: "IDZGearChange4"
+    Gear5: "IDZGearChange5"
+    Gear6: "IDZGearChange6"
   lgs:
     GearUp: "ExtensionOne13"
     GearDown: "ExtensionOne14"
@@ -1226,3 +1749,58 @@ GameGearMappings:
     Gear6: "Wmmt5GearChange6"
     ViewChange: "ExtensionOne1"
     Start: "P1ButtonStart"
+
+  # ############ TRIFORCE ############
+  fzeroax:
+    # Disable defaults that would wrongly hit FZeroAX buttons / Désactive les defaults qui toucheraient les boutons FZeroAX
+    GearReverse: ""
+    Handbrake: ""
+    Nitro: ""
+    # Game-specific button overrides / Overrides spécifiques au jeu
+    Boost: "P1Button1"
+    ViewChange: "P1Button4"
+    ViewChange2: "P1Button5"
+    ViewChange3: "P1Button6"
+    ViewChange4: "ExtensionOne11"
+    PaddleLeft: "ExtensionTwo12"
+    PaddleRight: "P2Button2"
+    Start: "P1ButtonStart"
+    GasMapping: "Analog4"
+    BrakeMapping: "Analog6"
+    AnalogYMapping: "Analog2"
+  fzeroaxmonster:
+    GearReverse: ""
+    Handbrake: ""
+    Nitro: ""
+    # Game-specific button overrides / Overrides spécifiques au jeu
+    Boost: "P1Button1"
+    ViewChange: "P1Button4"
+    ViewChange2: "P1Button5"
+    ViewChange3: "P1Button6"
+    ViewChange4: "ExtensionOne11"
+    PaddleLeft: "ExtensionTwo12"
+    PaddleRight: "P2Button2"
+    Start: "P1ButtonStart"
+    GasMapping: "Analog4"
+    BrakeMapping: "Analog6"
+    AnalogYMapping: "Analog2"
+  mariokartgp:
+    # Disable defaults that would wrongly hit MarioKartGP buttons / Désactive les defaults problématiques
+    GearReverse: ""
+    Handbrake: ""
+    Nitro: ""
+    # Game-specific button overrides / Overrides spécifiques au jeu
+    Boost: "P1Button1"
+    Start: "P1ButtonStart"
+    GasMapping: "Analog4"
+    BrakeMapping: "Analog6"
+  mariokartgp2:
+    # Disable defaults that would wrongly hit MarioKartGP2 buttons / Désactive les defaults problématiques
+    GearReverse: ""
+    Handbrake: ""
+    Nitro: ""
+    # Game-specific button overrides / Overrides spécifiques au jeu
+    Boost: "P1Button1"
+    Start: "P1ButtonStart"
+    GasMapping: "Analog4"
+    BrakeMapping: "Analog6"
