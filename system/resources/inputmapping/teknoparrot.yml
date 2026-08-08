@@ -6337,6 +6337,21 @@ roadfighters3d:
   P2Button5:   # Gear 5
   P2Button6:   # Gear 6
   TPSystem1:   # Enter Saved Pin
+  
+rrv:
+  Test: l3  # Test
+  Service1: r3  # Service
+  Coin1: select  # Coin
+  P1ButtonStart: start  # Start
+  P1Button1: south  # Enter
+  P1Button2: east  # View Change
+  P1Button3: west  # Gear Shift Up
+  P1Button4: north  # Gear Shift Down
+  P1ButtonUp: up  # Up Select
+  P1ButtonDown: down  # Down Select
+  Analog0: leftstickleft  # Wheel Axis Right
+  Analog2: righttrigger  # Gas
+  Analog4: lefttrigger  # Brake
 
 r-tuned:
   Test: l3 # Test

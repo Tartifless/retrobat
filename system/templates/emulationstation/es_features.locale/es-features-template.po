@@ -705,6 +705,98 @@ msgid "Some gear stick are connected to computer with a different device id than
 msgstr ""
 
 msgctxt "game_options"
+msgid "COIN & START BUTTONS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Select where Coin and Start buttons should be mapped when playing with a wheel."
+msgstr ""
+
+msgctxt "game_options"
+msgid "WHEEL BUTTONS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "CONTROLLER (SELECT/START)"
+msgstr ""
+
+msgctxt "game_options"
+msgid "KEYBOARD (D5 / D1)"
+msgstr ""
+
+msgctxt "game_options"
+msgid "TEST & SERVICE BUTTONS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Select where Test and Service buttons should be mapped when playing with a wheel."
+msgstr ""
+
+msgctxt "game_options"
+msgid "CONTROLLER (L3/R3)"
+msgstr ""
+
+msgctxt "game_options"
+msgid "KEYBOARD (0 / 9)"
+msgstr ""
+
+msgctxt "game_options"
+msgid "BATTLEGEAR4TUNED SHIFT MODE"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Select shift mode for BattleGear4Tuned."
+msgstr ""
+
+msgctxt "game_options"
+msgid "SHIFT PADDLES"
+msgstr ""
+
+msgctxt "game_options"
+msgid "SEQUENTIAL SHIFTERS"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PRO MODE SEQUENTIAL"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PRO MODE H-PATTERN"
+msgstr ""
+
+msgctxt "game_options"
+msgid "CUSTOM PROFILE"
+msgstr ""
+
+msgctxt "game_options"
+msgid "Load custom profile for wheel mapping."
+msgstr ""
+
+msgctxt "game_options"
+msgid "DEFAULT"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PROFILE 1"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PROFILE 2"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PROFILE 3"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PROFILE 4"
+msgstr ""
+
+msgctxt "game_options"
+msgid "PRO PALETTE VOLANT (PADDLES)"
+msgstr ""
+
+msgctxt "game_options"
 msgid "DISCORD RICH PRESENCE"
 msgstr ""
 
