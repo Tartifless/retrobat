@@ -1,5 +1,20 @@
 # This file is provided with RetroBat
 # It contains game-specific TeknoParrot wheel input mappings.
+acedriv3:
+  Test: test  # Test
+  Service1: service  # Service
+  Coin1: coin  # Coin
+  P1ButtonStart: start  # Player 1 Start
+  P1Button1: south  # Enter
+  P1Button3: gearup  # Gear Shift Up
+  P1Button4: geardown  # Gear Shift Down
+  P1ButtonDown: down  # Select Down
+  P1ButtonUp: menuup  # Select Up
+  Analog0: steer  # Wheel Axis Right
+  Analog2: gas  # Gas
+  Analog4: brake  # Brake
+  ExtensionOne2: viewchange # View Change
+
 arcticthunder:
   Coin1: coin # Coin
   P1ButtonStart: start # Start
@@ -78,8 +93,6 @@ battlegear4tuned:
   Service1: service # Service
   P1ButtonStart: start # Start
   P1Button1: handbrake # Sidebrake
-  P1Button2: gearup # Gear 4 / Shift Up
-  P1Button3: geardown # Gear 3 / Shift Down
   P1ButtonDown: menuup # Hazard
   P1ButtonLeft: menuleft # Overtake
   P1ButtonRight: menuright # Key
@@ -87,16 +100,75 @@ battlegear4tuned:
   ExtensionOne1: start # Timer Start
   ExtensionOne2: west # Seat Switch 2
   ExtensionOne3: east # Seat Switch 1
-  Analog2: gas # Gas
-  Analog20: steer # Wheel Axis Right
-  Analog4: brake # Brake
-  Analog6: clutch # Clutch
-  P2Button1: viewchange2 # Shift Right
-  P2Button2: viewchange3 # Shift Left
+  Analog6: gas # Gas
+  Analog8: brake # Brake
+  Analog20: steer # Steering
+  # Shifters Paddle (default mode)
+  P1Button3: geardown # Gear 3 / Shift Down 
+  P1Button2: gearup # Gear 4 / Shift Up 
+
+battlegear4tuned_sequential:
+  Test: test # Test
+  Service1: service # Service
+  P1ButtonStart: start # Start
+  P1Button1: handbrake # Sidebrake
+  P1ButtonDown: menuup # Hazard
+  P1ButtonLeft: menuleft # Overtake
+  P1ButtonRight: menuright # Key
+  P1ButtonUp: viewchange # View Change
+  ExtensionOne1: start # Timer Start
+  ExtensionOne2: west # Seat Switch 2
+  ExtensionOne3: east # Seat Switch 1
+  Analog6: gas # Gas
+  Analog8: brake # Brake
+  Analog20: steer # Steering
+  # Sequential Shifters
+  P1Button3: gear3 # Gear 3 / Shift Down
+  P1Button2: gear4 # Gear 4 / Shift Up
+  
+battlegear4tuned_prosequential:
+  Test: test # Test
+  Service1: service # Service
+  P1ButtonStart: start # Start
+  P1Button1: handbrake # Sidebrake
+  P1ButtonDown: menuup # Hazard
+  P1ButtonLeft: menuleft # Overtake
+  P1ButtonRight: menuright # Key
+  P1ButtonUp: viewchange # View Change
+  ExtensionOne1: start # Timer Start
+  ExtensionOne2: west # Seat Switch 2
+  ExtensionOne3: east # Seat Switch 1
+  Analog6: gas # Gas
+  Analog8: brake # Brake  
+  Analog12: clutch # Clutch
+  Analog20: steer # Steering
+  # Pro Mode - only Sequential Shifters
+  P1Button3: gear3 # Gear 3 / Shift Down 
+  P1Button2: gear4 # Gear 4 / Shift Up 
+  
+battlegear4tuned_hpattern:
+  Test: test # Test
+  Service1: service # Service
+  P1ButtonStart: start # Start
+  P1Button1: handbrake # Sidebrake
+  P1ButtonDown: menuup # Hazard
+  P1ButtonLeft: menuleft # Overtake
+  P1ButtonRight: menuright # Key
+  P1ButtonUp: viewchange # View Change
+  ExtensionOne1: start # Timer Start
+  ExtensionOne2: west # Seat Switch 2
+  ExtensionOne3: east # Seat Switch 1
+  Analog6: gas # Gas
+  Analog8: brake # Brake  
+  Analog12: clutch # Clutch
+  Analog20: steer # Steering
+  # Pro Mode H-pattern Shifter - map H-pattern gears
   P2Button3: gear1 # Gear 1
   P2Button4: gear2 # Gear 2
-  P2ButtonDown: gear6 # Gear 6 / Reverse
+  P1Button3: gear3 # Gear 3
+  P1Button2: gear4 # Gear 4
   P2ButtonUp: gear5 # Gear 5
+  P2ButtonDown: gearreverse # Gear 6 / Reverse
 
 cars:
   Test: test # Test
@@ -1034,6 +1106,19 @@ or2spdlx:
   Analog2: gas # Gas
   Analog4: brake # Brake
 
+or2spdlx_1:
+  Test: test # Test
+  Service1: service # Service
+  Coin1: coin # Coin 1
+  P1ButtonStart: start # Start
+  P1ButtonDown: viewchange # View Change
+  # Sequential Shifters
+  P2ButtonDown: gear3 # Gear Shift Down
+  P2ButtonUp: gear4 # Gear Shift Up
+  Analog0: steer # Wheel Axis Right
+  Analog2: gas # Gas
+  Analog4: brake # Brake
+
 or2spdlxelf2:
   Test: test # Test
   Service1: service # Service
@@ -1075,7 +1160,7 @@ ringriders:
   Test: test # Test
   Service1: service # Service
   Coin1: coin # Coin Chute 1
-  P1Button1: south # Menu Down
+  P1Button1: geardown # Menu Down
   P1Button2: viewchange # View Button
   P1Button3: start # Start Button
   P1ButtonUp: gearup # Menu Up
@@ -1107,6 +1192,21 @@ roadfighters3d:
   P2Button4: gear4 # Gear 4
   P2Button5: gear5 # Gear 5
   P2Button6: gear6 # Gear 6
+
+rrv:
+  Test: test # Test
+  Service1: service # Service
+  Coin1: coin # Coin
+  P1ButtonStart: start # Start
+  P1Button1: south # Enter
+  P1Button2: viewchange # View Change
+  P1Button3: gearup # Gear Shift Up
+  P1Button4: geardown # Gear Shift Down
+  P1ButtonUp: menuup # Up Select
+  P1ButtonDown: menudown # Down Select
+  Analog0: steer # Wheel Axis Right
+  Analog2: gas # Gas
+  Analog4: brake # Brake
 
 r-tuned:
   Test: test # Test
@@ -1334,6 +1434,34 @@ wackyraces:
   Analog6: gas # Gas
   Analog8: brake # Brake
   ExtensionOne4: viewchange # View Change
+
+wanganmd:
+  Test: test # Test
+  Service1: service # Service
+  Coin1: coin # Coin
+  P1Button1: south # Enter
+  P1Button2: viewchange # View Change
+  P1Button3: gearup # Gear Shift Up
+  P1Button4: geardown # Gear Shift Down
+  P1ButtonDown: menudown # Select Down
+  P1ButtonUp: menuup # Select Up
+  Analog0: steer # Wheel Axis Right
+  Analog2: gas # Gas
+  Analog4: brake # Brake
+
+wanganmr:
+  Test: test # Test
+  Service1: service # Service
+  Coin1: coin # Coin
+  P1Button1: south # Enter
+  P1Button2: viewchange # View Change
+  P1Button3: gearup # Gear Shift Up
+  P1Button4: geardown # Gear Shift Down
+  P1ButtonDown: menudown # Select Down
+  P1ButtonUp: menuup # Select Up
+  Analog0: steer # Wheel Axis Right
+  Analog2: gas # Gas
+  Analog4: brake # Brake
 
 wastelandracers:
   Test: test # Test
