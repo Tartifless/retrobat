@@ -230,7 +230,7 @@ cruisnblast:
   P1Button1: viewchange # View Button
   P1Button2: east # View2 Button
   P1Button3: west # Tunes Button
-  P1Button4: north # Brake Pedal Button
+  P1Button4: brake # Brake Pedal Button
   P1Button5: menuup # Volume Up
   P1Button6: menudown # Volume Down
   P1ButtonDown: south # TestMenu Down
@@ -378,7 +378,7 @@ fnfsb:
   P1ButtonRight: menudown # Volume Down
   Analog0: steer # Wheel Axis Right
   Analog2: gas # Gas
-  Analog4: brake # Brake / Shift Down
+  Analog4: geardown # Brake / Shift Down
 
 fnfsb2:
   Test: test # Test
@@ -402,11 +402,11 @@ fnfsc:
   P1Button2: east # View1
   P1Button3: west # View2
   P1Button4: north # View3
-  P1Button5: gearup # Music
+  P1Button5: menuright # Music
   P1ButtonDown: geardown # Shift Down
   P1ButtonLeft: menuup # Volume Up
   P1ButtonRight: menudown # Volume Down
-  P1ButtonUp: south # Shift Up
+  P1ButtonUp: gearup # Shift Up
   Analog0: steer # Wheel Axis Right
   Analog2: gas # Gas
   Analog4: brake # Brake
@@ -428,7 +428,7 @@ frenzyexpress:
   P1ButtonStart: start # Start
   P1Button1: south # Gas Left
   P1Button2: east # Gas Right
-  P1Button3: west # Brake
+  P1Button3: brake # Brake
   P1ButtonLeft: menuleft # Select Left
   P1ButtonRight: menuright # Select Right
   Analog0: steer # Wheel Axis Right
@@ -493,7 +493,7 @@ h2overdrive:
   P1Button6: geardown # Vol / Menu Down
   Analog0: steer # Wheel Axis Right
   Analog2: gas # Throttle Up Axis (Gas)
-  Analog4: gas # Throttle Down Axis (Brake)
+  Analog4: brake # Throttle Down Axis (Brake)
 
 harley:
   Test: test # Test
@@ -951,7 +951,7 @@ mkdxusa:
   Coin1: coin # Coin
   P1ButtonStart: start # Start
   P1Button1: south # Enter Switch
-  P1Button3: west # Brake
+  P1Button3: brake # Brake
   P1Button5: gearup # Item
   P1ButtonDown: menudown # Menu Down
   P1ButtonUp: menuup # Menu Up
@@ -965,7 +965,7 @@ mkdxusa106:
   Coin1: coin # Coin
   P1ButtonStart: start # Start
   P1Button1: south # Enter Switch
-  P1Button3: west # Brake
+  P1Button3: brake # Brake
   P1Button5: gearup # Item
   P1ButtonDown: menudown # Menu Down
   P1ButtonUp: menuup # Menu Up
@@ -1004,7 +1004,7 @@ nfsheattakedown:
   Coin1: coin # Coin
   P1ButtonStart: start # Start
   P1Button1: boost # Boost
-  P1Button2: east # Brake Button
+  P1Button2: handbrake # Brake Button
   P1Button3: menuup # Volume Up
   P1Button4: menudown # Volume Down
   Analog0: steer # Wheel Axis Right
@@ -1136,7 +1136,7 @@ radikalbikers:
   Service1: service # Service
   Coin1: coin # Coin
   P1Button1: south # Accl
-  P1Button2: east # Brake
+  P1Button2: brake # Brake
   P1Button3: viewchange # View
   P1Button4: start # Start
   P1ButtonDown: gearup # Handle Up
