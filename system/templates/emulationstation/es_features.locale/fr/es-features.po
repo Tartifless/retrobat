@@ -8358,6 +8358,22 @@ msgid "KEYBOARD (0 / 9)"
 msgstr "CLAVIER (0 / 9)"
 
 msgctxt "game_options"
+msgid "GEARUP/GEARDOWN TO GEAR3/GEAR4 CONVERTER"
+msgstr "CONVERTISSEUR GEARUP/GEARDOWN VERS GEAR3/GEAR4"
+
+msgctxt "game_options"
+msgid "Convert gearup/geardown to gear3/gear4 for sequential shift simulation on standard gear stick."
+msgstr "Convertir gearup/geardown en gear3/gear4 pour simuler le séquentiel sur levier de vitesse standard."
+
+msgctxt "game_options"
+msgid "DISABLED"
+msgstr "DÉSACTIVÉ"
+
+msgctxt "game_options"
+msgid "ENABLED"
+msgstr "ACTIVÉ"
+
+msgctxt "game_options"
 msgid "BATTLEGEAR4TUNED SHIFT MODE"
 msgstr "MODE SHIFT BATTLEGEAR4TUNED"
 
