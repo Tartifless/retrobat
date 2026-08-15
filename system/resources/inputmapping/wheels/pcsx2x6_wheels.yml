@@ -1,0 +1,128 @@
+# This file is provided with RetroBat
+# It can be used to automatically generate Mapping automatically for your wheel in PCSX2x6 (Arcade)
+# Each container must be named with the wheel type internal to RetroBat (see our wiki for the list)
+# The elements listed are the buttons that will be mapped in the emulator
+# The key represents the INI key for the button
+# The value represents the SDL/DInput code for the button
+#
+LogitechG29:
+  wheeltype: 2
+  driver: sdl
+  name: Logitech G HUB G29 Driving Force Racing Wheel USB
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  P1_Up: Hat0North
+  P1_Down: Hat0South
+  P1_Left: Hat0West
+  P1_Right: Hat0East
+  Gas: +Axis7~
+  Brake: +Axis8~
+  Gear3: Button35
+  Gear4: Button36
+  BG3_Hazard_P1: Button23
+  Racing_View_P1: Button24
+  BG3_View_P1: Button24
+  BG3_Sidebrake_P1: Button22
+  Racing_ShiftDown_P1: Button26
+  BG3_ShiftDown_P1: Button26
+  Racing_ShiftUp_P1: Button25
+  BG3_ShiftUp_P1: Button25
+  Coin1: Button30
+  P1_Start: Button45
+LogitechG923PS:
+  driver: sdl
+  name: Logitech G HUB G923 Racing Wheel for PlayStation 4 and PC USB
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  P1_Up: Hat0North
+  P1_Down: Hat0South
+  P1_Left: Hat0West
+  P1_Right: Hat0East
+  Gas: +Axis7~
+  Brake: +Axis8~
+  Gear3: Button35
+  Gear4: Button36
+  BG3_Hazard_P1: Button23
+  Racing_View_P1: Button24
+  BG3_View_P1: Button24
+  BG3_Sidebrake_P1: Button22
+  Racing_ShiftDown_P1: Button26
+  BG3_ShiftDown_P1: Button26
+  Racing_ShiftUp_P1: Button25
+  BG3_ShiftUp_P1: Button25
+  Coin1: Button29
+  P1_Start: Button30
+LogitechDrivingForceGT:
+  driver: sdl
+  name: Logitech Driving Force GT USB
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  P1_Up: Hat0North
+  P1_Down: Hat0South
+  P1_Left: Hat0West
+  P1_Right: Hat0East
+  Gas: +Axis7~
+  Brake: +Axis8~
+  Gear3: Button35
+  Gear4: Button36
+  BG3_Hazard_P1: Button23
+  Racing_View_P1: Button24
+  BG3_View_P1: Button24
+  BG3_Sidebrake_P1: Button22
+  Racing_ShiftDown_P1: Button26
+  BG3_ShiftDown_P1: Button26
+  Racing_ShiftUp_P1: Button25
+  BG3_ShiftUp_P1: Button25
+  Coin1: Button29
+  P1_Start: Button30
+ThrustmasterT300RSPS3:
+  driver: sdl
+  name: Thrustmaster T300RS Racing Wheel
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  P1_Up: Hat0North
+  P1_Down: Hat0South
+  P1_Left: Hat0West
+  P1_Right: Hat0East
+  Gas: +Axis8~
+  Brake: +Axis7~
+  Gear3: Button35
+  Gear4: Button36
+  BG3_Hazard_P1: Button25
+  Racing_View_P1: Button23
+  BG3_View_P1: Button23
+  BG3_Sidebrake_P1: Button24
+  Racing_ShiftDown_P1: Button21
+  BG3_ShiftDown_P1: Button21
+  Racing_ShiftUp_P1: Button22
+  BG3_ShiftUp_P1: Button22
+  Coin1: Button27
+  P1_Start: Button28
+MozaR5:
+  driver: sdl
+  name: SDL_MOZA R5 Base_
+  FFDevice: SDL
+  SteerLeft: -Axis6
+  SteerRight: +Axis6
+  P1_Up: Button25
+  P1_Down: Button27
+  P1_Left: Button28
+  P1_Right: Button26
+  Gas: +Axis8~
+  Brake: +Axis11~
+  Gear3: Button35
+  Gear4: Button36
+  BG3_Hazard_P1: Button22
+  Racing_View_P1: Button24
+  BG3_View_P1: Button24
+  BG3_Sidebrake_P1: Button23
+  Racing_ShiftDown_P1: Button33
+  BG3_ShiftDown_P1: Button33
+  Racing_ShiftUp_P1: Button34
+  BG3_ShiftUp_P1: Button34
+  Coin1: Button58
+  P1_Start: Button56
