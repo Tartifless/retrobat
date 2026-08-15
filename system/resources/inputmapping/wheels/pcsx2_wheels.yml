@@ -20,6 +20,8 @@ LogitechG29:
   Right: Hat0East
   Throttle: +Axis7~
   Brake: +Axis8~
+  Gear3: Button35
+  Gear4: Button36
   East: Button23
   North: Button24
   South: Button21
@@ -44,6 +46,8 @@ LogitechG923PS:
   Right: Hat0East
   Throttle: +Axis7~
   Brake: +Axis8~
+  Gear3: Button35
+  Gear4: Button36
   East: Button23
   North: Button24
   South: Button21
@@ -68,6 +72,8 @@ LogitechDrivingForceGT:
   Right: Hat0East
   Throttle: +Axis7~
   Brake: +Axis8~
+  Gear3: Button35
+  Gear4: Button36
   East: Button23
   North: Button24
   South: Button21
@@ -92,6 +98,8 @@ ThrustmasterT300RSPS3:
   Right: Hat0East
   Throttle: +Axis8~
   Brake: +Axis7~
+  Gear3: Button35
+  Gear4: Button36
   East: Button25
   North: Button23
   South: Button26
@@ -116,6 +124,8 @@ MozaR5:
   Right: Button26
   Throttle: +Axis8~
   Brake: +Axis11~
+  Gear3: Button35
+  Gear4: Button36
   East: Button22
   North: Button24
   South: Button21
