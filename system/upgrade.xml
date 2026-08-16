@@ -85,7 +85,7 @@
   <neveroverwrite path="emulators\retroarch\retroarch.cfg"/>
   <neveroverwrite path="roms\ports\gamelist.xml"/>
   <neveroverwrite path="emulators\rpcs3\GuiConfigs\CurrentSettings.ini"/>
-  <neveroverwrite path="emulators\rpcs3\config.yml"/>
+  <neveroverwrite path="emulators\rpcs3\config\config.yml"/>
   <neveroverwrite path="emulators\rpcs3\config\vfs.yml"/>
   <neveroverwrite path="saves\switch\ryujinx\portable\Config.json"/>
   <neveroverwrite path="emulators\scummvm\scummvm.ini"/>
@@ -249,7 +249,7 @@
     <rename path="emulators\gopher64\portable_data\config\config.json" to="emulators\gopher64\portable_data\config\config.json.bak"/>
     <rename path="emulators\pcsx2\inis\PCSX2.ini" to="emulators\pcsx2\inis\PCSX2.ini.bak"/>
     <rename path="saves\psp\SYSTEM\ppsspp.ini" to="saves\psp\SYSTEM\ppsspp.ini.bak"/>
-    <rename path="emulators\rpcs3\config.yml" to="emulators\rpcs3\config.yml.bak"/>
+    <rename path="emulators\rpcs3\config\config.yml" to="emulators\rpcs3\config\config.yml.bak"/>
     <rename path="emulators\rpcs3\GuiConfigs\CurrentSettings.ini" to="emulators\rpcs3\GuiConfigs\CurrentSettings.ini.bak"/>
     <rename path="emulators\rpcs3\config\vfs.yml" to="emulators\rpcs3\config\vfs.yml.bak"/>
     <rename path="emulators\citron\user\config\qt-config.ini" to="emulators\citron\user\config\qt-config.ini.bak"/>
