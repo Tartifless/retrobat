@@ -6,7 +6,6 @@ Core:
   Save LLVM logs: false
   Use LLVM CPU: ""
   Max LLVM Compile Threads: 0
-  PPU LLVM Greedy Mode: false
   LLVM Precompilation: true
   Thread Scheduler Mode: Operating System
   Set DAZ and FTZ: false
@@ -39,7 +38,6 @@ Core:
   Accurate PPU 128-byte Reservation Op Max Length: 0
   Stub PPU Traps: 0
   Precise SPU Verification: false
-  PPU LLVM Java Mode Handling: true
   PPU Vector NaN Handling: true
   Use Accurate DFMA: true
   PPU Set Saturation Bit: false
@@ -77,7 +75,7 @@ Video:
   Second Frame Limit: 0
   MSAA: Auto
   Shader Mode: Async Recompiler (multi-threaded)
-  Shader Precision: High
+  Shader Precision: Auto
   VSync Mode: Disabled
   Write Color Buffers: false
   Write Depth Buffer: false
@@ -132,8 +130,7 @@ Video:
   Disable Hardware ColorSpace Remapping: false
   FidelityFX CAS Sharpening Intensity: 50
   Vulkan:
-    Adapter: NVIDIA GeForce RTX 3050 Laptop GPU
-    Force primitive restart flag: false
+    Adapter: ""
     Exclusive Fullscreen Mode: Automatic
     Asynchronous Texture Streaming: false
     Asynchronous Queue Scheduler: Safe
@@ -225,8 +222,6 @@ System:
   Date Format: ddmmyyyy
   Time Format: clock24
   Console time offset (s): 0
-  System Name: RPCS3-612
-  Console PSID: 0x878E41EBD2610D084B5216BA499A7ACC
   HDD Model Name: ""
   HDD Serial Number: ""
   Process ARGV:
@@ -252,7 +247,7 @@ Savestate:
   Maximum SaveState Files Space (MiB): 4096
 Miscellaneous:
   Automatically start games after boot: true
-  Exit RPCS3 when process finishes: false
+  Exit RPCS3 when process finishes: true
   Pause emulation on RPCS3 focus loss: false
   Start games in fullscreen mode: true
   Prevent display sleep while running games: true
