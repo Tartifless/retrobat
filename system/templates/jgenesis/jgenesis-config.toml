@@ -1,4 +1,3 @@
-config_version = "0.13.0"
 [common]
 audio_output_frequency = 48000
 mute_audio = false
@@ -11,7 +10,7 @@ save_path = "EmulatorFolder"
 custom_save_path = ""
 state_path = "EmulatorFolder"
 custom_state_path = ""
-launch_in_fullscreen = false
+launch_in_fullscreen = true
 initial_window_size = 5
 wgpu_backend = "Auto"
 wgpu_power_preference = "HighPerformance"
@@ -273,56 +272,6 @@ key = "Return"
 [input.genesis]
 p1_type = "SixButton"
 p2_type = "SixButton"
-
-[[input.genesis.mapping_1.p1.up]]
-type = "Keyboard"
-key = "Up"
-
-[[input.genesis.mapping_1.p1.left]]
-type = "Keyboard"
-key = "Left"
-
-[[input.genesis.mapping_1.p1.right]]
-type = "Keyboard"
-key = "Right"
-
-[[input.genesis.mapping_1.p1.down]]
-type = "Keyboard"
-key = "Down"
-
-[[input.genesis.mapping_1.p1.a]]
-type = "Keyboard"
-key = "A"
-
-[[input.genesis.mapping_1.p1.b]]
-type = "Keyboard"
-key = "S"
-
-[[input.genesis.mapping_1.p1.c]]
-type = "Keyboard"
-key = "D"
-
-[[input.genesis.mapping_1.p1.x]]
-type = "Keyboard"
-key = "Q"
-
-[[input.genesis.mapping_1.p1.y]]
-type = "Keyboard"
-key = "W"
-
-[[input.genesis.mapping_1.p1.z]]
-type = "Keyboard"
-key = "E"
-
-[[input.genesis.mapping_1.p1.start]]
-type = "Keyboard"
-key = "Return"
-
-[[input.genesis.mapping_1.p1.mode]]
-type = "Keyboard"
-key = "Shift"
-
-[input.genesis.mapping_1.p2]
 
 [input.genesis.mapping_1.p1_turbo]
 
@@ -636,10 +585,6 @@ game_boy_color = true
 game_boy_advance = true
 pc_engine = true
 
-[[input.hotkeys.mapping_1.exit]]
-type = "Keyboard"
-key = "Escape"
-
 [[input.snes.mapping_1.p1.up]]
 type = "Gamepad"
 gamepad_idx = 0
@@ -696,6 +641,130 @@ gamepad_idx = 0
 action = "Button 7"
 
 [[input.snes.mapping_1.p1.select]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 6"
+
+[[input.hotkeys.mapping_1.exit]]
+type = "Keyboard"
+key = "Escape"
+
+[[input.genesis.mapping_1.p1.up]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Hat 0 Up"
+
+[[input.genesis.mapping_1.p1.left]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Hat 0 Left"
+
+[[input.genesis.mapping_1.p1.right]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Hat 0 Right"
+
+[[input.genesis.mapping_1.p1.down]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Hat 0 Down"
+
+[[input.genesis.mapping_1.p1.a]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 2"
+
+[[input.genesis.mapping_1.p1.b]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 0"
+
+[[input.genesis.mapping_1.p1.c]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 1"
+
+[[input.genesis.mapping_1.p1.x]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 4"
+
+[[input.genesis.mapping_1.p1.y]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 3"
+
+[[input.genesis.mapping_1.p1.z]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 5"
+
+[[input.genesis.mapping_1.p1.start]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 7"
+
+[[input.genesis.mapping_1.p1.mode]]
+type = "Gamepad"
+gamepad_idx = 1
+action = "Button 6"
+
+[[input.genesis.mapping_1.p2.up]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Up"
+
+[[input.genesis.mapping_1.p2.left]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Left"
+
+[[input.genesis.mapping_1.p2.right]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Right"
+
+[[input.genesis.mapping_1.p2.down]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Hat 0 Down"
+
+[[input.genesis.mapping_1.p2.a]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 2"
+
+[[input.genesis.mapping_1.p2.b]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 0"
+
+[[input.genesis.mapping_1.p2.c]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 1"
+
+[[input.genesis.mapping_1.p2.x]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 4"
+
+[[input.genesis.mapping_1.p2.y]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 3"
+
+[[input.genesis.mapping_1.p2.z]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 5"
+
+[[input.genesis.mapping_1.p2.start]]
+type = "Gamepad"
+gamepad_idx = 0
+action = "Button 7"
+
+[[input.genesis.mapping_1.p2.mode]]
 type = "Gamepad"
 gamepad_idx = 0
 action = "Button 6"
