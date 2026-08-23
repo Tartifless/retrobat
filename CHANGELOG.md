@@ -1,5 +1,49 @@
 # Changelog
 
+## RetroBat 8.2.1
+<details>
+
+### Emulators\cores:
+- Add .decomp to multiple systems to be able to run decompilation/recompilation projects
+- Add .zar extension to ps4 system
+- Promoted pcsx2x6 as main emulator for Namco2x6
+- Bump dolphin to 2606a
+- Bump duckstation to 0.1-11752
+- Bump Flycast to 2.7
+- Bump Gopher64 to 1.1.36
+- Bump Jgenesis to 0.13.1
+- Bump MAME to 0.289 (groovymame and libretro also)
+- Bump PCSX2 to 2.7.521 (13/08/2026)
+- Bump RPCS3 to v0.0.42-19759-ffc50905 (16/08/2026)
+- Bump Libretro cores: mupen64plus_next, fceumm, dolphin
+
+### Fixes:
+- DOLPHIN: changed way of moving screen based on monitorIndex
+- FBNEO: fix rtypeleo hiscores saving
+- FLYCAST: fix savestates
+- FPINBALL: fix potential null pointers
+- LIBRETRO-MAME: fix using own mapping file for controllers
+- MAME64: fix assignment of player x when game has specific mapping and x+1 controllers are connected
+- PCSX2: fix control mapping for non-HIDAPI controllers
+- PCSX2: fix index for wheels and improved wheels management
+- PCSX2: fix custom crosshair path option
+- PCSX2x6: fix multiplication of lines in .ini for controls
+
+### Features:
+- DUCKSTATION: add negcon device mapping
+- MAME64: add sdljoy input driver (will make switch pro controller work with MAME)
+- PCSX2x6: add wheels mapping (Aynshe)
+- TEKNOPARROT: Add wheels mapping for teknoparrot (Aynshe)
+
+### Other stuff:
+- BIOS CHECK: add namco2x6 bios in bios checker
+- DOLPHIN: change way to move screen
+- DOLPHIN, DUCKSTATION, FLYCAST, JGENESIS, RETROARCH, RPCS3, PCSX2, YMIR: fix some issues with features and added some features, also fixed some issues with controls
+- EMULATOR UPDATES: fixed some issues with emulator update prompts
+- RETROBAT EXE: add ability to launch another app by adding it in .ini file (Goldorakiller)
+
+</details>
+
 ## RetroBat 8.2.0
 <details>
 
