@@ -89,7 +89,7 @@
   <neveroverwrite path="emulators\rpcs3\config\vfs.yml"/>
   <neveroverwrite path="saves\switch\ryujinx\portable\Config.json"/>
   <neveroverwrite path="emulators\scummvm\scummvm.ini"/>
-  <neveroverwrite path="emulators\shadps4\user\config.toml"/>
+  <neveroverwrite path="emulators\shadps4\user\config.json"/>
   <neveroverwrite path="emulators\shadps4\launcher\qt_ui.ini"/>
   <neveroverwrite path="emulators\simple64\input-profiles.ini"/>
   <neveroverwrite path="emulators\simple64\input-settings.ini"/>
