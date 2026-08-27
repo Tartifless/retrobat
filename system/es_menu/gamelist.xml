@@ -18,6 +18,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./amiberry.menu</path>
+		<name>Amiberry (Amiga)</name>
+		<desc>Run Amiberry Emulator (Amiga).</desc>
+		<image>./media/amiberry-logo.png</image>
+		<marquee>./media/amiberry-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>BlitterStudio</developer>
+		<publisher>BlitterStudio.</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./applewin.menu</path>
 		<name>AppleWin (Apple II)</name>
 		<desc>Run AppleWin Emulator (Apple II).</desc>
