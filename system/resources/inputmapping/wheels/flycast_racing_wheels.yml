@@ -1,5 +1,5 @@
 # This file is provided with RetroBat
-# It can be used to automatically generate Mapping automatically for your wheel in Flycast for dreamcast games
+# It can be used to automatically generate Mapping automatically for your wheel in Flycast for dreamcast when using racing controller device
 # Each container must be named with the wheel type internal to RetroBat (see our wiki for the list)
 # The elements listed are the buttons that will be mapped in the emulator
 # The key represents the controller button
