@@ -62,20 +62,17 @@
     "GameIdCrediar": "SBKP",
     "Patches": [
       {
-        "PatchFeature": "mkgp_namcam",
-        "PatchName": "$Disable NAMCAM",
-        "isGecko": false,
-        "Lines": [
-          "0x800790A0:dword:0x98650025"
-        ]
-      },
-      {
         "PatchFeature": "mkgp_loopfix",
         "PatchName": "$Loop Fix",
         "isGecko": false,
         "Lines": [
-          "0x8003226C:dword:0x60000000",
-          "0x80032278:dword:0x41820158"
+          "0x800790A0:dword:0x98650025",
+          "0x8024F95C:dword:0x60000000",
+          "0x80031BF0:dword:0x60000000",
+          "0x80031BFC:dword:0x60000000",
+          "0x800BE10C:dword:0x4800002C",
+          "0x8009F1E0:dword:0x60000000",
+          "0x800319D0:dword:0x60000000"
         ]
       },
       {
@@ -84,6 +81,14 @@
         "isGecko": true,
         "Lines": [
           "04032410 60000000"
+        ]
+      },
+      {
+        "PatchFeature": "mkgp_bootcheck",
+        "PatchName": "$Boot Check Skip (Optional)",
+        "isGecko": true,
+        "Lines": [
+          "040320fc 60000000"
         ]
       },
       {
@@ -106,7 +111,6 @@
         "PatchName": "$Disable NAMCAM",
         "isGecko": false,
         "Lines": [
-          "0x805986E5:byte:0x00000000",
           "0x80073BD8:dword:0x98650025"
         ]
       },
