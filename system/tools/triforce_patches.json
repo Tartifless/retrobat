@@ -103,7 +103,7 @@
   },
   {
     "GameName": "Mario_Kart_GP2",
-    "GameId": "GNLJ82",
+    "GameId": "GNLE82,GNLJ82",
     "GameIdCrediar": "SBNL",
     "Patches": [
       {
