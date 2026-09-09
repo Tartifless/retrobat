@@ -62,6 +62,7 @@
 \system\templates\emulationstation\es_padtokey.cfg|\emulationstation\.emulationstation\es_padtokey.cfg
 \system\templates\emulationstation\es_settings.cfg|\emulationstation\.emulationstation\es_settings.cfg
 \system\templates\emulationstation\mountsquashfs.exe|\emulationstation\mountsquashfs.exe
+\system\templates\emulationstation\gamecontrollerdb.txt|\emulationstation\gamecontrollerdb.txt
 \system\templates\fbneo\config\fbneo64.ini|\emulators\fbneo\config\fbneo64.ini
 \system\templates\flycast\emu.cfg|\emulators\flycast\emu.cfg
 \system\templates\flycast\nvmem_atomiswave.zip|\saves\atomiswave\reicast
