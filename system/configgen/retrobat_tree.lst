@@ -283,6 +283,7 @@ emulators\sudachi\user\config
 emulators\supermodel
 emulators\supermodel\Config
 emulators\supermodel\NVRAM
+emulators\uzdoom
 emulators\vpinball
 emulators\xemu
 emulators\xenia
