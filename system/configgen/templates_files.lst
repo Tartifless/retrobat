@@ -200,6 +200,7 @@
 \system\templates\user\tattoos\README.md|\user\tattoos\README.md
 \system\templates\user\inputmapping\README.txt|\user\inputmapping\README.txt
 \system\templates\user\inputmapping\mame\README.txt|\user\inputmapping\mame\README.txt
+\system\templates\uzdoom\uzdoom_portable.ini|\emulators\uzdoom\uzdoom_portable.ini
 \system\templates\vita3k\config.yml|\emulators\vita3k\config.yml
 \system\templates\vita3k\ux0\user\00\user.xml|\saves\psvita\vita3k\ux0\user\00\user.xml
 \system\templates\quake\hipnotic\vkQuake.cfg|\roms\quake\hipnotic\vkQuake.cfg
