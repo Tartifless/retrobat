@@ -120,6 +120,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./blastem.menu</path>
+		<name>BlastEM (Megadrive)</name>
+		<desc>Run BlastEM Emulator (Megadrive).</desc>
+		<image>./media/blastem-logo.png</image>
+		<marquee>./media/blastem-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Mike Pavone</developer>
+		<publisher>Mike Pavone</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./capriceforever.menu</path>
 		<name>Caprice Forever (Amstrad CPC)</name>
 		<desc>Run Caprice Forever (Amstrad CPC).</desc>
