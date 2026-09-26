@@ -245,6 +245,28 @@
         }
     },
     {
+        "Emulator": "blastem",
+        "Name": "8BitDo M30 xinput",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
+        "mapping": {
+          "a": "buttons.a",
+          "b": "buttons.b",
+          "c": "buttons.rightshoulder",
+          "x": "buttons.x",
+          "y": "buttons.y",
+          "z": "buttons.leftshoulder",
+          "start": "buttons.start",
+          "mode": "buttons.back",
+          "up": "dpads.0.up",
+          "down": "dpads.0.down",
+          "left": "dpads.0.left",
+          "right": "dpads.0.right"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "true"
+        }
+    },
+    {
         "Emulator": "jgenesis",
         "Name": "8BitDo M30 xinput",
         "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
@@ -429,6 +451,28 @@
         },
         "ControllerInfo": {
             "dinput": "false",
+            "needActivationSwitch": "true"
+        }
+    },
+    {
+        "Emulator": "blastem",
+        "Name": "8BitDo M30 switch",
+        "Guid": "030000007e0500000920000000006803,030000007e0500000920000000026803",
+        "mapping": {
+          "a": "buttons.a",
+          "b": "buttons.b",
+          "c": "buttons.rightshoulder",
+          "x": "buttons.x",
+          "y": "buttons.y",
+          "z": "buttons.leftshoulder",
+          "start": "buttons.start",
+          "mode": "buttons.back",
+          "up": "dpads.0.up",
+          "down": "dpads.0.down",
+          "left": "dpads.0.left",
+          "right": "dpads.0.right"
+        },
+        "ControllerInfo": {
             "needActivationSwitch": "true"
         }
     },
@@ -734,6 +778,26 @@
         "ControllerInfo": {
             "dinput": "false"
         }
+    },
+    {
+      "emulator": "blastem",
+      "name": "8BitDo M30 dinput",
+      "guid": "03000000c82d00005106000000000000,03000000c82d00000650000000000000",
+      "driver": "sdl2",
+      "mapping": {
+        "a": "buttons.a",
+        "b": "buttons.b",
+        "c": "buttons.rightshoulder",
+        "x": "buttons.x",
+        "y": "buttons.y",
+        "z": "buttons.leftshoulder",
+        "start": "buttons.start",
+        "mode": "buttons.back",
+        "up": "dpads.0.up",
+        "down": "dpads.0.down",
+        "left": "dpads.0.left",
+        "right": "dpads.0.right"
+      }
     },
     {
         "Emulator": "jgenesis",
