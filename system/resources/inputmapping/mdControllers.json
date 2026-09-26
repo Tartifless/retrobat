@@ -1112,6 +1112,26 @@
         }
     },
     {
+      "emulator": "blastem",
+      "name": "8BitDo M30 2.4",
+      "guid": "03000000a30c00002400000000000000",
+      "driver": "sdl2",
+      "mapping": {
+        "a": "buttons.a",
+        "b": "buttons.b",
+        "c": "buttons.rightshoulder",
+        "x": "buttons.x",
+        "y": "buttons.y",
+        "z": "buttons.leftshoulder",
+        "start": "buttons.start",
+        "mode": "axes.righttrigger",
+        "up": "dpads.0.up",
+        "down": "dpads.0.down",
+        "left": "dpads.0.left",
+        "right": "dpads.0.right"
+      }
+    },
+    {
         "Emulator": "jgenesis",
         "Name": "8BitDo M30 2.4",
         "Guid": "03000000a30c00002400000000000000",
