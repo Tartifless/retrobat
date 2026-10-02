@@ -1641,6 +1641,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./zquestclassic.menu</path>
+		<name>ZQuest Classic</name>
+		<desc>Run Zquest Classic</desc>
+		<image>./media/zquestclassic-logo.png</image>
+		<marquee>./media/zquestclassic-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>ZQuest Classic Foundation</developer>
+		<publisher>PureZC</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./mupen64.menu</path>
 		<name>Mupen64 Plus</name>
 		<desc>Run Rosalie's Mupen GUI.</desc>
