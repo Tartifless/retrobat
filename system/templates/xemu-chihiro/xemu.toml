@@ -1,0 +1,37 @@
+[general]
+show_welcome = false
+
+[general.updates]
+check = false
+
+[input.bindings]
+port1 = 'keyboard'
+
+[display.quality]
+surface_scale = 1
+
+[sys]
+mem_limit = '64'
+
+[sys.files]
+bootrom_path = '.\..\..\bios\mcpx_1.0.bin'
+flashrom_path = '.\..\..\bios\Complex_4627.bin'
+eeprom_path = '.\..\..\saves\xbox\eeprom.bin'
+hdd_path = '.\..\..\saves\xbox\xbox_hdd.qcow2'
+dvd_path = ''
+
+[chihiro.jvs]
+start = 30
+
+[chihiro.jvs_p2]
+start = 31
+coin = 35
+
+[chihiro.settings]
+lightgun_mode = true
+pointer_devices = true
+pointer_grab = false
+
+[chihiro.roms]
+bios_path = '.\..\..\bios\chihiro\chihiro_xbox_bios.bin'
+snapshot_store_path = '.\..\..\saves\chihiro\chihiro_snapshots.qcow2'

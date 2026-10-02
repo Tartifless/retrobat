@@ -208,6 +208,7 @@
 \system\templates\quake\rogue\vkQuake.cfg|\roms\quake\rogue\vkQuake.cfg
 \system\templates\winuae\winuae.ini|\emulators\winuae\winuae.ini
 \system\templates\xemu\xemu.toml|\emulators\xemu\xemu.toml
+\system\templates\xemu-chihiro\xemu.toml|\emulators\xemu-chihiro\xemu.toml
 \system\templates\xenia-canary\gamecontrollerdb.txt|\emulators\xenia-canary\gamecontrollerdb.txt
 \system\templates\xenia-canary\xenia-canary.config.toml|\emulators\xenia-canary\xenia-canary.config.toml
 \system\templates\xenia-edge\xenia-edge.config.toml|\emulators\xenia-edge\xenia-edge.config.toml

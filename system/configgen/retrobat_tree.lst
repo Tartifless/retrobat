@@ -5,6 +5,7 @@ bios\bk
 bios\bsyndrome
 bios\bsyndrome\MUSIC
 bios\cannonball
+bios\chihiro
 bios\dc
 bios\dc\textures
 bios\dinothawr
@@ -80,9 +81,13 @@ bios\scummvm
 bios\supermodel
 bios\supermodel\Config
 bios\swanstation
+bios\triforce
 bios\vice
 bios\xmil
 bios\xrick
+bios\zc210
+bios\zc210\sf2
+bios\zc210\sfx
 cheats
 cheats\capriceforever
 cheats\duckstation
@@ -500,6 +505,7 @@ user\apikey
 user\customratio
 user\inputmapping
 user\inputmapping\mame
+user\padtokey
 user\tattoos
 user\tattoos\default
 user\tattoos\games
