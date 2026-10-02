@@ -1388,14 +1388,31 @@
 	</game>
 	<game>
 		<path>./xemu.menu</path>
-		<name>Xemu (Xbox, Chihiro)</name>
-		<desc>Run Xemu (Xbox, Chihiro).</desc>
+		<name>Xemu (Xbox)</name>
+		<desc>Run Xemu (Xbox).</desc>
 		<image>./media/xemu-logo.png</image>
 		<marquee>./media/xemu-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>Xemu Team</developer>
 		<publisher>Xemu Team</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./xemu-chihiro.menu</path>
+		<name>Xemu Chihiro (Chihiro)</name>
+		<desc>Run Xemu Chihiro(Chihiro).</desc>
+		<image>./media/xemu-chihiro-logo.png</image>
+		<marquee>./media/xemu-chihiro-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Tovaritch</developer>
+		<publisher>Tovaritch</publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />

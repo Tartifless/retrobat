@@ -4,10 +4,13 @@
   <neveroverwrite path="emulationstation\.emulationstation\es_input.cfg"/>
   <neveroverwrite path="emulators\2ship\2ship2harkinian.json"/>
   <neveroverwrite path="emulators\altirra\Altirra.ini"/>
+  <neveroverwrite path="emulators\amiberry\amiberry.conf"/>
+  <neveroverwrite path="emulators\amiberry\amiberry.ini"/>
   <neveroverwrite path="emulators\ares\settings.bml"/>
   <neveroverwrite path="emulators\azahar\user\config\qt-config.ini"/>
   <neveroverwrite path="emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg"/>
   <neveroverwrite path="emulators\bizhawk\config.ini"/>
+  <neveroverwrite path="emulators\blastem\blastem.cfg"/>
   <neveroverwrite path="emulators\capriceforever\Caprice.ini"/>
   <neveroverwrite path="emulators\capriceforever\Device.ini"/>
   <neveroverwrite path="emulators\cemu\portable\settings.xml"/>
@@ -109,6 +112,7 @@
   <neveroverwrite path="emulators\sudachi\user\config\qt-config.ini"/>
   <neveroverwrite path="emulators\supermodel\Config\Supermodel.ini"/>
   <neveroverwrite path="emulators\suyu\user\config\qt-config.ini"/>
+  <neveroverwrite path="emulators\uzdoom\uzdoom_portable.ini"/>
   <neveroverwrite path="emulators\vita3k\config.yml"/>
   <neveroverwrite path="saves\psvita\vita3k\ux0\user\00\user.xml"/>
   <neveroverwrite path="emulators\winuae\winuae.ini"/>
@@ -124,161 +128,14 @@
   <neveroverwrite path="emulators\zinc\zinc.cfg"/>
   <neveroverwrite path="retrobat.ini"/>
   <actions>
-    <delete path="emulators\retroarch\cores\mame_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\scummvm_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\supermodel_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\virtualjaguar_libretro.dll"/>
-    <delete path="bios\mame\hash"/>
-    <delete path="emulators\mame\hash"/>
-    <move path="emulators\capriceforever" to="emulators\capriceforever.backup"/>
-    <move path="emulators\jgenesis\jgenesis-config.toml" to="emulators\jgenesis\jgenesis-config.toml.backup"/>
-    <move path="emulators\ymir\Ymir.toml" to="emulators\ymir\Ymir.toml.backup"/>
-    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
-  </actions>
-  <actions version="8.0.1">
-    <delete path="emulators\retroarch\cores\mame_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\azahar_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\fbneo_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\scummvm_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\virtualjaguar_libretro.dll"/>
-    <delete path="bios\mame\hash"/>
-    <move path="emulators\fbneo" to="emulators\fbneo.backup"/>
-    <move path="emulators\mandarine" to="emulators\mandarine.backup"/>
-    <move path="emulators\snes9x" to="emulators\snes9x.backup"/>
-    <move path="saves\switch\ryujinx\portable\Config.json" to="saves\switch\ryujinx\portable\Config.json.backup"/>
-    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
-  </actions>
-  <actions version="8.0.0.0">
-    <delete path="emulators\retroarch\cores\mame_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\azahar_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\fbneo_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\scummvm_libretro.dll"/>
-    <delete path="emulators\retroarch\cores\virtualjaguar_libretro.dll"/>
-    <delete path="bios\mame\hash"/>
-    <move path="emulators\fbneo" to="emulators\fbneo.backup"/>
-    <move path="emulators\mandarine" to="emulators\mandarine.backup"/>
-    <move path="emulators\snes9x" to="emulators\snes9x.backup"/>
-    <move path="saves\switch\ryujinx\portable\Config.json" to="saves\switch\ryujinx\portable\Config.json.backup"/>
-    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
-  </actions>
-  <actions version="7.5.3">
-    <move path="emulators\retroarch\shaders" to="emulators\retroarch.backup\shaders"/>
-    <delete path="emulators\retroarch\assets"/>
-    <delete path="emulators\retroarch\autoconfig"/>
-    <delete path="emulators\retroarch\cores"/>
-    <delete path="emulators\retroarch\database"/>
-    <delete path="emulators\retroarch\downloads"/>
-    <delete path="emulators\retroarch\filters"/>
-    <delete path="emulators\retroarch\info"/>
-    <delete path="emulators\retroarch\logs"/>
-    <delete path="emulators\retroarch\platforms"/>
-    <delete path="emulators\retroarch\playlists"/>
-    <delete path="emulators\retroarch\system"/>
-    <delete path="emulators\retroarch\thumbnails"/>
-    <delete path="emulators\retroarch\avcodec-58.dll"/>
-    <delete path="emulators\retroarch\retroarch.exe"/>
-    <delete path="emulators\retroarch\SDL2.dll"/>
-    <delete path="emulators\retroarch\swresample-3.dll"/>
-    <delete path="emulators\retroarch\swscale-5.dll"/>
-    <delete path="emulators\retroarch\xvidcore.dll"/>
-    <delete path="emulators\retroarch\zlib1.dll"/>
-    <delete path="emulators\retroarch\Qt5Widgets.dll"/>
-    <delete path="emulators\retroarch\retroarch.default.cfg"/>
-    <delete path="emulators\retroarch\Qt5Widgets.dll"/>
-    <delete path="emulators\retroarch\Qt5Network.dll"/>
-    <delete path="emulators\retroarch\Qt5Gui.dll"/>
-    <delete path="emulators\retroarch\Qt5Core.dll"/>
-    <delete path="emulators\retroarch\qt.conf"/>
-    <delete path="emulators\retroarch\avdevice-58.dll"/>
-    <delete path="emulators\retroarch\avfilter-7.dll"/>
-    <delete path="emulators\retroarch\avformat-58.dll"/>
-    <delete path="emulators\retroarch\avresample-4.dll"/>
-    <delete path="emulators\retroarch\avutil-56.dll"/>
-    <delete path="emulators\retroarch\libass-9.dll"/>
-    <delete path="emulators\retroarch\libbluray-1.dll"/>
-    <delete path="emulators\retroarch\libbs2b-0.dll"/>
-    <delete path="emulators\retroarch\libbz2.dll"/>
-    <delete path="emulators\retroarch\libcaca-0.dll"/>
-    <delete path="emulators\retroarch\libcrypto-1_1-x64.dll"/>
-    <delete path="emulators\retroarch\libexpat-1.dll"/>
-    <delete path="emulators\retroarch\libfontconfig-1.dll"/>
-    <delete path="emulators\retroarch\libfreetype-6.dll"/>
-    <delete path="emulators\retroarch\libfribidi-0.dll"/>
-    <delete path="emulators\retroarch\libgcc_s_seh-1.dll"/>
-    <delete path="emulators\retroarch\libglib-2.0-0.dll"/>
-    <delete path="emulators\retroarch\libglut.dll"/>
-    <delete path="emulators\retroarch\libgmp-10.dll"/>
-    <delete path="emulators\retroarch\libgnutls-30.dll"/>
-    <delete path="emulators\retroarch\libgomp-1.dll"/>
-    <delete path="emulators\retroarch\libharfbuzz-0.dll"/>
-    <delete path="emulators\retroarch\libhogweed-6.dll"/>
-    <delete path="emulators\retroarch\libiconv-2.dll"/>
-    <delete path="emulators\retroarch\libidn2-0.dll"/>
-    <delete path="emulators\retroarch\libintl-8.dll"/>
-    <delete path="emulators\retroarch\liblzma-5.dll"/>
-    <delete path="emulators\retroarch\libmp3lame-0.dll"/>
-    <delete path="emulators\retroarch\libncurses5.dll"/>
-    <delete path="emulators\retroarch\libnettle-8.dll"/>
-    <delete path="emulators\retroarch\libogg-0.dll"/>
-    <delete path="emulators\retroarch\libopencore-amrnb-0.dll"/>
-    <delete path="emulators\retroarch\libopencore-amrwb-0.dll"/>
-    <delete path="emulators\retroarch\libopus-0.dll"/>
-    <delete path="emulators\retroarch\libpcre-1.dll"/>
-    <delete path="emulators\retroarch\libpcre2-16-0.dll"/>
-    <delete path="emulators\retroarch\libpng16-16.dll"/>
-    <delete path="emulators\retroarch\libsamplerate-0.dll"/>
-    <delete path="emulators\retroarch\libspeex-1.dll"/>
-    <delete path="emulators\retroarch\libssl-1_1-x64.dll"/>
-    <delete path="emulators\retroarch\libssp-0.dll"/>
-    <delete path="emulators\retroarch\libstdc++-6.dll"/>
-    <delete path="emulators\retroarch\libtasn1-6.dll"/>
-    <delete path="emulators\retroarch\libtheoradec-1.dll"/>
-    <delete path="emulators\retroarch\libunistring-2.dll"/>
-    <delete path="emulators\retroarch\libvidstab.dll"/>
-    <delete path="emulators\retroarch\libvo-amrwbenc-0.dll"/>
-    <delete path="emulators\retroarch\libvorbis-0.dll"/>
-    <delete path="emulators\retroarch\libvorbisenc-2.dll"/>
-    <delete path="emulators\retroarch\libwinpthread-1.dll"/>
-    <delete path="emulators\retroarch\libx264-155.dll"/>
-    <delete path="emulators\retroarch\libxml2-2.dll"/>
-    <delete path="emulators\retroarch\libzstd.dll"/>
-    <delete path="emulators\retroarch\nvdaControllerClient64.dll"/>
-    <delete path="emulators\retroarch\postproc-55.dll"/>
-    <rename path="emulators\azahar\user\config\qt-config.ini" to="emulators\azahar\user\config\qt-config.ini.bak"/>
-    <rename path="emulators\duckstation\settings.ini" to="emulators\duckstation\settings.ini.bak"/>
-    <rename path="emulators\gopher64\portable_data\config\config.json" to="emulators\gopher64\portable_data\config\config.json.bak"/>
-    <rename path="emulators\pcsx2\inis\PCSX2.ini" to="emulators\pcsx2\inis\PCSX2.ini.bak"/>
-    <rename path="saves\psp\SYSTEM\ppsspp.ini" to="saves\psp\SYSTEM\ppsspp.ini.bak"/>
-    <rename path="emulators\rpcs3\config\config.yml" to="emulators\rpcs3\config\config.yml.bak"/>
-    <rename path="emulators\rpcs3\GuiConfigs\CurrentSettings.ini" to="emulators\rpcs3\GuiConfigs\CurrentSettings.ini.bak"/>
-    <rename path="emulators\rpcs3\config\vfs.yml" to="emulators\rpcs3\config\vfs.yml.bak"/>
-    <rename path="emulators\citron\user\config\qt-config.ini" to="emulators\citron\user\config\qt-config.ini.bak"/>
-    <rename path="emulators\eden\user\config\qt-config.ini" to="emulators\eden\user\config\qt-config.ini.bak"/>
-    <rename path="emulators\sudachi\user\config\qt-config.ini" to="emulators\sudachi\user\config\qt-config.ini.bak"/>
-    <rename path="emulators\suyu\user\config\qt-config.ini" to="emulators\suyu\user\config\qt-config.ini.bak"/>
-    <rename path="emulators\yuzu\user\config\qt-config.ini" to="emulators\yuzu\user\config\qt-config.ini.bak"/>
-    <rename path="emulators\xemu\xemu.toml" to="emulators\xemu\xemu.toml.bak"/>
-    <rename path="emulators\jgenesis\jgenesis-config.toml" to="emulators\jgenesis\jgenesis-config.toml.bak"/>
-    <rename path="roms\sonicmania" to="roms\sonic-mania"/>
-    <rename path="roms\sonic3air" to="roms\sonic3-air"/>
-    <move path="saves\doom3\dhewm3\game\game" to="saves\doom3\dhewm3\game"/>
-    <rename path="roms\o2em" to="roms\odyssey2"/>
-    <rename path="roms\gb-msu" to="roms\sgb-msu1"/>
-    <rename path="roms\snes-msu" to="roms\snes-msu1"/>
-    <rename path="roms\casloopy" to="roms\loopy"/>
-    <rename path="emulators\xenia-edge\xenia-edge.config.toml" to="emulators\xenia-edge\xenia-edge.config.toml.bak"/>
-    <rename path="emulators\xenia-canary\xenia-canary.config.toml" to="emulators\xenia-canary\xenia-canary.config.toml.bak"/>
-    <rename path="emulators\demul\Demul.ini" to="emulators\demul\Demul.ini.bak"/>
-    <rename path="emulators\demul\gpuDX11.ini" to="emulators\demul\gpuDX11.ini.bak"/>
-    <rename path="emulators\dolphin-emu\User\Config\Dolphin.ini" to="emulators\dolphin-emu\User\Config\Dolphin.ini.bak"/>
-    <rename path="emulators\flycast\emu.cfg" to="emulators\flycast\emu.cfg.bak"/>
-    <rename path="emulators\shadps4\user\config.toml" to="emulators\shadps4\user\config.toml.bak"/>
-    <rename path="emulators\shadps4\launcher\qt_ui.ini" to="emulators\shadps4\launcher\qt_ui.ini.bak"/>
-    <delete path="bios\mame\hash"/>
-    <move path="emulators\fbneo" to="emulators\fbneo.backup"/>
-    <move path="emulators\mandarine" to="emulators\mandarine.backup"/>
-    <move path="emulators\snes9x" to="emulators\snes9x.backup"/>
-    <move path="saves\switch\ryujinx\portable\Config.json" to="saves\switch\ryujinx\portable\Config.json.backup"/>
-    <move path="emulators\raine\config\raine32_sdl.cfg" to="emulators\raine\config\raine32_sdl.cfg.backup"/>
+    <move path="roms\doom" to="roms\doom.backup"/>
+    <move path="roms\gzdoom" to="roms\doom"/>
+    <move path="emulators\azahar\user\config\qt-config.ini" to="emulators\azahar\user\config\qt-config.ini.backup"/>
+    <move path="emulators\linuxloader\linuxloader.ini" to="emulators\linuxloader\linuxloader.ini.backup"/>
+    <move path="emulators\pcsx2x6\inis\PCSX2.ini" to="emulators\pcsx2x6\inis\PCSX2.ini.backup"/>
+    <move path="saves\psp\SYSTEM\ppsspp.ini" to="saves\psp\SYSTEM\ppsspp.ini.backup"/>
+    <move path="emulators\shadps4\user\config.json" to="emulators\shadps4\user\config.json.backup"/>
+    <move path="emulators\shadps4\launcher\qt_ui.ini" to="emulators\shadps4\launcher\qt_ui.ini.backup"/>
+    <move path="emulators\winuae\winuae.ini" to="emulators\winuae\winuae.ini.backup"/>
   </actions>
 </upgradeinfo>

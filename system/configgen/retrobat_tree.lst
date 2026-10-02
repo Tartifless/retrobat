@@ -5,6 +5,7 @@ bios\bk
 bios\bsyndrome
 bios\bsyndrome\MUSIC
 bios\cannonball
+bios\chihiro
 bios\dc
 bios\dc\textures
 bios\dinothawr
@@ -500,6 +501,7 @@ user\apikey
 user\customratio
 user\inputmapping
 user\inputmapping\mame
+user\padtokey
 user\tattoos
 user\tattoos\default
 user\tattoos\games
