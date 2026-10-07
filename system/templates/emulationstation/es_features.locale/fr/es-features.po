@@ -6418,6 +6418,10 @@ msgid "Change the renderer used by the core."
 msgstr "Modifier le moteur de rendu utilisé par le coeur."
 
 msgctxt "game_options"
+msgid "Change the renderer used by the core. Leave on AUTO unless you have a rendering problem."
+msgstr "Modifier le moteur de rendu utilisé par le coeur. Laisser sur AUTO sauf en cas de problème de rendu."
+
+msgctxt "game_options"
 msgid "Boot into the BIOS menu without loading the game."
 msgstr "Lancer directement le BIOS au lieu du jeu."
 
@@ -11000,3 +11004,271 @@ msgstr "BOUTON POUR ÉMULER LE MICROPHONE"
 msgctxt "game_options"
 msgid "GAMEPAD SCREEN TOGGLE"
 msgstr "BASCULER L'ÉCRAN GAMEPAD"
+
+msgctxt "game_options"
+msgid "NEVER PAUSE EMULATION ON LOST FOCUS"
+msgstr "NE PAS METTRE EN PAUSE LORS DE LA PERTE DE FOCUS"
+
+msgctxt "game_options"
+msgid "This setting will prevent pause in emulation when losing focus."
+msgstr "Les émulateurs ne seront pas mis en pause en cas de perte de focus."
+
+msgctxt "game_options"
+msgid "DISABLE GAME CENTER"
+msgstr "DÉSACTIVER LE GAME CONTROL CENTER"
+
+msgctxt "game_options"
+msgid "Disable the in-game menu opened with HOTKEY + EAST or F12."
+msgstr "Désactive le menu accessible avec HOTKEY + EST ou F12."
+
+msgctxt "game_options"
+msgid "SAVES IN RETROBAT SAVES FOLDER"
+msgstr "SAUVEGARDES DANS LE DOSSIER SAVES DE RETROBAT"
+
+msgctxt "game_options"
+msgid "Switch on to use RetroBat 'saves\switch' folder for Citron and Eden saves (instead of emulator folder)."
+msgstr "Activer pour sauvegarder dans 'saves\switch' pour citron et eden."
+
+msgctxt "game_options"
+msgid "TRY TO READ EXECUTABLE IN BAT FILES"
+msgstr "DÉTECTION DES ÉXÉCUTABLES DANS LES FICHIERS BAT"
+
+msgctxt "game_options"
+msgid "Disable this option to run directly a .bat or .cmd file without RetroBat trying to find the executable inside."
+msgstr "Désactiver cette option pour lancer le fichier .bat. Sinon RetroBat recherche l'éxécutable à lancer."
+
+msgctxt "game_options"
+msgid "SCAN N64 RECOMPILATION"
+msgstr "SCANNER LES RECOMPILATIONS N64"
+
+msgctxt "game_options"
+msgid "GAME LAUNCHERS"
+msgstr "LANCEURS TIERS"
+
+msgctxt "game_options"
+msgid "SCAN EXODOS GAMES"
+msgstr "SCANNER LES JEUX EXODOS"
+
+msgctxt "game_options"
+msgid "SCAN EXOWIN3X GAMES"
+msgstr "SCANNER LES JEUX EXOWIN3X"
+
+msgctxt "game_options"
+msgid "SCAN EXOWIN9X GAMES"
+msgstr "SCANNER LES JEUX EXOWIN9X"
+
+msgctxt "game_options"
+msgid "EXODOS EXECUTABLE PATH"
+msgstr "CHEMIN DE EXODOS"
+
+msgctxt "game_options"
+msgid "EXOWIN3X EXECUTABLE PATH"
+msgstr "CHEMIN DE EXOWIN3X"
+
+msgctxt "game_options"
+msgid "EXOWIN9X EXECUTABLE PATH"
+msgstr "CHEMIN DE EXOWIN9X"
+
+msgctxt "game_options"
+msgid "AGS EXECUTABLE PATH"
+msgstr "CHEMIN DE AGS"
+
+msgctxt "game_options"
+msgid "NEVER TRY TO MOUNT AS DRIVE"
+msgstr "NE PAS MONTER DE LECTEUR"
+
+msgctxt "game_options"
+msgid "Always decompress archives, even if dokan could be used to mount as a drive letter."
+msgstr "Toujours décompresser les archives, même si dokan est installé."
+
+msgctxt "game_options"
+msgid "SPECIAL CONTROLLERS"
+msgstr "CONTRÔLEURS SPÉCIAUX"
+
+msgctxt "game_options"
+msgid "DPAD AS ANALOG"
+msgstr "DPAD COMME JOYSTICK ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "N64 TRIGGER INVERT"
+msgstr "N64 TRIGGER INVERSÉ"
+
+msgctxt "game_options"
+msgid "For n64 controllers with 2 triggers, use R2 instead of L2 as Z button."
+msgstr "Utiliser R2 au lieu de L2 sur les contrôleurs N64."
+
+msgctxt "game_options"
+msgid "PS4/PS5 ENHANCED"
+msgstr "PS4/PS5 SUPPORT ÉTENDU"
+
+msgctxt "game_options"
+msgid "Enable enhanced features for DS4 and DualSense, this will break compatibility with emulators using dinput until switch off."
+msgstr "Activer les fonctions avancées des manettes DS4 et DualSense, incompatible avec les émulateurs dinput."
+
+msgctxt "game_options"
+msgid "WIIMOTE FIX ASSOCIATION"
+msgstr "WIIMOTE ASSOCIATION ALTERNATIVE"
+
+msgctxt "game_options"
+msgid "For some emulators, can be used to fix wiimote keyboard and mouse association when using 2 wiimotes."
+msgstr "Permet de corriger l'association wiimote/clavier sur certains émulateurs."
+
+msgctxt "game_options"
+msgid "INTEGER SCALE TYPE"
+msgstr "TYPE DE MISE À L'ÉCHELLE ENTIÈRE"
+
+msgctxt "game_options"
+msgid "UNDERSCALE"
+msgstr "INFÉRIEURE (SANS ROGNAGE)"
+
+msgctxt "game_options"
+msgid "OVERSCALE"
+msgstr "SUPÉRIEURE (AVEC ROGNAGE)"
+
+msgctxt "game_options"
+msgid "SMART"
+msgstr "INTELLIGENT"
+
+msgctxt "game_options"
+msgid "GAMEPAD MENU COMBO"
+msgstr "COMBO D'ACCÈS AU MENU"
+
+msgctxt "game_options"
+msgid "GAMEPAD MENU COMBO"
+msgstr "'directx11' est le pilote par défaut et fonctionne sur presque tous les matériels. 'vulkan' peut être plus rapide sur les GPU récents. Certains coeurs libretro imposent leur propre pilote."
+
+msgctxt "game_options"
+msgid "CONFIGURE SPECIAL KEYBOARD STICK"
+msgstr "CONFIGURER LES STICKS ARCADE DE TYPE CLAVIER"
+
+msgctxt "game_options"
+msgid "Use this option when using a pad recognized as keyboard (ipac, etc.)."
+msgstr "Utilisez cette option avec une manette reconnue comme un clavier (I-PAC, etc.)."
+
+msgctxt "game_options"
+msgid "USE CUSTOM ARCADE STICK MAPPING"
+msgstr "UTILISER UN MAPPING PERSO POUR LES STICKS ARCADE"
+
+msgctxt "game_options"
+msgid "Allows you to perform a dedicated mapping for your arcade stick based on 'arcade_sticks.json' file."
+msgstr "Permet d’appliquer un mapping dédié à votre stick arcade, défini dans le fichier 'arcade_sticks.json'."
+
+msgctxt "game_options"
+msgid "SWITCH XINPUT INDEX"
+msgstr "INVERSER LES INDEX XINPUT"
+
+msgctxt "game_options"
+msgid "Enable this if XInput controllers index are switched."
+msgstr "Activer cette option si les contrôleurs XInput sont inversés."
+
+msgctxt "game_options"
+msgid "Manually assign the pad used by the player. Only needed when RetroBat cannot tell two identical pads apart, for example with a 2-players arcade encoder seen by Windows as a single device. Leave on AUTO otherwise."
+msgstr "Forcer l'index de la manette pour le joueur. Utile quand RetroBat ne parvient pas à distinguer deux manettes identiques (encodeur arcade 2 joueurs vu par Windows comme un seul périphérique). Sinon, laissez sur AUTO."
+
+msgctxt "game_options"
+msgid "USE BUTTON FOR TRIGGER"
+msgstr "GÂCHETTES NUMÉRIQUES"
+
+msgctxt "game_options"
+msgid "Force button instead of axis for triggers, can help with Sony controllers."
+msgstr "Force les gâchettes en mode bouton plutôt qu’en mode axe. Peut aider avec les manettes Sony."
+
+msgctxt "game_options"
+msgid "P3 MOUSE/GUN INDEX"
+msgstr "INDEX SOURIS/GUN JOUEUR 3"
+
+msgctxt "game_options"
+msgid "P1 MOUSE/GUN INDEX"
+msgstr "INDEX SOURIS/GUN JOUEUR 1"
+
+msgctxt "game_options"
+msgid "P2 MOUSE/GUN INDEX"
+msgstr "INDEX SOURIS/GUN JOUEUR 2"
+
+msgctxt "game_options"
+msgid "P4 MOUSE/GUN INDEX"
+msgstr "INDEX SOURIS/GUN JOUEUR 4"
+
+msgctxt "game_options"
+msgid "Define mouse index to use for player 3."
+msgstr "Forcer l'index souris pour le pistolet du joueur 3."
+
+msgctxt "game_options"
+msgid "Define mouse index to use for player 4."
+msgstr "Forcer l'index souris pour le pistolet du joueur 4."
+
+msgctxt "game_options"
+msgid "HIGH RES SCANOUT"
+msgstr "SCANOUT HAUTE RÉSOLUTION"
+
+msgctxt "game_options"
+msgid "Requires at least '4X SSAA (ORDERED)'. The 4x modes require '16X SSAA (ORDERED)'."
+msgstr "Nécessite au minimum '4X SSAA (ORDERED)'. Les modes 4x nécessitent '16X SSAA (ORDERED)'."
+
+msgctxt "game_options"
+msgid "GPU READBACK MODE"
+msgstr "MODE DE RELECTURE GPU"
+
+msgctxt "game_options"
+msgid "'Accurate' matches the hardware but can drop the framerate badly on save/load screens. Change this only if a menu is slow."
+msgstr "'Précis' reproduit fidèlement le matériel, mais peut faire chuter la fréquence d’images lors des écrans de sauvegarde et de chargement. Modifier uniquement si un menu est lent."
+
+msgctxt "game_options"
+msgid "Leave on AUTO to let the emulator pick the first valid BIOS found in '\bios\pcsx2\bios'."
+msgstr "Laisser sur AUTO pour que l’émulateur choisisse le premier BIOS valide trouvé dans '\bios\pcsx2\bios'."
+
+msgctxt "game_options"
+msgid "Skips the BIOS boot animation displayed when loading content. Turn this off to reach the PS2 system settings and the memory card manager."
+msgstr "Passe l’animation de démarrage du BIOS au lancement d’un jeu. Désactiver cette option pour accéder aux paramètres système de la PS2 et au gestionnaire de cartes mémoire."
+
+msgctxt "game_options"
+msgid "SHARED MEMORY CARDS"
+msgstr "CARTES MÉMOIRES PARTAGÉES"
+
+msgctxt "game_options"
+msgid "Use one shared memory card for all games instead of one card per game. Cards are stored in '\bios\pcsx2\memcards'."
+msgstr "Utilise une seule carte mémoire partagée pour tous les jeux, au lieu d’une carte par jeu. Les cartes sont stockées dans '\bios\pcsx2\memcards'."
+
+msgctxt "game_options"
+msgid "Automatically apply game enhancements if they exist in the core database (LOD, draw distance, FMV skip)."
+msgstr "Applique automatiquement les améliorations de jeu présentes dans la base de données du cœur (LOD, distance d’affichage, saut des cinématiques FMV)."
+
+msgctxt "game_options"
+msgid "Cheats must be placed in the \bios\pcsx2\cheats folder."
+msgstr "Placer les cheats dans le dossier '\bios\pcsx2\cheats'."
+
+msgctxt "game_options"
+msgid "LANGUAGE UNLOCK"
+msgstr "DÉBLOCAGE DES LANGUES"
+
+msgctxt "game_options"
+msgid "Unlock additional languages on some games if the core database has an entry for it."
+msgstr "Débloque des langues supplémentaires dans certains jeux, si la base de données du contient une entrée pour le jeu."
+
+msgctxt "game_options"
+msgid "EE CYCLE RATE"
+msgstr "FRÉQUENCE DU CPU EE"
+
+msgctxt "game_options"
+msgid "Overclock or underclock the emulated main CPU. Can help stabilize the framerate, but breaks some games."
+msgstr "Surcadence ou sous-cadence le processeur principal émulé. Peut aider à stabiliser la fréquence d’images, mais casse certains jeux."
+
+msgctxt "game_options"
+msgid "EE CYCLE SKIPPING"
+msgstr "SAUT DE CYCLES DU CPU EE"
+
+msgctxt "game_options"
+msgid "Speed hack, can help slow games at the cost of glitches."
+msgstr "Hack de vitesse. Peut aider les jeux lents, au prix de bugs graphiques."
+
+msgctxt "game_options"
+msgid "MULTITHREAD VU1 (RESTART)"
+msgstr "VU1 MULTITHREAD (REDÉMARRAGE)"
+
+msgctxt "game_options"
+msgid "Large speedup on multi-core CPUs, but a small number of games hang with it."
+msgstr "Forte accélération sur les processeurs multicœurs, mais quelques rares jeux se bloquent avec cette option."
+
+msgctxt "game_options"
+msgid "MILD"
+msgstr "LÉGER"
