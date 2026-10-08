@@ -22,6 +22,10 @@ msgid "ADVANCED SETTINGS"
 msgstr "OPTIONS AVANCÉES"
 
 msgctxt "game_options"
+msgid "LAUNCHER SELECTION"
+msgstr "SÉLECTIONNÉ DANS LE LAUNCHER"
+
+msgctxt "game_options"
 msgid "GLOBAL OPTIONS"
 msgstr "OPTIONS GÉNÉRALES"
 
@@ -26399,3 +26403,9 @@ msgstr "90 SECONDES"
 msgctxt "game_options"
 msgid "SWAP A/B AND X/Y"
 msgstr "INVERSER A/B ET X/Y"
+
+msgid "RED-ZONE PATCHING"
+msgstr "CORRECTIF RED-ZONE"
+
+msgid "Experimental. Protects game stack data when the emulator handles memory exceptions. Can fix crashes in some games. Leave off unless a game needs it."
+msgstr "Expérimental. Protège les données de pile du jeu lorsque l'émulateur gère des exceptions mémoire. Peut corriger des plantages dans certains jeux. À laisser désactivé sauf si un jeu en a besoin."
