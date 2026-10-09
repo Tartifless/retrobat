@@ -963,7 +963,7 @@ msgstr "Afficher des éléments statistiques sur la performance."
 
 msgctxt "game_options"
 msgid "MODULES MANAGEMENT METHOD"
-msgstr "GESTION DES MODULES"
+msgstr "MÉTHODE DE GESTION DES MODULES"
 
 msgctxt "game_options"
 msgid "Define how modules should be managed."
@@ -3362,8 +3362,8 @@ msgid "MIDI DEVICE INDEX"
 msgstr "INDEX DU PÉRIPHÉRIQUE MIDI"
 
 msgctxt "game_options"
-msgid "Select MIDI device as listed in emulator."
-msgstr "Choix du périphérique midi, voir l'ordre d'affichage dans l'émulateur."
+msgid "Plugs a MIDI board and sends its output to this Windows MIDI device, numbered as in the emulator MIDI options. NONE keeps the standard FM sound."
+msgstr "Ajoute une carte MIDI et envoie sa sortie vers ce périphérique MIDI Windows, numéroté comme dans les options MIDI de l'émulateur. AUCUN conserve le son FM standard."
 
 msgctxt "game_options"
 msgid "MIDI INTERRUPT LEVEL"
@@ -3374,8 +3374,36 @@ msgid "EMUTOS REGION"
 msgstr "RÉGION EMUTOS"
 
 msgctxt "game_options"
+msgid "MIDI OUTPUT DEVICE"
+msgstr "PÉRIPHÉRIQUE DE SORTIE MIDI"
+
+msgctxt "game_options"
+msgid "NONE (NO MIDI BOARD)"
+msgstr "AUCUN (PAS DE CARTE MIDI)"
+
+msgctxt "game_options"
 msgid "The amount of high memory size the emulated machine has."
 msgstr "Définir la quantité de mémoire haute disponible sur la machine émulée."
+
+msgctxt "game_options"
+msgid "Only used when a MIDI output device is selected."
+msgstr "Utilisé uniquement si un périphérique de sortie MIDI est sélectionné."
+
+msgctxt "game_options"
+msgid "Emulator scanlines, only visible with some games."
+msgstr "Scanlines de l'émulateur, visibles uniquement avec certains jeux."
+
+msgctxt "game_options"
+msgid "Smooths the picture (filtering)."
+msgstr "Lisse l'image (filtrage)."
+
+msgctxt "game_options"
+msgid "STRETCH fills the whole screen and disables bezels."
+msgstr "ETIRÉ remplit tout l'écran et désactive les décorations."
+
+msgctxt "game_options"
+msgid "Speeds up floppy disk access to reduce loading times."
+msgstr "Accélère l'accès aux disquettes pour réduire les temps de chargement."
 
 msgctxt "game_options"
 msgid "DISCARD DISK MODIFICATION"
@@ -13895,6 +13923,10 @@ msgid "繁體中文"
 msgstr "Chinois traditionnel"
 
 msgctxt "game_options"
+msgid "繁體中文 (Chinese - Traditional)"
+msgstr "繁體中文 (chinois traditionnel)"
+
+msgctxt "game_options"
 msgid "1x (720p/1080p)"
 msgstr "1x (720p/1080p)"
 
@@ -17644,6 +17676,31 @@ msgid "CONFIRM BUTTON"
 msgstr "BOUTON DE CONFIRMATION"
 
 msgctxt "game_options"
+msgid "Button used to confirm in system dialogs and in games following the system setting. CIRCLE is the Japanese convention."
+msgstr "Bouton utilisé pour valider dans les dialogues système et dans les jeux qui suivent le réglage système. ROND correspond à la convention japonaise."
+
+msgctxt "game_options"
+msgid "PLAYSTATION TV MODE"
+msgstr "MODE PLAYSTATION TV"
+
+msgctxt "game_options"
+msgid "Emulate a PlayStation TV: enables local multiplayer (up to 4 controllers) in supported games. Player order follows controller detection order, identical controllers are not supported. Games requiring the touchscreen may not work."
+msgstr "Émule une PlayStation TV : active le multijoueur local (jusqu'à 4 manettes) dans les jeux compatibles. L'ordre des joueurs suit l'ordre de détection des manettes, et les manettes identiques ne sont pas prises en charge. Les jeux qui nécessitent l'écran tactile peuvent ne pas fonctionner."
+
+msgctxt "game_options"
+msgid "EMULATOR SETTINGS"
+msgstr "RÉGLAGES DE L'ÉMULATEUR"
+
+msgctxt "game_options"
+msgid "Folder for Vita3K data (firmware, installed games, saves). Ignored when Vita3K is in portable mode (non-empty 'portable' folder next to Vita3K.exe)."
+msgstr "Dossier des données de Vita3K (firmware, jeux installés, sauvegardes). Ignoré lorsque Vita3K est en mode portable (dossier 'portable' non vide à côté de Vita3K.exe)."
+
+msgctxt "game_options"
+msgid "AUTOMATIC: Vita3K loads the required firmware modules by itself (recommended). EMULATOR SETTINGS: keep the modules selected in the Vita3K interface."
+msgstr "AUTOMATIQUE : Vita3K charge lui-même les modules du firmware nécessaires (recommandé). RÉGLAGES DE L'ÉMULATEUR : conserve les modules sélectionnés dans l'interface de Vita3K."
+
+
+msgctxt "game_options"
 msgid "KEYBOARD HANDLER"
 msgstr "GESTIONNAIRE DU CLAVIER"
 
@@ -17970,6 +18027,10 @@ msgstr "Seuil à partir duquel un mouvement du stick analogique compte comme une
 msgctxt "game_options"
 msgid "Pre-compile shader cache at game startup, leave ON for less stuttering in game."
 msgstr "Précompile le cache de shaders au lancement du jeu, laisser sur ON pour moins de saccades en jeu."
+
+msgctxt "game_options"
+msgid "Filter applied to the final image. FSR is only available with Vulkan (OpenGL falls back to BILINEAR)."
+msgstr "Filtre appliqué à l'image finale. FSR n'est disponible qu'avec Vulkan (en OpenGL, BILINÉAIRE est utilisé à la place)."
 
 msgctxt "game_options"
 msgid "Preferred region. A game that does not accept it falls back to one it does."
@@ -21339,6 +21400,10 @@ msgstr "CYLINDRE"
 msgctxt "game_options"
 msgid "简体中文 (Chinese-Traditional)"
 msgstr "Chinois traditionnel"
+
+msgctxt "game_options"
+msgid "简体中文 (Chinese - Simplified)"
+msgstr "简体中文 (chinois simplifié)"
 
 msgctxt "game_options"
 msgid "Finnish"
@@ -26409,3 +26474,15 @@ msgstr "CORRECTIF RED-ZONE"
 
 msgid "Experimental. Protects game stack data when the emulator handles memory exceptions. Can fix crashes in some games. Leave off unless a game needs it."
 msgstr "Expérimental. Protège les données de pile du jeu lorsque l'émulateur gère des exceptions mémoire. Peut corriger des plantages dans certains jeux. À laisser désactivé sauf si un jeu en a besoin."
+
+msgctxt "game_options"
+msgid "Shows floppy disk names, drive lamps and speed, in window and full screen."
+msgstr "Affiche le nom des disquettes, les voyants des lecteurs et la vitesse, en fenêtre et en plein écran."
+
+msgctxt "game_options"
+msgid "Swap the A/B and X/Y buttons of the controller."
+msgstr "Inverse les boutons A/B et X/Y de la manette."
+
+msgctxt "game_options"
+msgid "Move with the left analog stick as well as the D-pad. On by default."
+msgstr "Permet de se déplacer avec le stick analogique gauche en plus de la croix directionnelle. Activé par défaut."
