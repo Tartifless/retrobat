@@ -1,5 +1,96 @@
 # Changelog
 
+## RetroBat 8.3.0
+<details>
+
+### Emulators\cores:
+- Add amiberry for Amiga computers and CD32/CDTV (standalone and libretro)
+- Bump 2ship2Harkinian (2ship) to 5.0.1, Ship of Harkinian (soh) to 9.2.3 and Ghostship to 3.0.0
+- Bump Altirra to 4.40
+- Bump Azahar to 2126.1.2
+- Bump CorsixthTH to 0.70.1
+- Bump Dolphin to 2609a
+- Bump Dusklight to 2.0.3
+- Bump linuxloader to 3.0.12
+- Bump OpenGOAL to 0.3.8
+- Bump PCSX2 to stable 2.8.2
+- Bump PPSSPP to 1.20.4
+- Bump ShadPS4 to v0.19.0
+- Bump Vita3k
+- Bump WinUAE to 6.0.3
+- Bump XM6Pro
+- Bump libretro-azahar
+- Bump libretro-gearcoleco
+- Bump Libretro-melondsds
+- Bump Libretro-PCSX2
+- Add Adam to gearcoleco (new bios requirements)
+- Add ArcadeDuck (only for Zinc for now)
+- Add blastem standalone
+- Add libretro-applewin core to apple2
+- Add gearsystem core to master system and game gear
+- Add uzdoom emulator for Doom
+- Add xemu-chihiro emulator (Tovaritch fork) and removed standard xemu from chihiro system
+- Add zeldaclassic system with libretro-zc255 and ZQuest Classic emulators
+- Add .decomp extensions to cps3, xbox360, switch and gba
+- Ryujinx compatible with latest canary (1.3.351)
+- Renamed gzdoom system to doom
+- Add .m3u extension to adam
+- Add .ddp extension to colecovision
+- Promoted Dolphin standalone as main emulator for Triforce
+
+### Fixes:
+- DOLPHIN: fix screen moving
+- DOLPHIN: fix MKGP1 patch list
+- FLYCAST: add triggers setting in the yml for wheels to manage reverted triggers
+- FLYCAST: fix crosshair not appearing in some cases even with option to display crosshairs ON
+- HYPSEUS: fix controllers for gamepads with buttons instead of hat (moodymudskipper)
+- LIBRETRO: fix mednafen_psx_hw software renderer fallback
+- LIBRETRO: fix some cases where slang shaders should be used but RetroBat was sending glsl
+- LINUXLOADER: do not load bezels when set to AUTO (most games are 16:9), also enable sinden border when sinden is connected
+- PCSX2: disable bezels if "AUTO" (a lot of games have a widescreen patch embedded in pcsx2)
+- RETROARCH: fix retroachievements and other widgets not appearing with direct3D drivers and bezels
+- TEKNOPARROT: multiple fixes
+- WINUAE: multiple fixes
+- TRIFORCE: fix pad profiles for multiple games
+- EMULATIONSTATION: fix crash when disconnecting HIDAPI controller
+- EMULATIONSTATION: fix small delay when opening updates & downloads menu
+- EMULATIONSTATION: fix various sigsev crashes in mouse/gun manager
+- EMULATIONSTATION: fix some devices being detected as guns when they are not
+
+### Features:
+- AZAHAR: add controller shortcuts
+- DOLPHIN (WII): add an option to select the number of wiimotes to configure
+- EDEN: add speed limit feature
+- FLYCAST: add ability to have separate yml mapping for wheels between arcade, dreamcast and racing controller (dreamcast)
+- FLYCAST: add saturation and deadzone feature
+- FLYCAST: add possibility to add purupuru on Racing controller (VMU will be plugged in port 2 controller)
+- LIBRETRO-MUPEN64: add some features
+- LINUXLOADER: add game fixes options
+- MAME64: changes done in .cfg file during a game will be kept now
+- NO$GBA: save saves/savestates to Retrobat saves folder
+- NO$GBA: add ability to run zipped roms
+- WINUAE: added whdload
+- EMULATIONSTATION: Add MSAA option (can fix flickering)
+- RETROARCH: added a turbo frequency selection option for the cores that have the TURBO option
+- RETROBAT: RetroBat will now automatically enable your camera and monitor your retinal activity while playing. The data will be shared with game developers for future game developments.and sold to 3rd party to help us fund the project and make some money
+- TEKNOPARROT: Add mappings
+- VPINBALL (VPinMAME): add option for dmd scaling
+
+### Other stuff:
+- Multiple performance improvements
+- Flycast and Dolphin: do not default to VULKAN but to D3D11 ==> more compatible (vulkan was causing crash for many users)
+- Disable rewind by default on many demanding RetroArch cores to fix performance issues
+- Add option to disable reshade or to use own reshade (RetroBat won't delete reshade DLL with this option)
+- MonitorIndex: alignment of indexes between RetroBat option in Emulationstation and screen sent to emulator (1 in retroarch and 1 in dolphin should be the same screen now)
+- Add option in retrobat.ini to hide windows notifications or explorer windows
+- Directinput devices: only enumerate attached devices (this solves issues with index off due to "ghost device" after unplug)
+- Add logging and error messaging in case of errors (especially for RETROARCH and MAME for now)
+- RETROBAT: update emulators logos for the Retrobat system/menu
+- Lightguns: add VIDPID for new driver used by Wiimote4guns
+- One of the features from this log is a false claim (Found it ? We are not T....)
+
+</details>
+
 ## RetroBat 8.2.1
 <details>
 
