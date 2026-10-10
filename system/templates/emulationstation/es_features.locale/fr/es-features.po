@@ -26486,3 +26486,67 @@ msgstr "Inverse les boutons A/B et X/Y de la manette."
 msgctxt "game_options"
 msgid "Move with the left analog stick as well as the D-pad. On by default."
 msgstr "Permet de se déplacer avec le stick analogique gauche en plus de la croix directionnelle. Activé par défaut."
+
+msgctxt "game_options"
+msgid "Enabled by default (AUTO)."
+msgstr "Activé par défaut (AUTO)."
+
+msgctxt "game_options"
+msgid "Use this option if ArcadeDuck is not displayed on the correct monitor."
+msgstr "Utiliser cette option si ArcadeDuck ne s'affiche pas sur le bon écran."
+
+msgctxt "game_options"
+msgid "Smooths textures of 3D games when the internal resolution is increased."
+msgstr "Lisse les textures des jeux 3D lorsque la résolution interne est augmentée."
+
+msgctxt "game_options"
+msgid "Filtering applied when scaling the final image to the screen."
+msgstr "Filtrage appliqué lors de la mise à l'échelle de l'image finale à l'écran."
+
+msgctxt "game_options"
+msgid "TEXTURE CORRECTION (PGXP)"
+msgstr "CORRECTION DES TEXTURES (PGXP)"
+
+msgctxt "game_options"
+msgid "Reduces wobbly polygons and texture warping in 3D games."
+msgstr "Réduit le tremblement des polygones et la déformation des textures dans les jeux 3D."
+
+msgctxt "game_options"
+msgid "TRUE COLORS (24 BITS)"
+msgstr "COULEURS RÉELLES (24 BITS)"
+
+msgctxt "game_options"
+msgid "Renders in 24-bit colors and removes dithering."
+msgstr "Rendu en couleurs 24 bits, sans tramage."
+
+msgctxt "game_options"
+msgid "Graphics API used by the emulator."
+msgstr "API graphique utilisée par l'émulateur."
+
+msgctxt "game_options"
+msgid "Use SDL for all controllers instead of XInput for Xbox controllers."
+msgstr "Utilise SDL pour toutes les manettes, au lieu de XInput pour les manettes Xbox."
+
+msgctxt "game_options"
+msgid "Show emulator notifications, enabled by default (AUTO)."
+msgstr "Affiche les notifications de l'émulateur, activé par défaut (AUTO)."
+
+msgctxt "game_options"
+msgid "EXTERNAL OUTPUTS"
+msgstr "SORTIES EXTERNES"
+
+msgctxt "game_options"
+msgid "Send lamps and gun recoil outputs to external tools (MAMEHooker, DemulShooter...)."
+msgstr "Envoie les sorties (lampes, recul des pistolets) vers des outils externes (MAMEHooker, DemulShooter...)."
+
+msgctxt "game_options"
+msgid "WINDOWS MESSAGES (MAME)"
+msgstr "MESSAGES WINDOWS (MAME)"
+
+msgctxt "game_options"
+msgid "NETWORK (TCP)"
+msgstr "RÉSEAU (TCP)"
+
+msgctxt "game_options"
+msgid "AUTO shows the crosshair when aiming with a mouse, and hides it with a real lightgun."
+msgstr "AUTO affiche la cible lors de la visée à la souris et la masque avec un vrai pistolet."

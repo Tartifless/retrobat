@@ -120,6 +120,7 @@ emulators\2ship
 emulators\3dsen
 emulators\altirra
 emulators\applewin
+emulators\arcadeduck
 emulators\arcadeflashweb
 emulators\ares
 emulators\azahar
@@ -461,6 +462,7 @@ saves\xbox360
 saves\xbox360\xenia
 saves\xbox360\xenia\content
 screenshots
+screenshots\arcadeduck
 screenshots\ares
 screenshots\azahar
 screenshots\capriceforever
