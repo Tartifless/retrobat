@@ -1,0 +1,166 @@
+# ARCADEDUCK BUTTON MAPPING
+#
+# This file is provided with RetroBat
+# Copy it to retrobat\user\inputmapping\arcadeduck.yml to customize it (the user file has priority)
+#
+# It is used to map the controller buttons to the arcade panel buttons of ArcadeDuck games ("arcade" controls)
+# Containers are searched in this order (the first one found is used) :
+#   <set>_<layout>, <set>, <parent set>_<layout>, <parent set>, <ArcadeDuck control layout>_<layout>, <ArcadeDuck control layout>, default_<layout>, default
+#   <layout> is the CONTROLLER LAYOUT option (modern8, 8alternative, 6alternative - classic8 uses 6alternative)
+#   The ArcadeDuck control layout is the 'layout' of the game in ArcadeDuck resources\arcadedb.yaml (e.g. sfex, tekken)
+#
+# The key represents the controller button : south, east, west, north, l1, r1, l2, r2, l3, r3, select, start, up, down, left, right
+# (south / east / west / north are positions : south = A on Xbox, Cross on PlayStation)
+# The value represents the ArcadeDuck control : Button1 to Button6, Coin, Start, Select, SelectUp, SelectDown, SelectLeft, SelectRight, Enter
+# Several controls can be separated with a comma
+# Directions (d-pad and left stick), Coin (select) and Start are always mapped
+#
+# Default Layout for default (GAMEPAD):
+# L1 | R1
+#      N
+#    W   E
+#      S
+# B1 = W, B2 = S, B3 = E, B4 = N, B5 = L1, B6 = R1
+#
+# Default Layout for modern8:
+# W | N | R1
+# S | E | R2
+#
+# Default Layout for 6alternative & 8alternative:
+# W | N | L1
+# S | E | R1
+#
+default:
+  west: Button1
+  south: Button2
+  east: Button3
+  north: Button4
+  l1: Button5
+  r1: Button6
+default_modern8:
+  west: Button1
+  north: Button2
+  r1: Button3
+  south: Button4
+  east: Button5
+  r2: Button6
+default_8alternative:
+  west: Button1
+  north: Button2
+  l1: Button3
+  south: Button4
+  east: Button5
+  r1: Button6
+default_6alternative:
+  west: Button1
+  north: Button2
+  l1: Button3
+  south: Button4
+  east: Button5
+  r1: Button6
+
+# 6 buttons fighting games : punches on the top row, kicks on the bottom row
+sfex:
+  west: Button1
+  north: Button2
+  l1: Button3
+  south: Button4
+  east: Button5
+  r1: Button6
+sfex_modern8:
+  west: Button1
+  north: Button2
+  r1: Button3
+  south: Button4
+  east: Button5
+  r2: Button6
+sfex_8alternative:
+  west: Button1
+  north: Button2
+  r1: Button3
+  south: Button4
+  east: Button5
+  r2: Button6
+ts2:
+  west: Button1
+  north: Button2
+  l1: Button3
+  south: Button4
+  east: Button5
+  r1: Button6
+ts2_modern8:
+  west: Button1
+  north: Button2
+  r1: Button3
+  south: Button4
+  east: Button5
+  r2: Button6
+darkhleg:
+  west: Button1
+  north: Button2
+  l1: Button3
+  south: Button4
+  east: Button5
+  r1: Button6
+darkhleg_modern8:
+  west: Button1
+  north: Button2
+  r1: Button3
+  south: Button4
+  east: Button5
+  r2: Button6
+primrag2:
+  west: Button1
+  north: Button2
+  l1: Button3
+  south: Button4
+  east: Button5
+  r1: Button6
+primrag2_modern8:
+  west: Button1
+  north: Button2
+  r1: Button3
+  south: Button4
+  east: Button5
+  r2: Button6
+
+# 4 buttons fighting games : 2 x 2 panel, Button1 / Button2 on the top row, Button3 / Button4 on the bottom row
+tekken:
+  west: Button1
+  north: Button2
+  south: Button3
+  east: Button4
+souledge:
+  west: Button1
+  north: Button2
+  south: Button3
+  east: Button4
+starglad:
+  west: Button1
+  north: Button2
+  south: Button3
+  east: Button4
+plsmaswd:
+  west: Button1
+  north: Button2
+  south: Button3
+  east: Button4
+rvschool:
+  west: Button1
+  north: Button2
+  south: Button3
+  east: Button4
+bldyror2:
+  west: Button1
+  north: Button2
+  south: Button3
+  east: Button4
+
+# Bust A Move 2 : rhythm and pedal buttons, select up / down, enter and service 2 buttons
+bam2:
+  south: Button1
+  east: Button2
+  l1: SelectUp
+  r1: SelectDown
+  west: Enter
+  north: Select

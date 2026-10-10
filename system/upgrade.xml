@@ -6,6 +6,7 @@
   <neveroverwrite path="emulators\altirra\Altirra.ini"/>
   <neveroverwrite path="emulators\amiberry\amiberry.conf"/>
   <neveroverwrite path="emulators\amiberry\amiberry.ini"/>
+  <neveroverwrite path="emulators\arcadeduck\settings.ini"/>
   <neveroverwrite path="emulators\ares\settings.bml"/>
   <neveroverwrite path="emulators\azahar\user\config\qt-config.ini"/>
   <neveroverwrite path="emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg"/>
