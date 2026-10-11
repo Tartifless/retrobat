@@ -293,8 +293,8 @@
 		<path>./dolphin-triforce.menu</path>
 		<name>Dolphin Triforce</name>
 		<desc>Run Dolphin Emulator (Triforce).</desc>
-		<image>./media/dolphin-logo.png</image>
-		<marquee>./media/dolphin-logo.png</marquee>
+		<image>./media/dolphin-triforce-logo.png</image>
+		<marquee>./media/dolphin-triforce-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>Dolphin Community</developer>
@@ -565,8 +565,8 @@
 		<path>./lime3ds.menu</path>
 		<name>Lime (3DS)</name>
 		<desc>Run Lime Emulator (Nintendo 3DS).</desc>
-		<image>./media/lime3ds-logo.svg</image>
-		<marquee>./media/lime3ds-logo.svg</marquee>
+		<image>./media/lime3ds-logo.png</image>
+		<marquee>./media/lime3ds-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>Lime Team</developer>
@@ -612,8 +612,8 @@
 		<path>./mandarine.menu</path>
 		<name>Mandarine (3DS)</name>
 		<desc>Run Mandarine Emulator (Nintendo 3DS).</desc>
-		<image>./media/mandarine-logo.svg</image>
-		<marquee>./media/mandarine-logo.svg</marquee>
+		<image>./media/mandarine-logo.png</image>
+		<marquee>./media/mandarine-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>Mandarine Team</developer>
@@ -1186,8 +1186,8 @@
 		<path>./chihiro.menu</path>
 		<name>Chihiro (CxBx Reloaded - old)</name>
 		<desc>Run Chihiro Emulator.</desc>
-		<image>./media/cxbxr-logo.png</image>
-		<marquee>./media/cxbxr-logo.png</marquee>
+		<image>./media/chihiro.png</image>
+		<marquee>./media/chihiro.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>CXBX Team</developer>
@@ -1203,8 +1203,8 @@
 		<path>./chihiro-gun.menu</path>
 		<name>Chihiro-ds (CxBx Reloaded - gun games)</name>
 		<desc>Run Chihiro Emulator (gun version).</desc>
-		<image>./media/cxbxr-logo.png</image>
-		<marquee>./media/cxbxr-logo.png</marquee>
+		<image>./media/chihiro-gun.png</image>
+		<marquee>./media/chihiro-gun.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>CXBX Team</developer>
@@ -1305,8 +1305,8 @@
 		<path>./psxmame.menu</path>
 		<name>PSXMAME (Playstation-based Arcade)</name>
 		<desc>Run PSXMAME (Playstation-based Arcade).</desc>
-		<image>./media/zinc-logo.png</image>
-		<marquee>./media/zinc-logo.png</marquee>
+		<image>./media/psxmame-logo.png</image>
+		<marquee>./media/psxmame-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>MAME Team</developer>
@@ -1373,8 +1373,8 @@
 		<path>./sudachi.menu</path>
 		<name>Sudachi (Switch)</name>
 		<desc>Run Sudachi (Switch). This software is not provided by RetroBat.</desc>
-		<image>./media/sudachi-logo.jpg</image>
-		<marquee>./media/sudachi-logo.jpg</marquee>
+		<image>./media/sudachi-logo.png</image>
+		<marquee>./media/sudachi-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>Jarrod Norwell</developer>
@@ -1695,8 +1695,8 @@
 		<path>./zesarux.menu</path>
 		<name>ZEsarUX (ZX Spectrum)</name>
 		<desc>Run ZEsarUX GUI.</desc>
-		<image>./media/zesarux-logo.jpg</image>
-		<marquee>./media/zesarux-logo.jpg</marquee>
+		<image>./media/zesarux-logo.png</image>
+		<marquee>./media/zesarux-logo.png</marquee>
 		<rating>0</rating>
 		<releasedate />
 		<developer>chernandezba</developer>
