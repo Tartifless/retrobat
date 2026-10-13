@@ -17777,8 +17777,8 @@ msgid "ReShade is used by RetroBat to display bezels and shaders in some standal
 msgstr "ReShade est utilisé pour afficher les bezels et les shaders dans certains émulateurs. DÉSACTIVÉ : désactive Reshade pour RetroBat. UTILISER LE MIEN : RetroBat n'installe, ne modifie et ne supprime jamais les fichiers ReShade des dossiers des émulateurs."
 
 msgctxt "game_options"
-msgid "Screen used to display games. AUTO follows EmulationStation."
-msgstr "Écran utilisé pour afficher les jeux. AUTO suit EmulationStation."
+msgid "Screen used to display games (0 = primary screen). AUTO lets the emulator choose its screen."
+msgstr "Écran utilisé pour afficher les jeux (0 = écran principal). AUTO laisse l'émulateur choisir son écran."
 
 msgctxt "game_options"
 msgid "Vulkan only: tells the video driver to use a specified buffering mode."
