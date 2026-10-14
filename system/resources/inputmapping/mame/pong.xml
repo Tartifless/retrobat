@@ -3,12 +3,12 @@
   <layouts>
     <layout type="default" joystickcolor="Black">
       <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
       <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
@@ -16,12 +16,12 @@
     </layout>
     <layout type="modern8" joystickcolor="Black">
       <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
       <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
@@ -29,12 +29,12 @@
     </layout>
     <layout type="8alternative" joystickcolor="Black">
       <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
       <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
@@ -42,12 +42,12 @@
     </layout>
     <layout type="6alternative" joystickcolor="Black">
       <button type="P1_PADDLE" tag=":PADDLE0" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P1_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
       <button type="P2_PADDLE" tag=":PADDLE1" mask="255" defvalue="0" x="30" y="60" color="Blue" function="P2_PADDLE">
-        <mapping type="standard" name="JOY_leftsticky_reverse" />
+        <mapping type="standard" name="JOY_leftsticky_reverse OR MOUSE_YAXIS_reverse" />
         <mapping type="increment" name="JOY_up" />
         <mapping type="decrement" name="JOY_down" />
       </button>
