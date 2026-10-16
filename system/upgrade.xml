@@ -83,6 +83,7 @@
   <neveroverwrite path="saves\psp\SYSTEM\ppsspp.ini"/>
   <neveroverwrite path="emulators\project64\Config\Project64.cfg"/>
   <neveroverwrite path="emulators\psxmame\mame.ini"/>
+  <neveroverwrite path="emulators\quiverlauncher\settings.json"/>
   <neveroverwrite path="emulators\raine\config\raine32_sdl.cfg"/>
   <neveroverwrite path="emulators\redream\redream.cfg"/>
   <neveroverwrite path="emulators\retroarch\retroarch-core-options.cfg"/>
