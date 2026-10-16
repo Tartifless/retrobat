@@ -103,7 +103,6 @@
 \system\templates\mandarine\user\config\qt-config.ini|\emulators\mandarine\user\config\qt-config.ini
 \system\templates\mesen\settings.json|\emulators\mesen\settings.json
 \system\templates\mupen64\Config\mupen64plus.cfg|\emulators\mupen64\Config\mupen64plus.cfg
-\system\templates\n64recomplauncher\settings.json|\emulators\n64recomplauncher\settings.json
 \system\templates\nosgba\NO$GBA.INI|\emulators\nosgba\NO$GBA.INI
 \system\templates\openjazz\openjazz.cfg|\emulators\openjazz\openjazz.cfg
 \system\templates\pcsx2-16\Plugins\nuvee_ps2_usb.dll|\emulators\pcsx2-16\Plugins\nuvee_ps2_usb.dll
@@ -126,6 +125,7 @@
 \system\templates\ppsspp\installed.txt|\emulators\ppsspp\installed.txt
 \system\templates\ppsspp\assets\shaders\ppsspp_shaders.zip|\emulators\ppsspp\assets\shaders
 \system\templates\project64\Plugin\GFX\GLideN64\GLideN64.ini|\emulators\project64\Plugin\GFX\GLideN64\GLideN64.ini
+\system\templates\quiverlauncher\settings.json|\emulators\quiverlauncher\settings.json
 \system\templates\raze\raze_portable.ini|\emulators\raze\raze_portable.ini
 \system\templates\retroarch\assets\sounds\retroachievements\retroarch_standard.ogg|\sounds\retroachievements\retroarch_standard.ogg
 \system\templates\retroarch\config\MAME\MAME.opt|\emulators\retroarch\config\MAME\MAME.opt

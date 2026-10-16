@@ -690,23 +690,6 @@
 		<region>wr</region>
 	</game>
 	<game>
-		<path>./n64recomplauncher.menu</path>
-		<name>N64RecompLauncher (Nintendo 64 Recompilation)</name>
-		<desc>Run N64 Recompilation Launcher.</desc>
-		<image>./media/n64recomplauncher-logo.png</image>
-		<marquee>./media/n64recomplauncher-logo.png</marquee>
-		<rating>0</rating>
-		<releasedate />
-		<developer>SirDiabo</developer>
-		<publisher></publisher>
-		<genre>Emulator</genre>
-		<playcount />
-		<lastplayed />
-		<gametime />
-		<lang>en</lang>
-		<region>wr</region>
-	</game>
-	<game>
 		<path>./openmsx.menu</path>
 		<name>OpenMSX (MSX)</name>
 		<desc>Run OpenMSX (MSX).</desc>
@@ -818,6 +801,23 @@
 		<releasedate />
 		<developer>Project 64</developer>
 		<publisher>Project 64</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./quiverlauncher.menu</path>
+		<name>Quiver Launcher (Recompiled and Decompiled Ports)</name>
+		<desc>Run Quiver Launcher to install and update recompiled and decompiled game ports.</desc>
+		<image>./media/quiverlauncher-logo.png</image>
+		<marquee>./media/quiverlauncher-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>tgeorgiadis</developer>
+		<publisher></publisher>
 		<genre>Emulator</genre>
 		<playcount />
 		<lastplayed />
