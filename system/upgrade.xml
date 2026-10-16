@@ -140,4 +140,14 @@
     <move path="emulators\shadps4\launcher\qt_ui.ini" to="emulators\shadps4\launcher\qt_ui.ini.backup"/>
     <move path="emulators\winuae\winuae.ini" to="emulators\winuae\winuae.ini.backup"/>
   </actions>
+  <actions version="8.3.0">
+    <move path="roms\prboom\gamelist.xml" to="roms\prboom\gamelist.xml.prboom.backup"/>
+    <merge path="roms\prboom" to="roms\doom"/>
+    <delete path="system\es_menu\n64recomplauncher.menu"/>
+    <delete path="system\es_menu\media\n64recomplauncher-logo.png"/>
+    <delete path="system\es_menu\media\lime3ds-logo.svg"/>
+    <delete path="system\es_menu\media\mandarine-logo.svg"/>
+    <delete path="system\es_menu\media\demulold-logo.png"/>
+    <delete path="system\templates\n64recomplauncher"/>
+  </actions>
 </upgradeinfo>
