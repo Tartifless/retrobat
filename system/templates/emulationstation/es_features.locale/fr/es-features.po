@@ -26550,3 +26550,11 @@ msgstr "RÉSEAU (TCP)"
 msgctxt "game_options"
 msgid "AUTO shows the crosshair when aiming with a mouse, and hides it with a real lightgun."
 msgstr "AUTO affiche la cible lors de la visée à la souris et la masque avec un vrai pistolet."
+
+msgctxt "game_options"
+msgid "DSP JIT ENGINE"
+msgstr "MOTEUR JIT DU DSP"
+
+msgctxt "game_options"
+msgid "Faster DSP emulation engine (experimental). Only used when DSP EMULATION is enabled."
+msgstr "Moteur d'émulation du DSP plus rapide (expérimental). Utilisé uniquement si l'ÉMULATION DSP est activée."
