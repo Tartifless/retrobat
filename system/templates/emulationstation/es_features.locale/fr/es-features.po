@@ -26594,3 +26594,15 @@ msgstr "Courir par défaut, le bouton de course fait marcher. Consomme l'enduran
 msgctxt "game_options"
 msgid "Inverts looking up and down (gamepad and mouse)."
 msgstr "Inverse le regard haut/bas (manette et souris)."
+
+msgctxt "game_options"
+msgid "DOT"
+msgstr "POINT"
+
+msgctxt "game_options"
+msgid "With a lowered internal resolution, stretch the picture to the screen instead of letterboxing it."
+msgstr "Avec une résolution interne réduite, étire l'image à l'écran au lieu d'ajouter des bandes noires."
+
+msgctxt "game_options"
+msgid "Run by default, the run button walks. Enabled by default."
+msgstr "Courir par défaut, le bouton de course fait marcher. Activé par défaut."
