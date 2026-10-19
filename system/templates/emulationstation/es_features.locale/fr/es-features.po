@@ -26566,3 +26566,31 @@ msgstr "MOTEUR JIT DU DSP"
 msgctxt "game_options"
 msgid "Faster DSP emulation engine (experimental). Only used when DSP EMULATION is enabled."
 msgstr "Moteur d'émulation du DSP plus rapide (expérimental). Utilisé uniquement si l'ÉMULATION DSP est activée."
+
+msgctxt "game_options"
+msgid "Forces an exclusive fullscreen resolution. By default the game runs at the desktop resolution."
+msgstr "Force une résolution en plein écran exclusif. Par défaut, le jeu utilise la résolution du bureau."
+
+msgctxt "game_options"
+msgid "Loads a graphics quality preset (textures, filtering, soft particles). Leave on AUTO to keep the in-game settings."
+msgstr "Charge un préréglage de qualité graphique (textures, filtrage, particules douces). Laisser sur AUTO pour conserver les réglages du jeu."
+
+msgctxt "game_options"
+msgid "BRIGHTNESS"
+msgstr "LUMINOSITÉ"
+
+msgctxt "game_options"
+msgid "Doom 3 is a very dark game, increase to brighten the picture."
+msgstr "Doom 3 est un jeu très sombre, augmenter pour éclaircir l'image."
+
+msgctxt "game_options"
+msgid "Environmental reverb (EFX), enabled by default."
+msgstr "Réverbération environnementale (EFX), activée par défaut."
+
+msgctxt "game_options"
+msgid "Run by default, the run button walks. Uses stamina in single player."
+msgstr "Courir par défaut, le bouton de course fait marcher. Consomme l'endurance en solo."
+
+msgctxt "game_options"
+msgid "Inverts looking up and down (gamepad and mouse)."
+msgstr "Inverse le regard haut/bas (manette et souris)."
