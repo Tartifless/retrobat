@@ -1,5 +1,30 @@
 # Changelog
 
+## RetroBat 8.3.1
+<details>
+
+This is a bugfix release for version 8.3.0
+
+### Emulators\cores:
+- Bump libretro-prboom and merge roms folder in roms\doom for all doom engines (uzdoom, gzdoom and prboom)
+- Removed n64recomplauncher (and n64recomp folder) and moved to use QuiverLauncher and roms\recomp folder
+
+### Fixes:
+- CHIHIRO: add missing .bin extension
+- CHIHIRO: fix BIOS check
+- EMULATIONSTATION: fix padtokeyboard keyboard layout
+- EMULATIONSTATION: fix some screen moving issues on some emulators
+- PCSX2: also move screen when target screen is primary screen
+- EMULATORLAUNCHER: fix multiple issues with screen moving or screen on which the emulators are launched
+
+### Features:
+- WIIMOTE: aligned wiimote buttons in all emulators (using dpad for additional actions and start/coin: this way it will work whatever the dolphinbar mode (1 or 2))
+
+### Other stuff:
+- Aligned Wiimote buttons (in mode 1 and 2) for Teknoparrot, Libretro, Flycast, Model2, Supermodel, Duckstation
+
+</details>
+
 ## RetroBat 8.3.0
 <details>
 
