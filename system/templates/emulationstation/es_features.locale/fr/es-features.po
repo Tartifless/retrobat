@@ -42,6 +42,14 @@ msgid "DECORATIONS"
 msgstr "DÉCORATIONS"
 
 msgctxt "game_options"
+msgid "FORCE BEZEL"
+msgstr "FORCER LA DÉCORATION"
+
+msgctxt "game_options"
+msgid "Specify path to bezel."
+msgstr "Spécifier le chemin du bezel à utiliser."
+
+msgctxt "game_options"
 msgid "VIDEO MODE"
 msgstr "RÉSOLUTION DE L'ÉCRAN"
 
