@@ -18000,6 +18000,10 @@ msgid "Swap the A/B and X/Y buttons of the controller."
 msgstr "Inverse les boutons A/B et X/Y de la manette."
 
 msgctxt "game_options"
+msgid "GAME"
+msgstr "JEU"
+
+msgctxt "game_options"
 msgid "Console variant matching the selected BIOS image."
 msgstr "Variante de console correspondant à l'image BIOS choisie."
 
@@ -26499,10 +26503,6 @@ msgid "Shows floppy disk names, drive lamps and speed, in window and full screen
 msgstr "Affiche le nom des disquettes, les voyants des lecteurs et la vitesse, en fenêtre et en plein écran."
 
 msgctxt "game_options"
-msgid "Swap the A/B and X/Y buttons of the controller."
-msgstr "Inverse les boutons A/B et X/Y de la manette."
-
-msgctxt "game_options"
 msgid "Move with the left analog stick as well as the D-pad. On by default."
 msgstr "Permet de se déplacer avec le stick analogique gauche en plus de la croix directionnelle. Activé par défaut."
 
@@ -26702,10 +26702,146 @@ msgctxt "game_options"
 msgid "Inverts looking up and down with the right stick."
 msgstr "Inverse le regard haut/bas avec le stick droit."
 
-msgctxt "game_options"
-msgid "Forces an exclusive fullscreen resolution. By default the game runs at the desktop resolution."
-msgstr "Force une résolution en plein écran exclusif. Par défaut, le jeu utilise la résolution du bureau."
+msgid "By default Hellfire is started when the game name contains hellfire, otherwise Diablo."
+msgstr "Par défaut, Hellfire est lancé si le nom du jeu contient hellfire, sinon Diablo."
+
+msgid "Adapt the game view to the screen aspect ratio. Enabled by default, disabled when a bezel is displayed unless set to ON."
+msgstr "Adapte la vue au format de l'écran. Activé par défaut, désactivé quand un bezel est affiché sauf si réglé sur ON."
+
+msgid "Height of the game picture. A higher resolution shows more of the dungeon but smaller characters."
+msgstr "Hauteur de l'image du jeu. Une résolution plus élevée montre une plus grande partie du donjon mais des personnages plus petits."
+
+msgid "640x480 (ORIGINAL)"
+msgstr "640x480 (ORIGINAL)"
+
+msgid "Enabled by default. When disabled, the frame rate is limited by the game."
+msgstr "Activé par défaut. Désactivé, le jeu limite lui-même la fréquence d'images."
+
+msgid "SKIP INTRO"
+msgstr "PASSER L'INTRO"
+
+msgid "Skip the startup videos and logo."
+msgstr "Passe les vidéos et le logo au démarrage."
+
+msgid "SCALING QUALITY"
+msgstr "QUALITÉ DE MISE À L'ÉCHELLE"
+
+msgid "NEAREST PIXEL"
+msgstr "PIXEL LE PLUS PROCHE"
+
+msgid "ANISOTROPIC"
+msgstr "ANISOTROPE"
+
+msgid "Scale the picture by whole numbers only, for sharp pixels."
+msgstr "Agrandit l'image uniquement par multiples entiers, pour des pixels nets."
+
+msgid "EXPERIENCE BAR"
+msgstr "BARRE D'EXPÉRIENCE"
+
+msgid "Display an experience bar above the belt."
+msgstr "Affiche une barre d'expérience au-dessus de la ceinture."
+
+msgid "ENEMY HEALTH BAR"
+msgstr "BARRE DE VIE DES ENNEMIS"
+
+msgid "LIFE AND MANA VALUES"
+msgstr "VALEURS DE VIE ET DE MANA"
+
+msgid "Display current life and mana values on the globes."
+msgstr "Affiche les valeurs de vie et de mana sur les globes."
+
+msgid "ITEM LABELS"
+msgstr "NOMS DES OBJETS"
+
+msgid "Always display the names of items on the ground."
+msgstr "Affiche toujours le nom des objets au sol."
+
+msgid "FLOATING NUMBERS"
+msgstr "NOMBRES FLOTTANTS"
+
+msgid "Display damage and experience as floating numbers."
+msgstr "Affiche les dégâts et l'expérience sous forme de nombres flottants."
+
+msgid "RANDOM ANGLES"
+msgstr "ANGLES ALÉATOIRES"
+
+msgid "RUN IN TOWN"
+msgstr "COURIR EN VILLE"
+
+msgid "AUTO GOLD PICKUP"
+msgstr "RAMASSAGE AUTO DE L'OR"
+
+msgid "AUTO REFILL BELT"
+msgstr "REMPLISSAGE AUTO DE LA CEINTURE"
+
+msgid "Refill the belt with potions from the inventory."
+msgstr "Remplit la ceinture avec les potions de l'inventaire."
+
+msgid "GAMEPAD SHORTCUTS"
+msgstr "RACCOURCIS MANETTE"
+
+msgid "HOTKEY+L3 quick save, START+L3 quick load, START+R3 screenshot. Enabled by default."
+msgstr "HOTKEY+L3 sauvegarde rapide, START+L3 chargement rapide, START+R3 capture d'écran. Activé par défaut."
+
+msgid "7% (DEFAULT)"
+msgstr "7% (DÉFAUT)"
 
 msgctxt "game_options"
-msgid "Run by default, the run button walks. Enabled by default."
-msgstr "Courir par défaut, le bouton de course fait marcher. Activé par défaut."
+msgid "PLAYER 1 CONTROLLER ONLY"
+msgstr "MANETTE DU JOUEUR 1 UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "By default every controller moves the hero. Enable if another connected controller disturbs the movement."
+msgstr "Par défaut, toutes les manettes déplacent le héros. À activer si une autre manette branchée perturbe les déplacements."
+
+msgctxt "game_options"
+msgid "Size of the game view. A higher resolution shows more of the map but a smaller interface. Bezels are only displayed with 4:3 resolutions."
+msgstr "Taille de la vue du jeu. Une résolution plus élevée montre une plus grande partie de la carte mais une interface plus petite. Les bezels ne s'affichent qu'avec les résolutions 4:3."
+
+msgctxt "game_options"
+msgid "Enabled by default. When disabled, the frame rate is capped at 60 FPS."
+msgstr "Activé par défaut. Désactivé, la fréquence d'images est limitée à 60 FPS."
+
+msgctxt "game_options"
+msgid "Skip the startup videos."
+msgstr "Passe les vidéos de démarrage."
+
+msgctxt "game_options"
+msgid "ZOOM"
+msgstr "ZOOM"
+
+msgctxt "game_options"
+msgid "Allow zooming in and out of the map with the mouse wheel, like the Enhanced Editions."
+msgstr "Permet de zoomer et dézoomer la carte avec la molette de la souris, comme dans les Enhanced Editions."
+
+msgctxt "game_options"
+msgid "Only for Asian versions of the games."
+msgstr "Uniquement pour les versions asiatiques des jeux."
+
+msgctxt "game_options"
+msgid "KOREAN"
+msgstr "CORÉEN"
+
+msgctxt "game_options"
+msgid "CHINESE"
+msgstr "CHINOIS"
+
+msgctxt "game_options"
+msgid "POINTER SPEED"
+msgstr "VITESSE DU POINTEUR"
+
+msgctxt "game_options"
+msgid "Speed of the mouse pointer moved with the left stick."
+msgstr "Vitesse du pointeur de la souris déplacé avec le stick gauche."
+
+msgctxt "game_options"
+msgid "SLOW"
+msgstr "LENT"
+
+msgctxt "game_options"
+msgid "VERY FAST"
+msgstr "TRÈS RAPIDE"
+
+msgctxt "game_options"
+msgid "15% (DEFAULT)"
+msgstr "15% (DÉFAUT)"
