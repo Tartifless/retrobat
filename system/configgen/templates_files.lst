@@ -29,8 +29,6 @@
 \system\templates\demul\Demul.ini|\emulators\demul\Demul.ini
 \system\templates\demul\gpuDX11old.ini|\emulators\demul\gpuDX11old.ini
 \system\templates\demul\gpuDX11.ini|\emulators\demul\gpuDX11.ini
-\system\templates\dhewm3\base\dhewm.cfg|\emulators\dhewm3\base\dhewm.cfg
-\system\templates\dhewm3\d3xp\dhewm.cfg|\emulators\dhewm3\d3xp\dhewm.cfg
 \system\templates\dolphin-triforce\User\Config\Dolphin.ini|\emulators\dolphin-triforce\User\Config\Dolphin.ini
 \system\templates\dolphin-triforce\Sys\GameSettings\GameSettings.zip|\emulators\dolphin-triforce\Sys\GameSettings
 \system\templates\dolphin-triforce\User\GameSettings\GameSettings.zip|\emulators\dolphin-triforce\User\GameSettings
@@ -126,7 +124,6 @@
 \system\templates\ppsspp\assets\shaders\ppsspp_shaders.zip|\emulators\ppsspp\assets\shaders
 \system\templates\project64\Plugin\GFX\GLideN64\GLideN64.ini|\emulators\project64\Plugin\GFX\GLideN64\GLideN64.ini
 \system\templates\quiverlauncher\settings.json|\emulators\quiverlauncher\settings.json
-\system\templates\raze\raze_portable.ini|\emulators\raze\raze_portable.ini
 \system\templates\retroarch\assets\sounds\retroachievements\retroarch_standard.ogg|\sounds\retroachievements\retroarch_standard.ogg
 \system\templates\retroarch\config\MAME\MAME.opt|\emulators\retroarch\config\MAME\MAME.opt
 \system\templates\retroarch\retroarch-core-options.cfg|\emulators\retroarch\retroarch-core-options.cfg
