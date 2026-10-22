@@ -7783,6 +7783,14 @@ msgid "STICK DEADZONE"
 msgstr "ZONE MORTE JOYSTICK"
 
 msgctxt "game_options"
+msgid "Increase if the view or the player moves on its own. Default is 10%."
+msgstr "Augmenter si la vue ou le joueur bouge tout seul. 10 % par défaut."
+
+msgctxt "game_options"
+msgid "Increase if the view or the player moves on its own."
+msgstr "Augmenter si la vue ou le joueur bouge tout seul."
+
+msgctxt "game_options"
 msgid "Use this only if the analog stick is drifting."
 msgstr "Utiliser ce paramétrage en cas de 'drift' du joystick analogique (joystick qui bouge sans appui)."
 
@@ -17788,6 +17796,9 @@ msgctxt "game_options"
 msgid "Screen used to display games (0 = primary screen). AUTO lets the emulator choose its screen."
 msgstr "Écran utilisé pour afficher les jeux (0 = écran principal). AUTO laisse l'émulateur choisir son écran."
 
+msgid "FOLLOW EMULATIONSTATION"
+msgstr "SUIVRE EMULATIONSTATION"
+
 msgctxt "game_options"
 msgid "Vulkan only: tells the video driver to use a specified buffering mode."
 msgstr "Vulkan uniquement : indique au pilote vidéo le mode de mise en mémoire tampon à utiliser."
@@ -26602,6 +26613,98 @@ msgstr "POINT"
 msgctxt "game_options"
 msgid "With a lowered internal resolution, stretch the picture to the screen instead of letterboxing it."
 msgstr "Avec une résolution interne réduite, étire l'image à l'écran au lieu d'ajouter des bandes noires."
+
+msgctxt "game_options"
+msgid "Run by default, the run button walks. Enabled by default."
+msgstr "Courir par défaut, le bouton de course fait marcher. Activé par défaut."
+
+msgctxt "game_options"
+msgid "RENDERER"
+msgstr "MOTEUR DE RENDU"
+
+msgctxt "game_options"
+msgid "CLASSIC is the original software renderer. POLYMOST and POLYMER use OpenGL and support HD packs."
+msgstr "CLASSIC est le rendu logiciel d'origine. POLYMOST et POLYMER utilisent OpenGL et gèrent les packs HD."
+
+msgctxt "game_options"
+msgid "OpenGL renderers only."
+msgstr "Rendus OpenGL uniquement."
+
+msgctxt "game_options"
+msgid "OpenGL renderers only, with LINEAR texture filter."
+msgstr "Rendus OpenGL uniquement, avec le filtre de textures LINEAR."
+
+msgctxt "game_options"
+msgid "HD TEXTURES"
+msgstr "TEXTURES HD"
+
+msgctxt "game_options"
+msgid "Use the high resolution textures of HD packs (OpenGL renderers). Enabled by default."
+msgstr "Utilise les textures haute résolution des packs HD (rendus OpenGL). Activé par défaut."
+
+msgctxt "game_options"
+msgid "3D MODELS"
+msgstr "MODÈLES 3D"
+
+msgctxt "game_options"
+msgid "Use the 3D models of HD packs instead of sprites (OpenGL renderers). Enabled by default."
+msgstr "Utilise les modèles 3D des packs HD à la place des sprites (rendus OpenGL). Activé par défaut."
+
+msgctxt "game_options"
+msgid "VOXELS"
+msgstr "VOXELS"
+
+msgctxt "game_options"
+msgid "Display voxel objects instead of flat sprites when available. Enabled by default."
+msgstr "Affiche les objets en voxels au lieu des sprites plats quand ils existent. Activé par défaut."
+
+msgctxt "game_options"
+msgid "SOUNDFONT uses the Roland SC-55 soundfont shipped with RetroBat."
+msgstr "SOUNDFONT utilise la soundfont Roland SC-55 fournie avec RetroBat."
+
+msgctxt "game_options"
+msgid "OPL3 EMULATION"
+msgstr "ÉMULATION OPL3"
+
+msgctxt "game_options"
+msgid "WINDOWS MIDI"
+msgstr "MIDI WINDOWS"
+
+msgctxt "game_options"
+msgid "SOUNDFONT"
+msgstr "SOUNDFONT"
+
+msgctxt "game_options"
+msgid "HUD"
+msgstr "HUD"
+
+msgctxt "game_options"
+msgid "SHOW LEVEL STATS"
+msgstr "AFFICHER LES STATS DU NIVEAU"
+
+msgctxt "game_options"
+msgid "Display level time, secrets found and enemies killed."
+msgstr "Affiche le temps du niveau, les secrets trouvés et les ennemis tués."
+
+msgctxt "game_options"
+msgid "HITSCAN WEAPONS ONLY"
+msgstr "ARMES À IMPACT DIRECT UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "PROJECTILES ONLY"
+msgstr "PROJECTILES UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "ALL WEAPONS"
+msgstr "TOUTES LES ARMES"
+
+msgctxt "game_options"
+msgid "Inverts looking up and down with the right stick."
+msgstr "Inverse le regard haut/bas avec le stick droit."
+
+msgctxt "game_options"
+msgid "Forces an exclusive fullscreen resolution. By default the game runs at the desktop resolution."
+msgstr "Force une résolution en plein écran exclusif. Par défaut, le jeu utilise la résolution du bureau."
 
 msgctxt "game_options"
 msgid "Run by default, the run button walks. Enabled by default."
