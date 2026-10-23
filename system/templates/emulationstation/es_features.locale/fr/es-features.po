@@ -26845,3 +26845,227 @@ msgstr "TRÈS RAPIDE"
 msgctxt "game_options"
 msgid "15% (DEFAULT)"
 msgstr "15% (DÉFAUT)"
+
+msgctxt "game_options"
+msgid "Bezels are only displayed with 4/3."
+msgstr "Les bezels ne s'affichent qu'en 4/3."
+
+msgctxt "game_options"
+msgid "SHOW ACHIEVEMENTS"
+msgstr "AFFICHER LES SUCCÈS"
+
+msgctxt "game_options"
+msgid "Display a message when an achievement is unlocked. Enabled by default."
+msgstr "Affiche un message quand un succès est débloqué. Activé par défaut."
+
+msgctxt "game_options"
+msgid "CPU SPEED"
+msgstr "VITESSE DU CPU"
+
+msgctxt "game_options"
+msgid "CPU clock. Auto uses the model clock or the game database. Some games (SSF2, Alltynex) benefit from a faster CPU."
+msgstr "Fréquence du CPU. Auto utilise la fréquence du modèle ou celle de la base de données des jeux. Certains jeux (SSF2, Alltynex) tournent mieux avec un CPU plus rapide."
+
+msgctxt "game_options"
+msgid "Main memory. Auto uses the model RAM or the game database. Unsupported sizes round up to the model's next size."
+msgstr "Mémoire principale. Auto utilise la RAM du modèle ou celle de la base de données des jeux. Une taille non gérée par le modèle est arrondie à la taille supérieure disponible."
+
+msgctxt "game_options"
+msgid "1 MB"
+msgstr "1 Mo"
+
+msgctxt "game_options"
+msgid "2 MB"
+msgstr "2 Mo"
+
+msgctxt "game_options"
+msgid "4 MB"
+msgstr "4 Mo"
+
+msgctxt "game_options"
+msgid "6 MB"
+msgstr "6 Mo"
+
+msgctxt "game_options"
+msgid "8 MB"
+msgstr "8 Mo"
+
+msgctxt "game_options"
+msgid "10 MB"
+msgstr "10 Mo"
+
+msgctxt "game_options"
+msgid "12 MB"
+msgstr "12 Mo"
+
+msgctxt "game_options"
+msgid "16 MB"
+msgstr "16 Mo"
+
+msgctxt "game_options"
+msgid "20 MB"
+msgstr "20 Mo"
+
+msgctxt "game_options"
+msgid "24 MB"
+msgstr "24 Mo"
+
+msgctxt "game_options"
+msgid "26 MB"
+msgstr "26 Mo"
+
+msgctxt "game_options"
+msgid "CPU DYNAREC"
+msgstr "RECOMPILATION DYNAMIQUE DU CPU"
+
+msgctxt "game_options"
+msgid "Dynamic recompilation. Most games run faster, some slower."
+msgstr "Recompilation dynamique. La plupart des jeux tournent plus vite, certains plus lentement."
+
+msgctxt "game_options"
+msgid "BOOT DEVICE"
+msgstr "PÉRIPHÉRIQUE DE DÉMARRAGE"
+
+msgctxt "game_options"
+msgid "Force the boot device (1F/2F and later models only)."
+msgstr "Force le périphérique de démarrage (modèles 1F/2F et suivants uniquement)."
+
+msgctxt "game_options"
+msgid "Floppy 1"
+msgstr "Disquette 1"
+
+msgctxt "game_options"
+msgid "Floppy 2"
+msgstr "Disquette 2"
+
+msgctxt "game_options"
+msgid "Hard Disk ID 0"
+msgstr "Disque dur ID 0"
+
+msgctxt "game_options"
+msgid "Hard Disk ID 1"
+msgstr "Disque dur ID 1"
+
+msgctxt "game_options"
+msgid "Hard Disk ID 2"
+msgstr "Disque dur ID 2"
+
+msgctxt "game_options"
+msgid "Hard Disk ID 3"
+msgstr "Disque dur ID 3"
+
+msgctxt "game_options"
+msgid "Hard Disk ID 4"
+msgstr "Disque dur ID 4"
+
+msgctxt "game_options"
+msgid "PER GAME CMOS"
+msgstr "CMOS PAR JEU"
+
+msgctxt "game_options"
+msgid "Shared CMOS for all content by default, or one per game (better for netplay)."
+msgstr "Par défaut, une CMOS partagée pour tous les jeux, ou une CMOS par jeu (préférable pour le netplay)."
+
+msgctxt "game_options"
+msgid "CD-ROM READ SPEED"
+msgstr "VITESSE DE LECTURE CD-ROM"
+
+msgctxt "game_options"
+msgid "Faster sector reads. Some software may not expect it."
+msgstr "Lecture plus rapide des secteurs. Certains logiciels peuvent ne pas le supporter."
+
+msgctxt "game_options"
+msgid "PRELOAD CD-ROM"
+msgstr "PRÉCHARGER LE CD-ROM"
+
+msgctxt "game_options"
+msgid "Preload all CD tracks into RAM."
+msgstr "Précharge toutes les pistes du CD en mémoire RAM."
+
+msgctxt "game_options"
+msgid "Drive used by disk swapping."
+msgstr "Lecteur utilisé lors du changement de disque."
+
+msgctxt "game_options"
+msgid "FLOPPY MULTIDRIVE"
+msgstr "MULTI-LECTEUR DE DISQUETTES"
+
+msgctxt "game_options"
+msgid "Also insert the next floppy into drive 2."
+msgstr "Insère aussi la disquette suivante dans le lecteur 2."
+
+msgctxt "game_options"
+msgid "SAVE DISK"
+msgstr "DISQUETTE DE SAUVEGARDE"
+
+msgctxt "game_options"
+msgid "Add a blank 2HD save/user disk to the disk control list."
+msgstr "Ajoute une disquette 2HD vierge (sauvegarde/utilisateur) à la liste de changement de disque."
+
+msgctxt "game_options"
+msgid "Aspect ratio presented by the core."
+msgstr "Rapport d'aspect fourni par le core."
+
+msgctxt "game_options"
+msgid "NATIVE RESOLUTION"
+msgstr "RÉSOLUTION NATIVE"
+
+msgctxt "game_options"
+msgid "One pixel per game pixel (recommended for shaders)."
+msgstr "Un pixel de sortie par pixel du jeu (recommandé pour les shaders)."
+
+msgctxt "game_options"
+msgid "Skip frames to avoid audio crackling on slow devices."
+msgstr "Saute des images pour éviter les craquements audio sur les machines lentes."
+
+msgctxt "game_options"
+msgid "MANUAL"
+msgstr "MANUEL"
+
+msgctxt "game_options"
+msgid "FRAMESKIP THRESHOLD (%)"
+msgstr "SEUIL DU SAUT D'IMAGES (%)"
+
+msgctxt "game_options"
+msgid "Audio buffer threshold for Manual frameskip."
+msgstr "Seuil du tampon audio pour le saut d'images en mode manuel."
+
+msgctxt "game_options"
+msgid "ORIGINAL GAMEPAD"
+msgstr "MANETTE D'ORIGINE"
+
+msgctxt "game_options"
+msgid "MARTY GAMEPAD"
+msgstr "MANETTE MARTY"
+
+msgctxt "game_options"
+msgid "6-BUTTON GAMEPAD"
+msgstr "MANETTE 6 BOUTONS"
+
+msgctxt "game_options"
+msgid "ALLOW OPPOSING DIRECTIONS"
+msgstr "AUTORISER LES DIRECTIONS OPPOSÉES"
+
+msgctxt "game_options"
+msgid "Allow pressing opposite directions simultaneously."
+msgstr "Autorise l'appui simultané sur des directions opposées."
+
+msgctxt "game_options"
+msgid "FM Towns mouse sensitivity."
+msgstr "Sensibilité de la souris FM Towns."
+
+msgctxt "game_options"
+msgid "ANALOG STICK MOUSE"
+msgstr "SOURIS AU STICK ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "Move the mouse with an analog stick of controller 1 (L2/R2 = buttons). A port must be set to Mouse."
+msgstr "Déplace la souris avec un stick analogique de la manette 1 (L2/R2 = boutons). Un port doit être réglé sur Souris."
+
+msgctxt "game_options"
+msgid "ANALOG MOUSE SPEED"
+msgstr "VITESSE DE LA SOURIS ANALOGIQUE"
+
+msgctxt "game_options"
+msgid "Speed of the analog-stick mouse."
+msgstr "Vitesse de la souris contrôlée au stick analogique."
