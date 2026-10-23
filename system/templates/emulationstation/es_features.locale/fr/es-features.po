@@ -27069,3 +27069,35 @@ msgstr "VITESSE DE LA SOURIS ANALOGIQUE"
 msgctxt "game_options"
 msgid "Speed of the analog-stick mouse."
 msgstr "Vitesse de la souris contrôlée au stick analogique."
+
+msgctxt "game_options"
+msgid "ENGINE BUILD"
+msgstr "VERSION DU MOTEUR"
+
+msgctxt "game_options"
+msgid "OpenBOR engine version used to run the game. Auto detects it from the game data, or from a [XXXX] build number in the file name as for the OpenBOR standalone."
+msgstr "Version du moteur OpenBOR utilisée pour le jeu. Auto la détecte à partir des données du jeu, ou d'un numéro de build [XXXX] dans le nom du fichier comme pour OpenBOR standalone."
+
+msgctxt "game_options"
+msgid "ADJUST FOR 4:3 CRT TV"
+msgstr "ADAPTER POUR TV CRT 4:3"
+
+msgctxt "game_options"
+msgid "Fit high resolution or widescreen games inside a 640x480 frame with black borders. Only useful on a 4:3 CRT TV."
+msgstr "Place les jeux haute résolution ou en écran large dans une image 640x480 avec des bandes noires. Utile uniquement sur une TV CRT 4:3."
+
+msgctxt "game_options"
+msgid "Auto: west attack, south jump, east special, north attack 2, L1/R1 attack 3/4. OpenBOR standalone: same buttons as the OpenBOR standalone emulator."
+msgstr "Auto : gauche attaque, bas saut, droite spécial, haut attaque 2, L1/R1 attaque 3/4. OpenBOR standalone : mêmes boutons que l'émulateur OpenBOR standalone."
+
+msgctxt "game_options"
+msgid "SPECIAL MOVE MACROS"
+msgstr "MACROS DES COUPS SPÉCIAUX"
+
+msgctxt "game_options"
+msgid "L2, R2, L3 and R3 perform the special moves of the current character, when the game lists them. On by default."
+msgstr "L2, R2, L3 et R3 exécutent les coups spéciaux du personnage, quand le jeu les décrit. Activé par défaut."
+
+msgctxt "game_options"
+msgid "Vibrate the controller when the character takes a hit. On by default."
+msgstr "Fait vibrer la manette quand le personnage est touché. Activé par défaut."
