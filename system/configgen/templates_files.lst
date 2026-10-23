@@ -10,6 +10,7 @@
 \system\templates\arcadeduck\settings.ini|\emulators\arcadeduck\settings.ini
 \system\templates\ares\settings.bml|\emulators\ares\settings.bml
 \system\templates\azahar\user\config\qt-config.ini|\emulators\azahar\user\config\qt-config.ini
+\system\templates\azahar-plus\user\config\qt-config.ini|\emulators\azahar-plus\user\config\qt-config.ini
 \system\templates\bigpemu\gamecontrollerdb.txt|\emulators\bigpemu\gamecontrollerdb.txt
 \system\templates\bigpemu\userdata\BigPEmuConfig.bigpcfg|\emulators\bigpemu\userdata\BigPEmuConfig.bigpcfg
 \system\templates\bizhawk\config.ini|\emulators\bizhawk\config.ini
