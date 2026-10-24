@@ -1166,23 +1166,6 @@
 		<region>wr</region>
 	</game>
 	<game>
-		<path>./supermodel.menu</path>
-		<name>Supermodel (MODEL 3)</name>
-		<desc>Run Supermodel (Model 3).</desc>
-		<image>./media/supermodel-logo.png</image>
-		<marquee>./media/supermodel-logo.png</marquee>
-		<rating>0</rating>
-		<developer>Supermodel Team</developer>
-		<publisher>Supermodel Team</publisher>
-		<genre>Emulator</genre>
-		<releasedate />
-		<playcount />
-		<lastplayed />
-		<gametime />
-		<lang>en</lang>
-		<region>wr</region>
-	</game>
-	<game>
 		<path>./cxbx-reloaded.menu</path>
 		<name>CxBx Reloaded (XBOX, Chihiro)</name>
 		<desc>Run CxBx Reloaded Emulator (Xbox, Chihiro).</desc>
@@ -1370,6 +1353,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./sm2emu.menu</path>
+		<name>SM2-emu (MODEL 2)</name>
+		<desc>Run sm2-emu emulator (MODEL 2).</desc>
+		<image>./media/sm2emu-logo.png</image>
+		<marquee>./media/sm2emu-logo.png</marquee>
+		<rating>0</rating>
+		<developer>Dmanlfc</developer>
+		<publisher>Dmanflc</publisher>
+		<genre>Emulator</genre>
+		<releasedate />
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./stella.menu</path>
 		<name>Stella (Atari 2600)</name>
 		<desc>Run Stella (Atari 2600).</desc>
@@ -1397,6 +1397,23 @@
 		<developer>Jarrod Norwell</developer>
 		<publisher>Sudachi</publisher>
 		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+		<path>./supermodel.menu</path>
+		<name>Supermodel (MODEL 3)</name>
+		<desc>Run Supermodel (Model 3).</desc>
+		<image>./media/supermodel-logo.png</image>
+		<marquee>./media/supermodel-logo.png</marquee>
+		<rating>0</rating>
+		<developer>Supermodel Team</developer>
+		<publisher>Supermodel Team</publisher>
+		<genre>Emulator</genre>
+		<releasedate />
 		<playcount />
 		<lastplayed />
 		<gametime />

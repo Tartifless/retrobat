@@ -27101,3 +27101,175 @@ msgstr "L2, R2, L3 et R3 exécutent les coups spéciaux du personnage, quand le 
 msgctxt "game_options"
 msgid "Vibrate the controller when the character takes a hit. On by default."
 msgstr "Fait vibrer la manette quand le personnage est touché. Activé par défaut."
+
+msgctxt "game_options"
+msgid "3D rendering resolution. Vulkan and OpenGL renderers only."
+msgstr "Résolution de rendu 3D. Rendus Vulkan et OpenGL uniquement."
+
+msgctxt "game_options"
+msgid "ROM CRC VERIFICATION"
+msgstr "VÉRIFICATION CRC DES ROMS"
+
+msgctxt "game_options"
+msgid "Check every ROM against the game database. Turn off only to test a romset that fails to load: wrong ROMs can crash or corrupt saves. On by default."
+msgstr "Vérifie chaque ROM avec la base des jeux. À désactiver uniquement pour tester un romset qui refuse de se charger : des ROMs incorrectes peuvent planter ou corrompre les sauvegardes. Activé par défaut."
+
+msgctxt "game_options"
+msgid "Auto follows the RetroArch video driver (OpenGL by default). Vulkan requires a Vulkan 1.3 graphics card. Software works everywhere but ignores the other video options."
+msgstr "Auto suit le pilote vidéo de RetroArch (OpenGL par défaut). Vulkan nécessite une carte graphique Vulkan 1.3. Logiciel fonctionne partout mais ignore les autres options vidéo."
+
+msgctxt "game_options"
+msgid "Anisotropic filtering of 3D textures. Vulkan and OpenGL renderers only."
+msgstr "Filtrage anisotrope des textures 3D. Rendus Vulkan et OpenGL uniquement."
+
+msgctxt "game_options"
+msgid "2D LAYER UPSCALING"
+msgstr "MISE À L'ÉCHELLE DES COUCHES 2D"
+
+msgctxt "game_options"
+msgid "Upscaling filter of the 2D layers (HUD, backgrounds). Vulkan and OpenGL renderers only."
+msgstr "Filtre de mise à l'échelle des couches 2D (HUD, décors). Rendus Vulkan et OpenGL uniquement."
+
+msgctxt "game_options"
+msgid "Expand the 3D view to 16:9 (experimental). Vulkan and OpenGL renderers only, keep the game aspect ratio on automatic."
+msgstr "Élargit la vue 3D en 16:9 (expérimental). Rendus Vulkan et OpenGL uniquement, laisser le format d'image du jeu en automatique."
+
+msgctxt "game_options"
+msgid "NATIVE REFRESH RATE (57.5 HZ)"
+msgstr "FRÉQUENCE NATIVE (57,5 HZ)"
+
+msgctxt "game_options"
+msgid "Run at the original 57.524 Hz instead of 60 Hz. Can stutter on a 60 Hz screen."
+msgstr "Fonctionne à la fréquence d'origine de 57,524 Hz au lieu de 60 Hz. Peut saccader sur un écran 60 Hz."
+
+msgctxt "game_options"
+msgid "TEST/SERVICE ON L3/R3"
+msgstr "TEST/SERVICE SUR L3/R3"
+
+msgctxt "game_options"
+msgid "L3 = Service, R3 = Test, to open the operator menu of the games. On by default."
+msgstr "L3 = Service, R3 = Test, pour ouvrir le menu opérateur des jeux. Activé par défaut."
+
+msgctxt "game_options"
+msgid "Vibrate the controller with the force feedback of the game. On by default."
+msgstr "Fait vibrer la manette avec le retour de force du jeu. Activé par défaut."
+
+msgctxt "game_options"
+msgid "4-SPEED SHIFTER"
+msgstr "BOÎTE 4 VITESSES"
+
+msgctxt "game_options"
+msgid "Right stick gear selection in 4-speed racing games. H-gate: diagonals, like a real gearbox. Directions: up 1, down 2, left 3, right 4. L1/R1 always shift down/up."
+msgstr "Choix du rapport au stick droit dans les jeux de course à 4 vitesses. Grille en H : diagonales, comme une vraie boîte. Directions : haut 1, bas 2, gauche 3, droite 4. L1/R1 rétrogradent / passent toujours le rapport."
+
+msgctxt "game_options"
+msgid "H-GATE"
+msgstr "GRILLE EN H"
+
+msgctxt "game_options"
+msgid "DIRECTIONS"
+msgstr "DIRECTIONS"
+
+msgctxt "game_options"
+msgid "Automatic: shown only when the game has no reticle of its own."
+msgstr "Automatique : affiché uniquement quand le jeu n'a pas son propre viseur."
+
+msgctxt "game_options"
+msgid "PLAYER 1"
+msgstr "JOUEUR 1"
+
+msgctxt "game_options"
+msgid "PLAYER 2"
+msgstr "JOUEUR 2"
+
+msgctxt "game_options"
+msgid "PLAYERS 1 AND 2"
+msgstr "JOUEURS 1 ET 2"
+
+msgctxt "game_options"
+msgid "HIDE SHOT FLASH"
+msgstr "MASQUER LE FLASH DE TIR"
+
+msgctxt "game_options"
+msgid "Remove the white flash displayed when shooting."
+msgstr "Supprime le flash blanc affiché lors des tirs."
+
+msgctxt "game_options"
+msgid "4/3 by default, like the arcade monitor. The bezel is only displayed in 4/3. 16/9 widens the 3D view."
+msgstr "4/3 par défaut, comme le moniteur de la borne. Le bezel n'est affiché qu'en 4/3. Le 16/9 élargit la vue 3D."
+
+msgctxt "game_options"
+msgid "Off by default: the emulator runs at the arcade speed (57.5 Hz) by itself. Turn on if the picture tears."
+msgstr "Désactivée par défaut : l'émulateur tourne seul à la vitesse de la borne (57,5 Hz). À activer si l'image se déchire."
+
+msgctxt "game_options"
+msgid "Use this option if sm2-emu is not displayed on the correct monitor."
+msgstr "Utiliser cette option si sm2-emu ne s'affiche pas sur le bon écran."
+
+msgctxt "game_options"
+msgid "OpenGL by default. Vulkan requires a Vulkan 1.3 graphics card. Software needs no graphics card but ignores the other video options."
+msgstr "OpenGL par défaut. Vulkan nécessite une carte graphique Vulkan 1.3. Logiciel ne nécessite pas de carte graphique mais ignore les autres options vidéo."
+
+msgctxt "game_options"
+msgid "How the picture is enlarged to the screen. Sharp bilinear by default."
+msgstr "Façon dont l'image est agrandie à l'écran. Bilinéaire net par défaut."
+
+msgctxt "game_options"
+msgid "TRANSLUCENCY"
+msgstr "TRANSPARENCE"
+
+msgctxt "game_options"
+msgid "BLENDED"
+msgstr "MÉLANGÉE"
+
+msgctxt "game_options"
+msgid "Blended draws the transparent polygons as a smooth blend instead of the arcade checkerboard. Vulkan and OpenGL renderers only."
+msgstr "Mélangée affiche les polygones transparents en fondu au lieu du damier de la borne. Rendus Vulkan et OpenGL uniquement."
+
+msgctxt "game_options"
+msgid "Draw the scenery up to the end of the course in the games that support it (Daytona USA)."
+msgstr "Affiche le décor jusqu'au bout du circuit dans les jeux compatibles (Daytona USA)."
+
+msgctxt "game_options"
+msgid "Arcade monitor look: scanlines, shadow mask and glow."
+msgstr "Aspect moniteur de borne : scanlines, masque et halo."
+
+msgctxt "game_options"
+msgid "Short on-screen messages (state saved...). On by default."
+msgstr "Courts messages à l'écran (sauvegarde effectuée...). Activé par défaut."
+
+msgctxt "game_options"
+msgid "Send lamps and drive board outputs to external tools (MAMEHooker...) with Windows messages."
+msgstr "Envoie les lampes et les sorties de la carte de pilotage aux outils externes (MAMEHooker...) par messages Windows."
+
+msgctxt "game_options"
+msgid "HIDE SHOT FLASH"
+msgstr "MASQUER LE FLASH DES TIRS"
+
+msgctxt "game_options"
+msgid "THIN"
+msgstr "FIN"
+
+msgctxt "game_options"
+msgid "On by default. Turn off when the gun has its own aiming (laser, Sinden crosshair)."
+msgstr "Activé par défaut. À désactiver si le gun a sa propre visée (laser, viseur Sinden)."
+
+msgctxt "game_options"
+msgid "Hide the white flash shown on each shot."
+msgstr "Masque le flash blanc affiché à chaque tir."
+
+msgctxt "game_options"
+msgid "Thickness of the white border drawn when a Sinden gun is connected. Normal (12 pixels) by default."
+msgstr "Épaisseur de la bordure blanche affichée quand un gun Sinden est connecté. Normale (12 pixels) par défaut."
+
+msgctxt "game_options"
+msgid "On by default: centring spring and drive board forces."
+msgstr "Activé par défaut : ressort de rappel et forces de la carte moteur."
+
+msgctxt "game_options"
+msgid "Smooth by default, classic keeps the original pixelated look."
+msgstr "Lisse par défaut, classique conserve l'aspect pixelisé d'origine."
+
+msgctxt "game_options"
+msgid "Inverts looking up and down with the gamepad."
+msgstr "Inverse le regard haut/bas avec la manette."
