@@ -1,0 +1,94 @@
+# This file is provided with RetroBat
+# Copy it to retrobat\user\inputmapping\sm2emu_wheels.yml to customize it (the user file has priority)
+#
+# It maps the wheel buttons to the Model 2 cabinet controls in the sm2-emu standalone emulator (ENABLE WHEEL option).
+# Each container must be named with the wheel type internal to RetroBat (see our wiki for the list).
+# A wheel without container keeps the buttons set in the sm2-emu menu (Controls > Wheel).
+#
+# The key represents the sm2-emu control : Start, Coin, Button1 to Button4, GearUp, GearDown, Test, Service, Menu, Gear1 to Gear4
+# The value represents the wheel button number (DirectInput order, first button = 0), -1 leaves the control unbound
+# Gear1 to Gear4 are the H shifter positions (not written with the DISABLE GEAR STICK option)
+# Button1 to Button4 are also the VR / view buttons of the driving cabinets (VR1 to VR4)
+#
+# Steering and pedals are always detected by sm2-emu (steering = first axis, pedals = axes resting at one end),
+# use the sm2-emu menu to calibrate them if needed.
+#
+LogitechG29:
+  Start: 9
+  Coin: 8
+  Button1: 0
+  Button2: 2
+  Button3: 1
+  Button4: 3
+  GearUp: 4
+  GearDown: 5
+  Gear1: 12
+  Gear2: 13
+  Gear3: 14
+  Gear4: 15
+LogitechG923PS:
+  Start: 9
+  Coin: 8
+  Button1: 0
+  Button2: 2
+  Button3: 1
+  Button4: 3
+  GearUp: 4
+  GearDown: 5
+  Gear1: 12
+  Gear2: 13
+  Gear3: 14
+  Gear4: 15
+LogitechG920:
+  Start: 6
+  Coin: 7
+  Button1: 0
+  Button2: 1
+  Button3: 2
+  Button4: 3
+  GearUp: 4
+  GearDown: 5
+  Gear1: 12
+  Gear2: 13
+  Gear3: 14
+  Gear4: 15
+LogitechG923X:
+  Start: 6
+  Coin: 7
+  Button1: 0
+  Button2: 1
+  Button3: 2
+  Button4: 3
+  GearUp: 4
+  GearDown: 5
+  Gear1: 12
+  Gear2: 13
+  Gear3: 14
+  Gear4: 15
+LogitechDrivingForceGT:
+  Start: 9
+  Coin: 8
+  Button1: 0
+  Button2: 2
+  Button3: 1
+  Button4: 3
+  GearUp: 13
+  GearDown: 12
+ThrustmasterT300RSPS3:
+  Start: 7
+  Coin: 6
+  Button1: 5
+  Button2: 4
+  Button3: 3
+  Button4: 2
+  GearUp: 1
+  GearDown: 0
+MozaR5:
+  Start: 35
+  Coin: 37
+  Button1: 0
+  Button2: 1
+  Button3: 2
+  Button4: 3
+  GearUp: 14
+  GearDown: 13
