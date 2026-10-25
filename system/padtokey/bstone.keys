@@ -1,0 +1,22 @@
+{
+    "actions_player1": [
+        { "trigger": "up", "type": "key", "target": "KEY_UP" },
+        { "trigger": "down", "type": "key", "target": "KEY_DOWN" },
+        { "trigger": "left", "type": "key", "target": "KEY_LEFT" },
+        { "trigger": "right", "type": "key", "target": "KEY_RIGHT" },
+        { "trigger": "joystick1up", "type": "key", "target": "KEY_UP" },
+        { "trigger": "joystick1down", "type": "key", "target": "KEY_DOWN" },
+        { "trigger": "joystick1left", "type": "key", "target": "KEY_LEFT" },
+        { "trigger": "joystick1right", "type": "key", "target": "KEY_RIGHT" },
+        { "trigger": "joystick2left", "type": "key", "target": "KEY_DELETE" },
+        { "trigger": "joystick2right", "type": "key", "target": "KEY_END" },
+        { "trigger": "a", "type": "key", "target": [ "KEY_SPACE", "KEY_Y" ] },
+        { "trigger": "b", "type": "key", "target": "KEY_ESC" },
+        { "trigger": "start", "type": "key", "target": "KEY_ESC" },
+        { "trigger": "pageup", "type": "key", "target": "KEY_PAGEUP" },
+        { "trigger": "pagedown", "type": "key", "target": "KEY_PAGEDOWN" },
+        { "trigger": "l2", "type": "key", "target": "KEY_LEFTSHIFT" },
+        { "trigger": "r2", "type": "key", "target": "KEY_LEFTCTRL" },
+        { "trigger": "l3", "type": "key", "target": "KEY_TAB" }
+    ]
+}

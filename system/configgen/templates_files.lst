@@ -102,7 +102,6 @@
 \system\templates\mesen\settings.json|\emulators\mesen\settings.json
 \system\templates\mupen64\Config\mupen64plus.cfg|\emulators\mupen64\Config\mupen64plus.cfg
 \system\templates\nosgba\NO$GBA.INI|\emulators\nosgba\NO$GBA.INI
-\system\templates\openjazz\openjazz.cfg|\emulators\openjazz\openjazz.cfg
 \system\templates\pcsx2-16\Plugins\nuvee_ps2_usb.dll|\emulators\pcsx2-16\Plugins\nuvee_ps2_usb.dll
 \system\templates\pcsx2-16\inis\Dev9null.ini|\emulators\pcsx2-16\inis\Dev9null.ini
 \system\templates\pcsx2-16\inis\FWnull.ini|\emulators\pcsx2-16\inis\FWnull.ini
