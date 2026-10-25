@@ -1,0 +1,36 @@
+# RetroBat - devices treated as arcade sticks by the "GAMEPADS BEFORE ARCADE STICKS" option
+# One rule per line, case insensitive. Lines starting with # are comments.
+#
+#   text            device is a stick if its name, product or manufacturer contains this text
+#   !text           cancels the name rules for a name, product or manufacturer containing this text
+#                   (does not apply to usb rules nor to XInput sticks declaring the ARCADE_STICK subtype)
+#   usb:VVVV:PPPP   USB vendor id / product id (hex)
+#   usb:VVVV:*      whole USB vendor
+#
+# XInput sticks declaring the ARCADE_STICK subtype are detected without any rule.
+# Values to add can be found in the EmulatorLauncher log ("Arcade stick check" lines).
+
+# Exclusions for the generic "arcade" rule (6-button fight pads)
+!arcade pad
+
+# Names
+arcade stick
+fight stick
+fightstick
+fighting stick
+fighting edge
+real arcade pro
+xin-mo
+xinmo
+zero delay
+i-pac
+arcade
+
+# GP2040-CE firmware (manufacturer string, PS3/PS4/Xbox One/HID modes - also used on hitboxes and DIY pads)
+open stick community
+
+# USB ids
+usb:16C0:05E1
+usb:D209:*
+usb:0F0D:011C
+usb:0F0D:0184

@@ -27305,3 +27305,19 @@ msgstr "Étire les menus et les écrans 2D sur toute la largeur de l'écran."
 msgctxt "game_options"
 msgid "ADLIB EMULATION"
 msgstr "ÉMULATION ADLIB"
+
+msgctxt "game_options"
+msgid "Divides the internal resolution: with a high internal resolution, higher values make the game bigger. Default: 1."
+msgstr "Divise la résolution interne : avec une résolution interne élevée, une valeur plus grande agrandit le jeu. Par défaut : 1."
+
+msgctxt "game_options"
+msgid "GAMEPADS BEFORE ARCADE STICKS"
+msgstr "MANETTES AVANT LES STICKS ARCADE"
+
+msgctxt "game_options"
+msgid "Gamepads become player 1, 2... and arcade sticks are assigned to the next players."
+msgstr "Les manettes deviennent joueur 1, 2… et les sticks arcade sont attribués aux joueurs suivants."
+
+msgctxt "game_options"
+msgid "CONSOLES ONLY"
+msgstr "CONSOLES UNIQUEMENT"
