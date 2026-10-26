@@ -8971,10 +8971,6 @@ msgid "USE ASYNCHRONOUS SHADER COMPILATION"
 msgstr "COMPILATION DES SHADERS ASYNCHRONE"
 
 msgctxt "game_options"
-msgid "Can reduce lags when compiling shaders, experimental."
-msgstr "Permet de réduire le lag lors de la compilation des shaders, expérimental."
-
-msgctxt "game_options"
 msgid "ASTC RECOMPRESSION"
 msgstr "RECOMPRESSION DES TEXTURES"
 
