@@ -27317,3 +27317,71 @@ msgstr "Les manettes deviennent joueur 1, 2… et les sticks arcade sont attribu
 msgctxt "game_options"
 msgid "CONSOLES ONLY"
 msgstr "CONSOLES UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "Monochrome is required by high resolution games (640x400)."
+msgstr "Le monochrome est requis par les jeux en haute résolution (640x400)."
+
+msgctxt "game_options"
+msgid "COLOR (RGB)"
+msgstr "COULEUR (RVB)"
+
+msgctxt "game_options"
+msgid "TOS 1.06 is for STE only: if the machine type is not set, STE is selected automatically."
+msgstr "Le TOS 1.06 est réservé au STE : si le type de machine n'est pas défini, le STE est choisi automatiquement."
+
+msgctxt "game_options"
+msgid "Save the game state when leaving and restore it at next launch (one file per game)."
+msgstr "Sauvegarde l'état du jeu en quittant et le restaure au lancement suivant (un fichier par jeu)."
+
+msgctxt "game_options"
+msgid "BUTTON 2"
+msgstr "BOUTON 2"
+
+msgctxt "game_options"
+msgid "Action of the second controller button: space bar (e.g. Xenon 2) or joystick up (jump in platform games)."
+msgstr "Action du deuxième bouton de la manette : barre espace (ex. Xenon 2) ou joystick vers le haut (saut dans les jeux de plateforme)."
+
+msgctxt "game_options"
+msgid "SPACE BAR"
+msgstr "BARRE ESPACE"
+
+msgctxt "game_options"
+msgid "JUMP (UP)"
+msgstr "SAUT (HAUT)"
+
+msgctxt "game_options"
+msgid "FUNCTION KEYS"
+msgstr "TOUCHES DE FONCTION"
+
+msgctxt "game_options"
+msgid "Atari keyboard: F2, F4 and F8 are left to the game, states and screenshots then use AltGr+K, AltGr+L and AltGr+G."
+msgstr "Clavier Atari : F2, F4 et F8 sont laissées au jeu, les sauvegardes d'état et captures passent alors par AltGr+K, AltGr+L et AltGr+G."
+
+msgctxt "game_options"
+msgid "RETROBAT SHORTCUTS (F2/F4/F8)"
+msgstr "RACCOURCIS RETROBAT (F2/F4/F8)"
+
+msgctxt "game_options"
+msgid "Speed up disk loading. Can break some copy protected games."
+msgstr "Accélère le chargement des disquettes. Peut empêcher certains jeux protégés de fonctionner."
+
+msgctxt "game_options"
+msgid "SCREEN BORDERS"
+msgstr "BORDURES DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "CROP 720P"
+msgstr "RECADRAGE 720P"
+
+msgctxt "game_options"
+msgid "CROP 1080P"
+msgstr "RECADRAGE 1080P"
+
+msgctxt "game_options"
+msgid "HARD DISK BOOT"
+msgstr "DÉMARRAGE SUR DISQUE DUR"
+
+msgctxt "game_options"
+msgid "Automatic: boot from hard disk when the game has a hard disk and no floppy."
+msgstr "Automatique : démarrage sur le disque dur quand le jeu a un disque dur et pas de disquette."
