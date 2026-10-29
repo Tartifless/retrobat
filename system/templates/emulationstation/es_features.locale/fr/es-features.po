@@ -27385,3 +27385,231 @@ msgstr "DÉMARRAGE SUR DISQUE DUR"
 msgctxt "game_options"
 msgid "Automatic: boot from hard disk when the game has a hard disk and no floppy."
 msgstr "Automatique : démarrage sur le disque dur quand le jeu a un disque dur et pas de disquette."
+
+msgctxt "game_options"
+msgid "ALLOW GAMES TO WRITE TO DISK IMAGES"
+msgstr "AUTORISER LES JEUX À ÉCRIRE SUR LES IMAGES DISQUE"
+
+msgctxt "game_options"
+msgid "Games that save progress write to a working copy kept in the saves folder, the original disk image in the roms folder is never modified. Some emulators always keep the original intact and ignore this choice. Reset starts the game over from the original disk and keeps the previous progress as a .bak file."
+msgstr "Les jeux qui sauvegardent leur progression écrivent sur une copie de travail conservée dans le dossier saves ; l'image disque d'origine du dossier roms n'est jamais modifiée. Certains émulateurs préservent toujours l'original et ignorent ce choix. Réinitialiser relance le jeu depuis le disque d'origine et conserve la progression précédente dans un fichier .bak."
+
+msgctxt "game_options"
+msgid "YES (WORKING COPY IN SAVES)"
+msgstr "OUI (COPIE DE TRAVAIL DANS SAVES)"
+
+msgctxt "game_options"
+msgid "YES AND RESET THE DISK"
+msgstr "OUI ET RÉINITIALISER LE DISQUE"
+
+msgctxt "game_options"
+msgid "Apple II model to emulate. The PAL models run at 50Hz and are the ones European demos were written for. Changing this reboots the machine."
+msgstr "Modèle d'Apple II à émuler. Les modèles PAL fonctionnent en 50 Hz et sont ceux pour lesquels les démos européennes ont été écrites. Changer cette valeur redémarre la machine."
+
+msgctxt "game_options"
+msgid "CHARACTER ROM"
+msgstr "ROM DE CARACTÈRES"
+
+msgctxt "game_options"
+msgid "Character generator chip. Automatic picks the one that matches the selected machine."
+msgstr "Puce de génération des caractères. Automatique choisit celle qui correspond à la machine sélectionnée."
+
+msgctxt "game_options"
+msgid "AUXILIARY MEMORY (RAMWORKS)"
+msgstr "MÉMOIRE AUXILIAIRE (RAMWORKS)"
+
+msgctxt "game_options"
+msgid "Extra memory card, //e models only. A few programs need more than the stock 64KB."
+msgstr "Carte d'extension mémoire, modèles //e uniquement. Quelques programmes ont besoin de plus que les 64 Ko d'origine."
+
+msgctxt "game_options"
+msgid "DISK TURBO"
+msgstr "TURBO DISQUE"
+
+msgctxt "game_options"
+msgid "Skip the mechanical waiting time of the floppy drive. Loading is much faster, the disk itself is still read exactly as the original."
+msgstr "Supprime le temps d'attente mécanique du lecteur de disquette. Le chargement est bien plus rapide, la disquette reste lue exactement comme l'originale."
+
+msgctxt "game_options"
+msgid "DISC NUMBER (M3U)"
+msgstr "NUMÉRO DE DISQUE (M3U)"
+
+msgctxt "game_options"
+msgid "Which disk of a multi-disk game is inserted at startup. POM2 loads one disk at a time, the others are swapped from the in-game menu."
+msgstr "Quel disque d'un jeu multi-disques est inséré au démarrage. POM2 ne charge qu'un disque à la fois, les autres se changent depuis le menu en jeu."
+
+msgctxt "game_options"
+msgid "SLOT 4 SOUND CARD"
+msgstr "CARTE SON DU SLOT 4"
+
+msgctxt "game_options"
+msgid "Mockingboard is the sound card supported by most games. Ignored on the //c models, which have no expansion slots."
+msgstr "La Mockingboard est la carte son prise en charge par la plupart des jeux. Ignorée sur les modèles //c, qui n'ont pas de slots d'extension."
+
+msgctxt "game_options"
+msgid "How the picture is rendered. The composite modes reproduce the colour bleeding of a period display, RGB is the sharpest."
+msgstr "Façon dont l'image est rendue. Les modes composite reproduisent la bavure des couleurs d'un écran d'époque, le RVB est le plus net."
+
+msgctxt "game_options"
+msgid "Square pixels fills the screen, CRT 4:3 reproduces the shape of a period monitor with black borders."
+msgstr "Pixels carrés remplit l'écran, CRT 4:3 reproduit la forme d'un moniteur d'époque avec des bandes noires."
+
+msgctxt "game_options"
+msgid "CRT EFFECTS"
+msgstr "EFFETS CRT"
+
+msgctxt "game_options"
+msgid "Scanlines, shadow mask and phosphor glow of a cathode ray tube."
+msgstr "Lignes de balayage, masque et halo des phosphores d'un tube cathodique."
+
+msgctxt "game_options"
+msgid "DISABLE FLOPPY DRIVE SOUNDS"
+msgstr "DÉSACTIVER LES BRUITS DES LECTEURS DE DISQUETTE"
+
+msgctxt "game_options"
+msgid "Mute the mechanical noise of the floppy drives."
+msgstr "Coupe le bruit mécanique des lecteurs de disquette."
+
+msgctxt "game_options"
+msgid "CONTROLLER FOR THE GAME PORT"
+msgstr "MANETTE DU PORT JEU"
+
+msgctxt "game_options"
+msgid "POM2 identifies controllers by its own slot number, which does not follow the RetroBat player order. Automatic takes the first one it finds, change it if the wrong controller responds."
+msgstr "POM2 identifie les manettes par son propre numéro de slot, qui ne suit pas l'ordre des joueurs de RetroBat. Automatique prend la première trouvée, changez si ce n'est pas la bonne manette qui répond."
+
+msgctxt "game_options"
+msgid "STICK DEAD ZONE"
+msgstr "ZONE MORTE DU STICK"
+
+msgctxt "game_options"
+msgid "Ignore small stick movements around the centre. Increase it when the on-screen cursor drifts on its own."
+msgstr "Ignore les petits mouvements du stick autour du centre. À augmenter si le curseur dérive tout seul à l'écran."
+
+msgctxt "game_options"
+msgid "APPLE //e UNENHANCED (1983)"
+msgstr "APPLE //e NON AMÉLIORÉ (1983)"
+
+msgctxt "game_options"
+msgid "APPLE //e UNENHANCED PAL (50HZ)"
+msgstr "APPLE //e NON AMÉLIORÉ PAL (50HZ)"
+
+msgctxt "game_options"
+msgid "AUTOMATIC (DEFAULT)"
+msgstr "AUTOMATIQUE (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "US ENHANCED"
+msgstr "US AMÉLIORÉE"
+
+msgctxt "game_options"
+msgid "US UNENHANCED"
+msgstr "US NON AMÉLIORÉE"
+
+msgctxt "game_options"
+msgid "FRENCH CANADIAN"
+msgstr "CANADIEN FRANÇAIS"
+
+msgctxt "game_options"
+msgid "APPLE ][ CLASSIC"
+msgstr "APPLE ][ CLASSIQUE"
+
+msgctxt "game_options"
+msgid "64 KB - STOCK //e (DEFAULT)"
+msgstr "64 Ko - //e D'ORIGINE (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "128 KB"
+msgstr "128 Ko"
+
+msgctxt "game_options"
+msgid "256 KB"
+msgstr "256 Ko"
+
+msgctxt "game_options"
+msgid "512 KB"
+msgstr "512 Ko"
+
+msgctxt "game_options"
+msgid "DISC 1 (DEFAULT)"
+msgstr "DISQUE 1 (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "DISC 2"
+msgstr "DISQUE 2"
+
+msgctxt "game_options"
+msgid "DISC 3"
+msgstr "DISQUE 3"
+
+msgctxt "game_options"
+msgid "DISC 4"
+msgstr "DISQUE 4"
+
+msgctxt "game_options"
+msgid "MOCKINGBOARD A/C (DEFAULT)"
+msgstr "MOCKINGBOARD A/C (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE, GPU (DEFAULT)"
+msgstr "COULEUR - COMPOSITE, GPU (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE, CPU"
+msgstr "COULEUR - COMPOSITE, CPU"
+
+msgctxt "game_options"
+msgid "COLOR - APPLEWIN NTSC"
+msgstr "COULEUR - APPLEWIN NTSC"
+
+msgctxt "game_options"
+msgid "COLOR - NTSC"
+msgstr "COULEUR - NTSC"
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE MEDIUM"
+msgstr "COULEUR - COMPOSITE MOYEN"
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE 4-BIT"
+msgstr "COULEUR - COMPOSITE 4 BITS"
+
+msgctxt "game_options"
+msgid "COLOR - RGB LE CHAT MAUVE"
+msgstr "COULEUR - RVB LE CHAT MAUVE"
+
+msgctxt "game_options"
+msgid "SQUARE PIXELS (DEFAULT)"
+msgstr "PIXELS CARRÉS (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "FIRST CONTROLLER"
+msgstr "PREMIÈRE MANETTE"
+
+msgctxt "game_options"
+msgid "THIRD CONTROLLER"
+msgstr "TROISIÈME MANETTE"
+
+msgctxt "game_options"
+msgid "FOURTH CONTROLLER"
+msgstr "QUATRIÈME MANETTE"
+
+msgctxt "game_options"
+msgid "MOUSE DRIVES THE PADDLES"
+msgstr "LA SOURIS PILOTE LES PADDLES"
+
+msgctxt "game_options"
+msgid "Use the mouse as the Apple II paddles, needed by Arkanoid, Breakout and the other knob-driven games. The pointer position over the screen is the paddle position. Replaces the controller stick for paddles 1 and 2, leave it off for joystick games."
+msgstr "Utilise la souris comme paddles Apple II, nécessaire pour Arkanoid, Breakout et les autres jeux à molette. La position du pointeur sur l'écran donne la position du paddle. Remplace le stick de la manette pour les paddles 1 et 2, à laisser désactivé pour les jeux au joystick."
+
+msgctxt "game_options"
+msgid "PADDLE MOUSE RANGE"
+msgstr "COURSE DU PADDLE SOURIS"
+
+msgctxt "game_options"
+msgid "How much of the screen width sweeps the paddle from end to end. A smaller value makes the paddle faster and lets it reach its stops without moving the pointer off the screen, which some calibration screens need."
+msgstr "Quelle portion de la largeur de l'écran parcourt le paddle d'une butée à l'autre. Une valeur plus faible rend le paddle plus rapide et permet d'atteindre les butées sans sortir le pointeur de l'écran, ce dont certains écrans de calibration ont besoin."
+
+msgctxt "game_options"
+msgid "FULL SCREEN WIDTH (DEFAULT)"
+msgstr "TOUTE LA LARGEUR (PAR DÉFAUT)"

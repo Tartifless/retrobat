@@ -249,6 +249,7 @@ emulators\phoenix
 emulators\play
 emulators\play\Play Data Files
 emulators\play\Play Data Files\inputprofiles
+emulators\pom2
 emulators\ppsspp
 emulators\project64
 emulators\project64\Config
@@ -353,6 +354,9 @@ saves\amiga\winuae
 saves\amstradcpc\capriceforever
 saves\apple2\mednafen
 saves\apple2\mednafen\sstates
+saves\apple2\applewin
+saves\apple2\pom2
+saves\apple2\bizhawk
 saves\atomiswave
 saves\atomiswave\reicast
 saves\corsixth

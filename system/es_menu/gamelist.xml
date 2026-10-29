@@ -792,6 +792,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./pom2.menu</path>
+		<name>POM2 (Apple II)</name>
+		<desc>Run POM2 Emulator (Apple II).</desc>
+		<image>./media/pom2-logo.png</image>
+		<marquee>./media/pom2-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>VERHILLE Arnaud</developer>
+		<publisher>habib256</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./ppsspp.menu</path>
 		<name>PPSSPP (PSP, Homebrews)</name>
 		<desc>Run PPSSPP Emulator (PSP, Homebrews).</desc>
