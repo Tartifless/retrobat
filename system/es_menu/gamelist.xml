@@ -724,6 +724,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./model3vulkan.menu</path>
+		<name>Model3-Vulkan (MODEL 3)</name>
+		<desc>Run Model3-Vulkan (Model 3).</desc>
+		<image>./media/model3vulkan-logo.png</image>
+		<marquee>./media/model3vulkan-logo.png</marquee>
+		<rating>0</rating>
+		<developer>Bart Trzynadlowski, Nik Henson, Ian (dukey), Ville Linde, Stefano Teso</developer>
+		<publisher>Igloo-Garage</publisher>
+		<genre>Emulator</genre>
+		<releasedate />
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./openmsx.menu</path>
 		<name>OpenMSX (MSX)</name>
 		<desc>Run OpenMSX (MSX).</desc>
