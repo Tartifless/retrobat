@@ -27613,3 +27613,115 @@ msgstr "Quelle portion de la largeur de l'écran parcourt le paddle d'une butée
 msgctxt "game_options"
 msgid "FULL SCREEN WIDTH (DEFAULT)"
 msgstr "TOUTE LA LARGEUR (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "Darken every other line to mimic a cathode ray tube."
+msgstr "Assombrit une ligne sur deux pour imiter un tube cathodique."
+
+msgctxt "game_options"
+msgid "LIGHT (25%)"
+msgstr "LÉGER (25%)"
+
+msgctxt "game_options"
+msgid "MEDIUM (50%)"
+msgstr "MOYEN (50%)"
+
+msgctxt "game_options"
+msgid "STRONG (75%)"
+msgstr "FORT (75%)"
+
+msgctxt "game_options"
+msgid "IGNORE ASPECT RATIO"
+msgstr "IGNORER LE FORMAT D'IMAGE"
+
+msgctxt "game_options"
+msgid "Stretch the picture to the whole screen instead of keeping the shape of a period monitor."
+msgstr "Étire l'image sur tout l'écran au lieu de conserver la forme d'un moniteur d'époque."
+
+msgctxt "game_options"
+msgid "BLACK AND WHITE"
+msgstr "NOIR ET BLANC"
+
+msgctxt "game_options"
+msgid "Force the monochrome display modes, as on a period green or amber monitor."
+msgstr "Force les modes d'affichage monochromes, comme sur un moniteur vert ou ambre d'époque."
+
+msgctxt "game_options"
+msgid "SIMPLE DOUBLE HI-RES COLORS"
+msgstr "COULEURS DOUBLE HI-RES SIMPLIFIÉES"
+
+msgctxt "game_options"
+msgid "Use the simple double hi-res colour map. A few Apple II programs look closer to the real machine with it."
+msgstr "Utilise la table de couleurs double hi-res simplifiée. Quelques programmes Apple II s'affichent plus fidèlement ainsi."
+
+msgctxt "game_options"
+msgid "DISABLE VERTICAL SYNC"
+msgstr "DÉSACTIVER LA SYNCHRONISATION VERTICALE"
+
+msgctxt "game_options"
+msgid "Stop waiting for the screen refresh. Can help on a slow machine, at the cost of tearing."
+msgstr "N'attend plus le rafraîchissement de l'écran. Peut aider sur une machine lente, au prix d'un déchirement de l'image."
+
+msgctxt "game_options"
+msgid "SWAP PADDLES"
+msgstr "INTERVERTIR LES PADDLES"
+
+msgctxt "game_options"
+msgid "Swap paddle 1 and paddle 2, needed by a few games that expect the axes the other way round."
+msgstr "Intervertit le paddle 1 et le paddle 2, nécessaire pour quelques jeux qui attendent les axes dans l'autre sens."
+
+msgctxt "game_options"
+msgid "INVERT PADDLES"
+msgstr "INVERSER LES PADDLES"
+
+msgctxt "game_options"
+msgid "Left becomes right and up becomes down."
+msgstr "La gauche devient la droite et le haut devient le bas."
+
+msgctxt "game_options"
+msgid "VIDEO SHADER"
+msgstr "SHADER VIDÉO"
+
+msgctxt "game_options"
+msgid "Built-in video shader. CRT mask reproduces the shadow mask of a tube television, SABR and the interpolation filters smooth the picture without blurring edges, and Scale2x doubles the resolution of the original pixels."
+msgstr "Shader vidéo intégré à l'émulateur. Le masque CRT reproduit le masque d'ombre d'un téléviseur cathodique, SABR et les filtres d'interpolation lissent l'image sans rendre les contours flous, et Scale2x double la résolution des pixels d'origine."
+
+msgctxt "game_options"
+msgid "CRT MASK (GOAT)"
+msgstr "MASQUE CRT (GOAT)"
+
+msgctxt "game_options"
+msgid "AUTO INTERPOLATION"
+msgstr "INTERPOLATION AUTOMATIQUE"
+
+msgctxt "game_options"
+msgid "AUTO INTERPOLATION (SHARPER)"
+msgstr "INTERPOLATION AUTOMATIQUE (PLUS NETTE)"
+
+msgctxt "game_options"
+msgid "INTERPOLATION (SHARPER)"
+msgstr "INTERPOLATION (PLUS NETTE)"
+
+msgctxt "game_options"
+msgid "INTERPOLATION, HORIZONTAL ONLY"
+msgstr "INTERPOLATION HORIZONTALE UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "INTERPOLATION, VERTICAL ONLY"
+msgstr "INTERPOLATION VERTICALE UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "INTERPOLATION, HORIZONTAL ONLY (SHARPER)"
+msgstr "INTERPOLATION HORIZONTALE UNIQUEMENT (PLUS NETTE)"
+
+msgctxt "game_options"
+msgid "INTERPOLATION, VERTICAL ONLY (SHARPER)"
+msgstr "INTERPOLATION VERTICALE UNIQUEMENT (PLUS NETTE)"
+
+msgctxt "game_options"
+msgid "CRT MASK PATTERN"
+msgstr "MOTIF DU MASQUE CRT"
+
+msgctxt "game_options"
+msgid "Shape of the shadow mask drawn by the CRT shader. Only used when the shader is set to CRT mask."
+msgstr "Forme du masque d'ombre dessiné par le shader CRT. Utilisé uniquement lorsque le shader est réglé sur masque CRT."

@@ -5,14 +5,12 @@ default:
   # ares
   ares: crt/crt-geom
   # emulators using reshader 
-  mednafen: GeomCRT@CRTGeom.fx
   m2emulator: GeomCRT@CRTGeom.fx
   supermodel: GeomCRT@CRTGeom.fx
   hypseus: GeomCRT@CRTGeom.fx
   daphne: GeomCRT@CRTGeom.fx  
   oricutron: GeomCRT@CRTGeom.fx
   applewin: GeomCRT@CRTGeom.fx
-  gsplus: GeomCRT@CRTGeom.fx
   scummvm: GeomCRT@CRTGeom.fx
   simcoupe: GeomCRT@CRTGeom.fx
   demul: GeomCRT@CRTGeom.fx
@@ -54,7 +52,6 @@ gc:
 lynx:
   shaderGL: crt/crt-guest-dr-venom-fast
   shader: crt/crt-guest-advanced-fast
-  mednafen: GeomCRT@CRTGeom.fx
 nds:
   shader: handheld/lcd-grid-v2-nds-color
 ngp:
@@ -70,7 +67,6 @@ psp:
 psx:
   shader: crt/crt-geom
   ares: crt/crt-geom
-  mednafen: GeomCRT@CRTGeom.fx
 vectrex:
   shaderGL: interpolation/sharp-bilinear-scanlines
   shader: pixel-art-scaling/sharp-bilinear-scanlines
@@ -82,9 +78,7 @@ wii:
 wswan:
   shader: handheld/zfast-lcd
   ares: handheld/zfast-lcd
-  mednafen: GeomCRT@CRTGeom.fx
 wswanc:
   shader: handheld/zfast-lcd
   ares: handheld/zfast-lcd
-  mednafen: GeomCRT@CRTGeom.fx
 

@@ -6,14 +6,12 @@ default:
   # ares
   ares: edge-smoothing/hqx/hq2x
   # emulators using reshader 
-  mednafen: HQ4X@HQ4X.fx
   m2emulator: HQ4X@HQ4X.fx
   supermodel: HQ4X@HQ4X.fx
   hypseus: HQ4X@HQ4X.fx
   daphne: HQ4X@HQ4X.fx
   oricutron: HQ4X@HQ4X.fx
   applewin: HQ4X@HQ4X.fx
-  gsplus: HQ4X@HQ4X.fx  
   scummvm: HQ4X@HQ4X.fx  
   simcoupe: HQ4X@HQ4X.fx  
   demul: HQ4X@HQ4X.fx
@@ -66,7 +64,6 @@ gamegear:
   ares: crt/crt-guest-advanced-fast
 saturn:
   shader: anti-aliasing/fxaa
-  mednafen: HQ4X@HQ4X.fx
 # Arcade
 naomi:
   shader: anti-aliasing/fxaa
@@ -82,19 +79,15 @@ gw:
 lynx:
   shaderGL: crt/crt-guest-dr-venom-fast
   shader: crt/crt-guest-advanced-fast
-  mednafen: HQ4X@HQ4X.fx
 wswan:
   shader: handheld/gameboy
   ares: handheld/gameboy
-  mednafen: HQ4X@HQ4X.fx
 wswanc:
   shader: handheld/lcd-grid-v2-gbc-color
   ares: handheld/lcd-grid-v2-gbc-color
-  mednafen: HQ4X@HQ4X.fx
 psx:
   shader: anti-aliasing/fxaa
   ares: anti-aliasing/fxaa
-  mednafen: HQ4X@HQ4X.fx
 ps2:
   shader: anti-aliasing/fxaa
 psp:

@@ -511,6 +511,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./gsplus.menu</path>
+		<name>GSplus (Apple IIGS)</name>
+		<desc>Run GSplus Emulator (Apple IIGS).</desc>
+		<image>./media/gsplus-logo.png</image>
+		<marquee>./media/gsplus-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>Dagen Brock</developer>
+		<publisher>Kent Dickey</publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./hatari.menu</path>
 		<name>Hatari (Atari ST)</name>
 		<desc>Run Hatari.</desc>
