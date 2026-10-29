@@ -11,8 +11,6 @@ default:
   daphne: ScanlinesAbs@scanlines-abs.fx
   oricutron: ScanlinesAbs@scanlines-abs.fx
   applewin: ScanlinesAbs@scanlines-abs.fx
-  gsplus: ScanlinesAbs@scanlines-abs.fx
-  mednafen: ScanlinesAbs@scanlines-abs.fx
   scummvm: ScanlinesAbs@scanlines-abs.fx
   simcoupe: ScanlinesAbs@scanlines-abs.fx 
   demul: ScanlinesAbs@scanlines-abs.fx
@@ -71,14 +69,11 @@ gw:
   shader: handheld/lcd-grid-v2
 lynx:
   shader: handheld/lcd-grid-v2
-  mednafen: ScanlinesAbs@scanlines-abs.fx
 wswan:
   shader: handheld/lcd-grid-v2
   ares: handheld/lcd-grid-v2
-  mednafen: ScanlinesAbs@scanlines-abs.fx
 wswanc:
   shader: handheld/lcd-grid-v2
   ares: handheld/lcd-grid-v2
-  mednafen: ScanlinesAbs@scanlines-abs.fx
 psp:
   shader: handheld/lcd-grid-v2

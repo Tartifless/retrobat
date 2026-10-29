@@ -5,7 +5,6 @@ default:
   m2emulator: Border@border.fx
   hypseus: Border@border.fx
   daphne: Border@border.fx
-  mednafen: Border@border.fx
   demul: Border@border.fx
   redream: Border@border.fx
   singe2: Border@border.fx
