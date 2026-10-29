@@ -6967,10 +6967,6 @@ msgid "EMULATED CABLE TYPE"
 msgstr "TYPE DE CÂBLE"
 
 msgctxt "game_options"
-msgid "DESKTOP"
-msgstr "RÉSOLUTION DU BUREAU"
-
-msgctxt "game_options"
 msgid "1024x1024 (SQUARE)"
 msgstr "1024x1024 (CARRÉ)"
 
@@ -27725,3 +27721,311 @@ msgstr "MOTIF DU MASQUE CRT"
 msgctxt "game_options"
 msgid "Shape of the shadow mask drawn by the CRT shader. Only used when the shader is set to CRT mask."
 msgstr "Forme du masque d'ombre dessiné par le shader CRT. Utilisé uniquement lorsque le shader est réglé sur masque CRT."
+
+msgctxt "game_options"
+msgid "SCREEN ROTATION"
+msgstr "ROTATION DE L'ÉCRAN"
+
+msgctxt "game_options"
+msgid "Rotate the Windows display of the playfield screen while playing, restored on exit (Visual Pinball 10.8 and later)."
+msgstr "Fait pivoter l'affichage Windows de l'écran du plateau pendant la partie. L'orientation initiale est rétablie à la fermeture (Visual Pinball 10.8 et versions ultérieures)."
+
+msgctxt "game_options"
+msgid "PORTRAIT (90 DEGREES)"
+msgstr "PORTRAIT (90 DEGRÉS)"
+
+msgctxt "game_options"
+msgid "LANDSCAPE FLIPPED (180 DEGREES)"
+msgstr "PAYSAGE INVERSÉ (180 DEGRÉS)"
+
+msgctxt "game_options"
+msgid "PORTRAIT FLIPPED (270 DEGREES)"
+msgstr "PORTRAIT INVERSÉ (270 DEGRÉS)"
+
+msgctxt "game_options"
+msgid "Let Visual Pinball switch to the selected video mode itself instead of changing the desktop resolution."
+msgstr "Permet à Visual Pinball de basculer directement vers le mode vidéo sélectionné au lieu de modifier la résolution du bureau."
+
+msgctxt "game_options"
+msgid "Force the backglass on or off. AUTO follows SCREEN SETUP (enabled when SCREEN SETUP is not set)."
+msgstr "Force l'activation ou la désactivation du backglass. AUTO suit la configuration des écrans (activé si aucune configuration des écrans n'est définie)."
+
+msgctxt "game_options"
+msgid "TABLE VIEW"
+msgstr "VUE DU FLIPPER"
+
+msgctxt "game_options"
+msgid "View setup used by the table. AUTO follows SCREEN SETUP: desktop for one landscape screen, full single screen for one vertical screen, cabinet for multiple screens (desktop when SCREEN SETUP is not set)."
+msgstr "Mode d'affichage utilisé par le flipper. AUTO suit la configuration des écrans : bureau avec un seul écran en paysage, plein écran unique avec un seul écran en portrait, mode borne avec plusieurs écrans (mode bureau si aucune configuration des écrans n'est définie)."
+
+msgctxt "game_options"
+msgid "DESKTOP"
+msgstr "BUREAU"
+
+msgctxt "game_options"
+msgid "CABINET"
+msgstr "BORNE"
+
+msgctxt "game_options"
+msgid "FULL SINGLE SCREEN"
+msgstr "PLEIN ÉCRAN SUR UN SEUL ÉCRAN"
+
+msgctxt "game_options"
+msgid "SCREEN SETUP"
+msgstr "CONFIGURATION DES ÉCRANS"
+
+msgctxt "game_options"
+msgid "Screens used by the pinball (Visual Pinball 10.8 and later). Backglass and DMD positions are then computed automatically. Not set: SCREENRES values are used."
+msgstr "Écrans utilisés par le flipper (Visual Pinball 10.8 et versions ultérieures). Les positions du backglass et du DMD sont alors calculées automatiquement. Si cette option n'est pas définie, les valeurs SCREENRES sont utilisées."
+
+msgctxt "game_options"
+msgid "DETECT CONNECTED SCREENS"
+msgstr "DÉTECTER LES ÉCRANS CONNECTÉS"
+
+msgctxt "game_options"
+msgid "1 SCREEN"
+msgstr "1 ÉCRAN"
+
+msgctxt "game_options"
+msgid "2 SCREENS (PLAYFIELD + BACKGLASS)"
+msgstr "2 ÉCRANS (PLATEAU + BACKGLASS)"
+
+msgctxt "game_options"
+msgid "3 SCREENS (PLAYFIELD + BACKGLASS + DMD)"
+msgstr "3 ÉCRANS (PLATEAU + BACKGLASS + DMD)"
+
+msgctxt "game_options"
+msgid "BACKGLASS SCREEN"
+msgstr "ÉCRAN DU BACKGLASS"
+
+msgctxt "game_options"
+msgid "Screen used for the backglass, same numbering as MONITOR INDEX. AUTO uses the largest screen other than the playfield. Requires SCREEN SETUP."
+msgstr "Écran utilisé pour le backglass, avec la même numérotation que MONITOR INDEX. AUTO utilise le plus grand écran autre que celui du plateau. Nécessite la configuration des écrans."
+
+msgctxt "game_options"
+msgid "DMD LOCATION"
+msgstr "EMPLACEMENT DU DMD"
+
+msgctxt "game_options"
+msgid "Where to display the DMD. AUTO: on the playfield with 1 screen, at the bottom of the backglass screen with 2 screens, on its own screen with 3 screens. Requires SCREEN SETUP."
+msgstr "Emplacement d'affichage du DMD. AUTO : sur l'écran du plateau avec 1 écran, en bas de l'écran du backglass avec 2 écrans, sur un écran dédié avec 3 écrans. Nécessite la configuration des écrans."
+
+msgctxt "game_options"
+msgid "ON PLAYFIELD SCREEN"
+msgstr "SUR L'ÉCRAN DU PLATEAU"
+
+msgctxt "game_options"
+msgid "ON BACKGLASS SCREEN"
+msgstr "SUR L'ÉCRAN DU BACKGLASS"
+
+msgctxt "game_options"
+msgid "DEDICATED SCREEN"
+msgstr "ÉCRAN DÉDIÉ"
+
+msgctxt "game_options"
+msgid "HARDWARE DMD ONLY"
+msgstr "DMD MATÉRIEL UNIQUEMENT"
+
+msgctxt "game_options"
+msgid "DMD SCREEN"
+msgstr "ÉCRAN DU DMD"
+
+msgctxt "game_options"
+msgid "Screen used for the DMD on a dedicated screen, same numbering as MONITOR INDEX. AUTO uses the smallest remaining screen. Requires SCREEN SETUP with 3 screens."
+msgstr "Écran utilisé pour le DMD lorsqu'il dispose d'un écran dédié, avec la même numérotation que MONITOR INDEX. AUTO utilise le plus petit des écrans restants. Nécessite une configuration de 3 écrans."
+
+msgctxt "game_options"
+msgid "IGNORE TABLE .RES FILE"
+msgstr "IGNORER LE FICHIER .RES DU FLIPPER"
+
+msgctxt "game_options"
+msgid "Ignore table specific backglass settings (.res file next to the table) during the game. The file is kept and restored on exit."
+msgstr "Ignore pendant la partie les paramètres de backglass propres au flipper (fichier .res situé à côté de la table). Le fichier est conservé et restauré à la fermeture."
+
+msgctxt "game_options"
+msgid "Renders the 3D scene at a lower resolution and upscales it, the 2D layers keep the screen resolution. Use it on integrated graphics cards."
+msgstr "Calcule la scène 3D dans une résolution réduite puis l'agrandit, les couches 2D gardent la résolution de l'écran. À utiliser avec les cartes graphiques intégrées."
+
+msgctxt "game_options"
+msgid "NATIVE (496x384)"
+msgstr "NATIVE (496x384)"
+
+msgctxt "game_options"
+msgid "2X (992x768)"
+msgstr "2X (992x768)"
+
+msgctxt "game_options"
+msgid "Widens the 3D view and the 2D background, may cause rendering issues. The bezel is only displayed in 4/3."
+msgstr "Élargit la vue 3D et le fond 2D, peut provoquer des défauts d'affichage. Le bezel n'est affiché qu'en 4/3."
+
+msgctxt "game_options"
+msgid "Sets the PowerPC frequency in MHz. 0 (default) uses the frequency of the game board."
+msgstr "Définit la fréquence du PowerPC en MHz. 0 (par défaut) utilise la fréquence de la carte du jeu."
+
+msgctxt "game_options"
+msgid "Auto (default) follows the screen refresh rate with motion interpolation. Original and the multiples of 57.524 Hz need a G-SYNC / FreeSync screen and the vertical sync."
+msgstr "Auto (par défaut) suit la fréquence de l'écran avec interpolation des mouvements. Original et les multiples de 57,524 Hz nécessitent un écran G-SYNC / FreeSync et la synchronisation verticale."
+
+msgctxt "game_options"
+msgid "ORIGINAL (57.524 HZ)"
+msgstr "ORIGINAL (57,524 HZ)"
+
+msgctxt "game_options"
+msgid "VRR 2X (115 HZ)"
+msgstr "VRR 2X (115 HZ)"
+
+msgctxt "game_options"
+msgid "VRR 3X (172 HZ)"
+msgstr "VRR 3X (172 HZ)"
+
+msgctxt "game_options"
+msgid "VRR 4X (230 HZ)"
+msgstr "VRR 4X (230 HZ)"
+
+msgctxt "game_options"
+msgid "LOW LATENCY"
+msgstr "FAIBLE LATENCE"
+
+msgctxt "game_options"
+msgid "Disables the motion interpolation, one frame of latency less."
+msgstr "Désactive l'interpolation des mouvements, une image de latence en moins."
+
+msgctxt "game_options"
+msgid "Hardware multisample anti-aliasing of the 3D scene."
+msgstr "Anticrénelage matériel multi-échantillons de la scène 3D."
+
+msgctxt "game_options"
+msgid "2X"
+msgstr "2X"
+
+msgctxt "game_options"
+msgid "4X"
+msgstr "4X"
+
+msgctxt "game_options"
+msgid "8X"
+msgstr "8X"
+
+msgctxt "game_options"
+msgid "Hardware accurate by default. The other modes are sharper on surfaces seen at a grazing angle."
+msgstr "Fidèle au matériel par défaut. Les autres modes sont plus nets sur les surfaces vues en angle rasant."
+
+msgctxt "game_options"
+msgid "TRANSPARENCY"
+msgstr "TRANSPARENCE"
+
+msgctxt "game_options"
+msgid "Two layers by default (bit-exact). Sorted fixes stacked smoke and glass, checkerboard reproduces the arcade board (snow and fog of Sega Rally 2)."
+msgstr "Deux couches par défaut (exact au bit près). Triée corrige les fumées et vitres superposées, damier reproduit la carte arcade (neige et brouillard de Sega Rally 2)."
+
+msgctxt "game_options"
+msgid "SORTED"
+msgstr "TRIÉE"
+
+msgctxt "game_options"
+msgid "CHECKERBOARD"
+msgstr "DAMIER"
+
+msgctxt "game_options"
+msgid "QUAD INTERPOLATION"
+msgstr "INTERPOLATION DES QUADS"
+
+msgctxt "game_options"
+msgid "On by default. Turn off to gain speed on integrated graphics cards."
+msgstr "Activé par défaut. Désactiver pour gagner en vitesse avec les cartes graphiques intégrées."
+
+msgctxt "game_options"
+msgid "Upscaling filter of the 2D layers (HUD, backgrounds). Bilinear by default."
+msgstr "Filtre d'agrandissement des couches 2D (HUD, fonds). Bilinéaire par défaut."
+
+msgctxt "game_options"
+msgid "BIQUINTIC"
+msgstr "BIQUINTIQUE"
+
+msgctxt "game_options"
+msgid "Arcade monitor look."
+msgstr "Rendu d'un moniteur d'arcade."
+
+msgctxt "game_options"
+msgid "SCANLINES"
+msgstr "SCANLINES"
+
+msgctxt "game_options"
+msgid "SCANLINES + PHOSPHOR MASK"
+msgstr "SCANLINES + MASQUE DE PHOSPHORE"
+
+msgctxt "game_options"
+msgid "CRT COLORS"
+msgstr "COULEURS CRT"
+
+msgctxt "game_options"
+msgid "Color temperature of the arcade monitor."
+msgstr "Température de couleur du moniteur d'arcade."
+
+msgctxt "game_options"
+msgid "ARI/D93 (JAPAN)"
+msgstr "ARI/D93 (JAPON)"
+
+msgctxt "game_options"
+msgid "PVM"
+msgstr "PVM"
+
+msgctxt "game_options"
+msgid "BT.601 525/D93"
+msgstr "BT.601 525/D93"
+
+msgctxt "game_options"
+msgid "BT.601 525/D65 (USA)"
+msgstr "BT.601 525/D65 (USA)"
+
+msgctxt "game_options"
+msgid "BT.601 625/D65 (EUROPE)"
+msgstr "BT.601 625/D65 (EUROPE)"
+
+msgctxt "game_options"
+msgid "Smooths the edges with a shader, slightly softens the picture."
+msgstr "Lisse les contours avec un shader, adoucit légèrement l'image."
+
+msgctxt "game_options"
+msgid "DISABLE WHITE FLASH"
+msgstr "DÉSACTIVER LE FLASH BLANC"
+
+msgctxt "game_options"
+msgid "Removes the white flash shown when the games disable 3D rendering."
+msgstr "Supprime le flash blanc affiché quand les jeux coupent le rendu 3D."
+
+msgctxt "game_options"
+msgid "Loads the replacement textures of Data\\Assets\\HDTextures\\<rom> in the emulator folder."
+msgstr "Charge les textures de remplacement de Data\\Assets\\HDTextures\\<rom> dans le dossier de l'émulateur."
+
+msgctxt "game_options"
+msgid "SDL gamepad by default. SDL reads the controllers unknown to SDL (arcade encoders), used automatically with a wheel."
+msgstr "SDL gamepad par défaut. SDL lit les manettes inconnues de SDL (encodeurs arcade), utilisé automatiquement avec un volant."
+
+msgctxt "game_options"
+msgid "SDL GAMEPAD"
+msgstr "SDL GAMEPAD"
+
+msgctxt "game_options"
+msgid "SHOW STATISTICS"
+msgstr "AFFICHER LES STATISTIQUES"
+
+msgctxt "game_options"
+msgid "Frame rate and timings on screen."
+msgstr "Fréquence d'images et temps de calcul à l'écran."
+
+msgctxt "game_options"
+msgid "CROSSHAIR STYLE"
+msgstr "STYLE DE CIBLE"
+
+msgctxt "game_options"
+msgid "VECTOR"
+msgstr "VECTORIEL"
+
+msgctxt "game_options"
+msgid "BITMAP"
+msgstr "BITMAP"
+
+msgctxt "game_options"
+msgid "Width of the white border drawn when a Sinden gun is connected. 16 pixels by default."
+msgstr "Largeur de la bordure blanche affichée quand un pistolet Sinden est connecté. 16 pixels par défaut."
