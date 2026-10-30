@@ -27999,8 +27999,8 @@ msgid "Loads the replacement textures of Data\\Assets\\HDTextures\\<rom> in the 
 msgstr "Charge les textures de remplacement de Data\\Assets\\HDTextures\\<rom> dans le dossier de l'émulateur."
 
 msgctxt "game_options"
-msgid "SDL gamepad by default. SDL reads the controllers unknown to SDL (arcade encoders), used automatically with a wheel."
-msgstr "SDL gamepad par défaut. SDL lit les manettes inconnues de SDL (encodeurs arcade), utilisé automatiquement avec un volant."
+msgid "SDL gamepad by default, it reads gamepads with the standard layout and the other devices (wheels, shifters, arcade encoders) with their raw buttons. SDL reads every device raw."
+msgstr "SDL gamepad par défaut : les manettes sont lues avec la disposition standard, les autres périphériques (volants, leviers de vitesses, encodeurs arcade) avec leurs boutons bruts. SDL lit tous les périphériques en brut."
 
 msgctxt "game_options"
 msgid "SDL GAMEPAD"
