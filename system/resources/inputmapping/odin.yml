@@ -3,11 +3,13 @@
 # This file is provided with RetroBat
 # Copy it to retrobat\user\inputmapping\odin.yml to customize it (the user file has priority)
 #
-# It maps the controller to the Hikaru cabinet controls in the Odin emulator ([controls.<game>] of odin.ini).
+# It maps the controller to the Hikaru and Gaelco cabinet controls in the Odin emulator ([controls.<game>] of odin.ini).
 # Containers are searched in this order (the first one found is used) :
 #   <set>_<layout>, <set>, <parent set>_<layout>, <parent set>, default_<layout>, default
 #   <layout> is the CONTROLLER LAYOUT option (modern8, 8alternative, 6alternative - classic8 uses 6alternative)
-#   Parent sets : airtrixo uses airtrix, sgnascaro uses sgnascar, atvtracka uses atvtrack, smashdrvb and smashdrvs use smashdrv
+#   Parent sets : airtrixo uses airtrix, sgnascaro uses sgnascar, atvtracka uses atvtrack, smashdrvb and smashdrvs use smashdrv,
+#   radikalba uses radikalb, footbpow, footbpow12 and footbpow11 use footbpow14, the speedup.. versions use speedup,
+#   the surfplnt.. versions use surfplnt
 #
 # The key represents the controller position :
 #   buttons : south, east, west, north, l1, r1, l2, r2, l3, r3, select, start, up, down, left, right
@@ -16,11 +18,11 @@
 #   half stick axes : leftx-left, leftx-right, lefty-up, lefty-down, rightx-left, rightx-right, righty-up, righty-down
 # The value represents the Odin controls of player 1 (OPTIONS, [controls.<game>]), several controls can be separated with a comma.
 #   coin and service are given to the player of the controller (coin1 / coin2, 1p_service / 2p_service)
-#   Brave Firefighters and Gaelco Football : the 1p_ controls are also used for player 2 (2p_)
+#   Brave Firefighters, Gaelco Football and Football Power : the 1p_ controls are also used for player 2 (2p_)
 #   Gaelco games have one coin entry and one service button (coin2 and 2p_service are not used)
 #
 # test (enters the Test menu) and service (moves in it) are on R3 and L3, as on the other arcade systems.
-# Gaelco Football : R3 is not mapped (the right stick kicks), Test stays on the keyboard (0).
+# Gaelco Football and Football Power : R3 is not mapped (the right stick kicks), Test stays on the keyboard (0).
 #
 # Always mapped, not configurable here :
 #   keyboard : starts 1-2, coins 5-6, Test 0, Service 9 and the Odin keys of each game (OPTIONS)
@@ -154,5 +156,77 @@ smashdrv:
   leftx: wheel
   r2: gas_pedal
   l2: brake_pedal
+  up: volume_up
+  down: volume_down
+
+# Football Power (Gaelco 3D) : as Gaelco Football, with two buttons, Test stays on the keyboard (0)
+footbpow14:
+  select: coin
+  l3: service
+  start: 1p_start
+  up: 1p_up
+  down: 1p_down
+  left: 1p_left
+  right: 1p_right
+  lefty-up: 1p_up
+  lefty-down: 1p_down
+  leftx-left: 1p_left
+  leftx-right: 1p_right
+  south: 1p_button1
+  east: 1p_button2
+  rightx: 1p_kick_x
+  righty: 1p_kick_y
+
+# Radikal Bikers (Gaelco 3D) : handlebar on the left stick, accelerator on the right trigger, brake on the left trigger
+radikalb:
+  select: coin
+  l3: service
+  r3: test
+  start: start
+  leftx: handlebar
+  r2: accelerator
+  l2: brake
+  south: handle_up
+  west: view
+  up: volume_up
+  down: volume_down
+
+# Speed Up (Gaelco 3D) : wheel on the left stick, gas on the right trigger, brake on the left trigger, gears on the shoulders
+speedup:
+  select: coin
+  l3: service
+  r3: test
+  start: start
+  leftx: wheel
+  r2: gas_pedal
+  l2: brake_pedal
+  l1: gear_down
+  r1: gear_up
+  west: view
+  up: volume_up
+  down: volume_down
+
+# Surf Planet (Gaelco 3D) : the surfboard on the left stick
+surfplnt:
+  select: coin
+  l3: service
+  r3: test
+  start: start
+  leftx: joystick
+  up: volume_up
+  down: volume_down
+
+# Rolling Extreme (Gaelco C82) : handlebar on the left stick, brakes on the triggers, smashes on the shoulders
+rollext:
+  select: coin
+  l3: service
+  r3: test
+  start: start
+  leftx: handlebar
+  l2: left_brake
+  r2: right_brake
+  l1: left_smash
+  r1: right_smash
+  west: view
   up: volume_up
   down: volume_down

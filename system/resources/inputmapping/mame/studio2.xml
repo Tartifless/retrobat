@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game name="studio2" rom="studio2">
+  <layouts>
+    <layout type="default" joystickcolor="Black">
+      <button type="KEYPAD" player="1" tag=":A" mask="1" defvalue="0" x="30" y="60" color="Blue" function="A 0">
+        <mapping type="standard" name="JOY_east OR KEYCODE_LALT" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="2" defvalue="0" x="30" y="60" color="Blue" function="A 1">
+        <mapping type="standard" name="JOY_west OR KEYCODE_Q" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="4" defvalue="0" x="30" y="60" color="Blue" function="A 2">
+        <mapping type="standard" name="JOY_up OR JOY_lsup OR KEYCODE_W OR KEYCODE_UP" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="8" defvalue="0" x="30" y="60" color="Blue" function="A 3">
+        <mapping type="standard" name="JOY_north OR KEYCODE_E" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="16" defvalue="0" x="30" y="60" color="Blue" function="A 4">
+        <mapping type="standard" name="JOY_left OR JOY_lsleft OR KEYCODE_A OR KEYCODE_LEFT" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="32" defvalue="0" x="30" y="60" color="Blue" function="A 5">
+        <mapping type="standard" name="JOY_south OR KEYCODE_S" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="64" defvalue="0" x="30" y="60" color="Blue" function="A 6">
+        <mapping type="standard" name="JOY_right OR JOY_lsright OR KEYCODE_D OR KEYCODE_RIGHT" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="128" defvalue="0" x="30" y="60" color="Blue" function="A 7">
+        <mapping type="standard" name="JOY_l1 OR KEYCODE_Z" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="256" defvalue="0" x="30" y="60" color="Blue" function="A 8">
+        <mapping type="standard" name="JOY_down OR JOY_lsdown OR KEYCODE_X OR KEYCODE_DOWN" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":A" mask="512" defvalue="0" x="30" y="60" color="Blue" function="A 9">
+        <mapping type="standard" name="JOY_r1 OR KEYCODE_C" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="1" defvalue="0" x="30" y="60" color="Blue" function="B 0">
+        <mapping type="standard" name="JOY_east OR KEYCODE_0_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="2" defvalue="0" x="30" y="60" color="Blue" function="B 1">
+        <mapping type="standard" name="JOY_west OR KEYCODE_7_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="4" defvalue="0" x="30" y="60" color="Blue" function="B 2">
+        <mapping type="standard" name="JOY_up OR JOY_lsup OR KEYCODE_8_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="8" defvalue="0" x="30" y="60" color="Blue" function="B 3">
+        <mapping type="standard" name="JOY_north OR KEYCODE_9_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="16" defvalue="0" x="30" y="60" color="Blue" function="B 4">
+        <mapping type="standard" name="JOY_left OR JOY_lsleft OR KEYCODE_4_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="32" defvalue="0" x="30" y="60" color="Blue" function="B 5">
+        <mapping type="standard" name="JOY_south OR KEYCODE_5_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="64" defvalue="0" x="30" y="60" color="Blue" function="B 6">
+        <mapping type="standard" name="JOY_right OR JOY_lsright OR KEYCODE_6_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="128" defvalue="0" x="30" y="60" color="Blue" function="B 7">
+        <mapping type="standard" name="JOY_l1 OR KEYCODE_1_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="256" defvalue="0" x="30" y="60" color="Blue" function="B 8">
+        <mapping type="standard" name="JOY_down OR JOY_lsdown OR KEYCODE_2_PAD" />
+      </button>
+      <button type="KEYPAD" player="2" tag=":B" mask="512" defvalue="0" x="30" y="60" color="Blue" function="B 9">
+        <mapping type="standard" name="JOY_r1 OR KEYCODE_3_PAD" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":B" mask="1" defvalue="0" x="30" y="60" color="Blue" function="B 0">
+        <mapping type="standard" name="JOY_r2trigger OR KEYCODE_0_PAD" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":B" mask="32" defvalue="0" x="30" y="60" color="Blue" function="B 5">
+        <mapping type="standard" name="JOY_l2trigger OR KEYCODE_5_PAD" />
+      </button>
+      <button type="KEYPAD" player="1" tag=":CLEAR" mask="1" defvalue="1" x="30" y="60" color="Blue" function="Clear">
+        <mapping type="standard" name="JOY_start OR KEYCODE_F3" />
+      </button>
+    </layout>
+  </layouts>
+</game>
