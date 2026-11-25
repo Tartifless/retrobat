@@ -26820,10 +26820,6 @@ msgid "DISC NUMBER (M3U)"
 msgstr "NUMÉRO DE DISQUE (M3U)"
 
 msgctxt "game_options"
-msgid "Which disk of a multi-disk game is inserted at startup. POM2 loads one disk at a time, the others are swapped from the in-game menu."
-msgstr "Quel disque d'un jeu multi-disques est inséré au démarrage. POM2 ne charge qu'un disque à la fois, les autres se changent depuis le menu en jeu."
-
-msgctxt "game_options"
 msgid "SLOT 4 SOUND CARD"
 msgstr "CARTE SON DU SLOT 4"
 
@@ -27484,8 +27480,8 @@ msgid "SOUND BOARDS"
 msgstr "CARTES SON"
 
 msgctxt "game_options"
-msgid "Optional sound board (Planet Harriers, NASCAR Arcade, Star Wars Racer Arcade) or woofer (Gaelco games). Mix by default, main board only for Star Wars Racer Arcade."
-msgstr "Carte son optionnelle (Planet Harriers, NASCAR Arcade, Star Wars Racer Arcade) ou caisson de basses (jeux Gaelco). Mixage par défaut, carte principale seule pour Star Wars Racer Arcade."
+msgid "Optional sound board (Planet Harriers, NASCAR Arcade, Star Wars Racer Arcade), seat speakers (Speed Up) or woofer (other Gaelco games). Mix by default, main board only for Star Wars Racer Arcade."
+msgstr "Carte son optionnelle (Planet Harriers, NASCAR Arcade, Star Wars Racer Arcade), haut-parleurs du siège (Speed Up) ou caisson de basses (autres jeux Gaelco). Mixage par défaut, carte principale seule pour Star Wars Racer Arcade."
 
 msgctxt "game_options"
 msgid "MAIN BOARD ONLY"
@@ -28940,18 +28936,6 @@ msgid "Hybrid draws new shaders at once while they build. Asynchronous can leave
 msgstr "Hybride affiche tout de suite les nouveaux shaders pendant leur compilation. Asynchrone peut faire manquer des objets un instant. Synchrone fait attendre le jeu pour chaque shader."
 
 msgctxt "game_options"
-msgid "GPU PRECISION"
-msgstr "PRÉCISION DU GPU"
-
-msgctxt "game_options"
-msgid "Exact is the closest to the console and the heaviest on the GPU. Fast is much lighter. Auto picks fast on weak or unstable GPUs."
-msgstr "Exacte est la plus proche de la console et la plus lourde pour le GPU. Rapide est bien plus légère. Auto choisit rapide sur les GPU faibles ou instables."
-
-msgctxt "game_options"
-msgid "EXACT"
-msgstr "EXACTE"
-
-msgctxt "game_options"
 msgid "SURROUND 4.0"
 msgstr "SURROUND 4.0"
 
@@ -29358,3 +29342,147 @@ msgstr "Rendu des polygones translucides : original affiche un damier de pixels,
 msgctxt "game_options"
 msgid "MOIRE"
 msgstr "MOIRÉ"
+
+msgctxt "game_options"
+msgid "3D AUDIO (HRTF)"
+msgstr "AUDIO 3D (HRTF)"
+
+msgctxt "game_options"
+msgid "The console's filter for the sounds a game places around you (3D sound)."
+msgstr "Filtre de la console pour les sons qu'un jeu place autour de vous (son 3D)."
+
+msgctxt "game_options"
+msgid "GAELCO 3D INTERLACING"
+msgstr "ENTRELACEMENT GAELCO 3D"
+
+msgctxt "game_options"
+msgid "Gaelco 3D: by default both fields are shown as on the cabinet, a moving object is seen twice. One picture shows the new field, and the older one only where nothing moves (experimental)."
+msgstr "Gaelco 3D : par défaut, les deux trames sont affichées comme sur la borne, un objet en mouvement apparaît en double. Image unique affiche la nouvelle trame, et l'ancienne seulement là où rien ne bouge (expérimental)."
+
+msgctxt "game_options"
+msgid "ONE PICTURE (EXPERIMENTAL)"
+msgstr "IMAGE UNIQUE (EXPÉRIMENTAL)"
+
+msgctxt "game_options"
+msgid "GAELCO 3D POLYGON EDGES"
+msgstr "BORDS DES POLYGONES GAELCO 3D"
+
+msgctxt "game_options"
+msgid "Gaelco 3D above native resolution: fine by default. Wide draws each polygon half a board pixel wider, as the board does (fewer seams, a thin rim may show)."
+msgstr "Gaelco 3D au-delà de la résolution native : fins par défaut. Larges dessine chaque polygone un demi-pixel de la carte plus large, comme la carte (moins de jointures, un fin liseré peut apparaître)."
+
+msgctxt "game_options"
+msgid "WIDE"
+msgstr "LARGES"
+
+msgctxt "game_options"
+msgid "WOOFER CUTOFF"
+msgstr "COUPURE DU CAISSON DE BASSES"
+
+msgctxt "game_options"
+msgid "Speed Up: the seat woofer plays the lows below this frequency. 120 Hz by default, off plays all of its sound."
+msgstr "Speed Up : le caisson de basses du siège joue les graves sous cette fréquence. 120 Hz par défaut, désactivé joue tout son son."
+
+msgctxt "game_options"
+msgid "KEEP CALIBRATION"
+msgstr "GARDER LA CALIBRATION"
+
+msgctxt "game_options"
+msgid "Experimental (ATV Track, Smashing Drive, Speed Up, Rolling Extreme): start with the wheel, pedal and handlebar ranges learned last time. The cabinet learns them again at each power-on."
+msgstr "Expérimental (ATV Track, Smashing Drive, Speed Up, Rolling Extreme) : démarre avec les plages du volant, des pédales et du guidon apprises la dernière fois. La borne les réapprend à chaque mise sous tension."
+
+msgctxt "game_options"
+msgid "Which disk of a multi-disk game is inserted at startup. The other disks are in POM2's disk menu (START button, or F1)."
+msgstr "Disque d'un jeu multi-disques inséré au démarrage. Les autres disques sont dans le menu disques de POM2 (bouton START, ou F1)."
+
+msgctxt "game_options"
+msgid "Puts the next disk of a multi-disk game in drive 2 at startup, for the games that use two drives."
+msgstr "Met le disque suivant d'un jeu multi-disques dans le lecteur 2 au démarrage, pour les jeux qui utilisent deux lecteurs."
+
+msgctxt "game_options"
+msgid "Apple II model to emulate. Automatic picks the model a WOZ disk asks for, then the first one whose ROMs are in bios\pom2. Changing this reboots the machine."
+msgstr "Modèle d'Apple II à émuler. Automatique choisit le modèle demandé par un disque WOZ, puis le premier dont les ROM sont dans bios\pom2. Modifier ce réglage redémarre la machine."
+
+msgctxt "game_options"
+msgid "Machine timing. 60Hz is the American machine, 50Hz the European one, needed by the French Touch demos. Automatic picks 50Hz for DIX. Changing this reboots the machine."
+msgstr "Cadence de la machine. 60 Hz pour la machine américaine, 50 Hz pour l'européenne, nécessaire aux démos French Touch. Automatique choisit 50 Hz pour DIX. Modifier ce réglage redémarre la machine."
+
+msgctxt "game_options"
+msgid "3 MB"
+msgstr "3 Mo"
+
+msgctxt "game_options"
+msgid "SOUND CARD"
+msgstr "CARTE SON"
+
+msgctxt "game_options"
+msgid "Mockingboard is the sound card supported by most games, the speech model adds a voice chip. Changing this reboots the machine."
+msgstr "Le Mockingboard est la carte son reconnue par la plupart des jeux, le modèle à voix ajoute une puce de synthèse vocale. Modifier ce réglage redémarre la machine."
+
+msgctxt "game_options"
+msgid "MOCKINGBOARD WITH SPEECH (SSI263)"
+msgstr "MOCKINGBOARD AVEC VOIX (SSI263)"
+
+msgctxt "game_options"
+msgid "APPLE MOUSE CARD"
+msgstr "CARTE SOURIS APPLE"
+
+msgctxt "game_options"
+msgid "AppleMouse card in slot 4, needed by Apple II DeskTop and the other mouse programs. Needs mouse_341-0270-c.bin in bios\pom2, the //c has its mouse built in. Changing this reboots the machine."
+msgstr "Carte AppleMouse dans le slot 4, nécessaire à Apple II DeskTop et aux autres programmes à la souris. Demande mouse_341-0270-c.bin dans bios\pom2, le //c a sa souris intégrée. Modifier ce réglage redémarre la machine."
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE"
+msgstr "COULEUR - COMPOSITE"
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE SHARP"
+msgstr "COULEUR - COMPOSITE NET"
+
+msgctxt "game_options"
+msgid "COLOR - COMPOSITE, OPENEMULATOR"
+msgstr "COULEUR - COMPOSITE, OPENEMULATOR"
+
+msgctxt "game_options"
+msgid "FLOPPY DRIVE SOUNDS"
+msgstr "BRUITS DES LECTEURS DE DISQUETTES"
+
+msgctxt "game_options"
+msgid "Mechanical noise of the floppy drives, played from the samples in bios\pom2\floppy_samples. Changing this reboots the machine."
+msgstr "Bruits mécaniques des lecteurs de disquettes, joués à partir des échantillons de bios\pom2\floppy_samples. Modifier ce réglage redémarre la machine."
+
+msgctxt "game_options"
+msgid "Apple II joystick for most games. The keyboard modes send keys instead, for the games played with the arrows or letters."
+msgstr "Joystick Apple II pour la plupart des jeux. Les modes clavier envoient des touches à la place, pour les jeux qui se jouent avec les flèches ou des lettres."
+
+msgctxt "game_options"
+msgid "APPLE II JOYSTICK (DEFAULT)"
+msgstr "JOYSTICK APPLE II (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "KEYBOARD - ARROWS, SPACE, RETURN"
+msgstr "CLAVIER - FLÈCHES, ESPACE, ENTRÉE"
+
+msgctxt "game_options"
+msgid "KEYBOARD - I J K M, SPACE, RETURN"
+msgstr "CLAVIER - I J K M, ESPACE, ENTRÉE"
+
+msgctxt "game_options"
+msgid "KEYBOARD - W A S D, SPACE, RETURN"
+msgstr "CLAVIER - W A S D, ESPACE, ENTRÉE"
+
+msgctxt "game_options"
+msgid "12.5% (DEFAULT)"
+msgstr "12,5 % (PAR DÉFAUT)"
+
+msgctxt "game_options"
+msgid "GAME PAD PROFILES"
+msgstr "PROFILS DE MANETTE PAR JEU"
+
+msgctxt "game_options"
+msgid "Known games get their keys on the controller, read off their manuals. Joystick games keep the stick and buttons and only get their other keys. Applies when player 1 device is the Apple II joystick."
+msgstr "Les jeux connus reçoivent leurs touches sur la manette, d'après leur manuel. Les jeux au joystick gardent le stick et les boutons et ne reçoivent que leurs autres touches. S'applique quand le périphérique du joueur 1 est le joystick Apple II."
+
+msgctxt "game_options"
+msgid "RCA Studio II cartridges"
+msgstr "Cartouches RCA Studio II"
